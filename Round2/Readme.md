@@ -46,3 +46,8 @@
 17. Two Sum - Return indices of the two numbers that add up to the target
 18. Print whole function definition as string with custom prefix & suffix
 
+04/03/2025
+
+19. Container with Most Water - Find two lines that, together with the x-axis, form a container that can hold the maximum water
+20. Check Balanced Parenthesis - Find out given expression is balanced or not
+21. Trapping Rain Water - Compute the total water trapped b/w given bars(heights)
