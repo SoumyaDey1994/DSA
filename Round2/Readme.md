@@ -51,3 +51,8 @@
 19. Container with Most Water - Find two lines that, together with the x-axis, form a container that can hold the maximum water
 20. Check Balanced Parenthesis - Find out given expression is balanced or not
 21. Trapping Rain Water - Compute the total water trapped b/w given bars(heights)
+
+05/03/2025
+
+22. Maximum Sum Subarray - find the contiguous subarray that has the largest sum, and return that sum
+23. Find Kth Heighest Element - find the Kth highest (largest) element in the array

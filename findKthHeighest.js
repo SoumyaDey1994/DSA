@@ -25,7 +25,7 @@ function findKthHeighestElementSol2(nums, k) {
 
     const sortHeapAsc = () => minHeap.sort((num1, num2) => num1 - num2); // ASC Sort
 
-    for(let num of nums) {
+    for(let num of nums) { // O(n)
         minHeap.push(num);
         sortHeapAsc(); // O(kLogk)
         console.log("Pre-Shift: ",minHeap);
