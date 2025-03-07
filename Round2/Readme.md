@@ -56,3 +56,7 @@
 
 22. Maximum Sum Subarray - find the contiguous subarray that has the largest sum, and return that sum
 23. Find Kth Heighest Element - find the Kth highest (largest) element in the array
+
+06/03/2025
+
+24. Search in Rotated Sorted Array - check given target number exists in the array and return its index
