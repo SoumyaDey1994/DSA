@@ -60,3 +60,8 @@
 06/03/2025
 
 24. Search in Rotated Sorted Array - check given target number exists in the array and return its index
+
+07/03/2025
+
+25. Next Permutation - find the next lexicographically greater permutation of a given sequence of numbers
+26. Number of Islands – Count the number of islands in a 2D grid. (DFS/BFS)
