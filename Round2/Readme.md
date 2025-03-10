@@ -79,3 +79,9 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 32. Word Search Problem - if the word exists in the grid of size m x n of characters (board)
 33. Maximum Depth of Binary Tree
 
+#### 10/03/2025
+
+34. Number to Excel Column Title Conversion - given an integer n, Return its corresponding column title as it appears in an Excel
+35. Move All Zeros to the End of a given list
+
+
