@@ -74,3 +74,8 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 30. Binary Tree Level Order Traversal - print binary tree nodes level by level
 31. Lowest Common Ancestor (LCA) of a Binary Tree
 
+#### 09/03/2025
+
+32. Word Search Problem - if the word exists in the grid of size m x n of characters (board)
+33. Maximum Depth of Binary Tree
+

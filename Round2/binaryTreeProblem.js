@@ -88,6 +88,22 @@ class BinaryTree {
 
     return leftCA ? leftCA : rightCA;
   }
+  /**
+   * Date: 9th March, 2025
+   * Problem Statement: Maximum Depth of Binary Tree
+   * The Maximum Depth of a Binary Tree problem requires finding the number of nodes
+   * along the longest path from the root node down to the farthest leaf node.
+   * @param {*} root
+   * @returns
+   */
+  getTreeDepth(root) {
+    if (!root) return 0; // base case when root is null
+
+    const leftDepth = this.getTreeDepth(root.left); // check depth in left subtree
+    const rightDepth = this.getTreeDepth(root.right); // check depth in right subtree
+
+    return 1 + Math.max(leftDepth, rightDepth); // Return the max + 1 node for current level
+  }
 }
 
 let tree = new BinaryTree();
@@ -126,3 +142,18 @@ tree.traverseLevelOrder(tree.root);
 
 lcaNode = tree.getLCANode(tree.root, node5, node4);
 console.log(`LCA of node ${node5.data} & ${node4.data} is: ${lcaNode.data}`);
+
+let depth = tree.getTreeDepth(tree.root);
+console.log(`Currently max depth of tree is: ${depth}`);
+
+let node8 = new Node(13);
+let node9 = new Node(11);
+let node10 = new Node(15);
+
+tree.insert(node8).insert(node9).insert(node10);
+
+console.log("Level Order Travarsal: ");
+tree.traverseLevelOrder(tree.root);
+
+depth = tree.getTreeDepth(tree.root);
+console.log(`Now, max depth of tree is: ${depth}`);
