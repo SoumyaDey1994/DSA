@@ -85,3 +85,8 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 35. Move All Zeros to the End of a given list
 36. Longest Consecutive Sequence - find the length of the longest consecutive sequence in a given number list
 37. Subarray Sum Equals K - total number of contiguous subarrays whose sum equals k
+
+#### 11/03/2025
+
+38. Product of Array Except Self
+39. Print 2D array in Spiral order
