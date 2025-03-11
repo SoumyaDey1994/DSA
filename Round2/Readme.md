@@ -83,5 +83,5 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 
 34. Number to Excel Column Title Conversion - given an integer n, Return its corresponding column title as it appears in an Excel
 35. Move All Zeros to the End of a given list
-
-
+36. Longest Consecutive Sequence - find the length of the longest consecutive sequence in a given number list
+37. Subarray Sum Equals K - total number of contiguous subarrays whose sum equals k
