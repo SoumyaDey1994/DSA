@@ -90,3 +90,8 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 
 38. Product of Array Except Self
 39. Print 2D array in Spiral order
+
+#### 13/03/2025
+
+40. Space-craft Safe Path Traversal (Google interview)
+41. Rotation count of a sorted array - Identify How Many Times a Sorted Array is Rotated
