@@ -97,3 +97,8 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 41. Rotation count of a sorted array - Identify How Many Times a Sorted Array is Rotated
 42. House Thief (House Robber) Problem
 43. Unique Paths (Robot Grid Path Count)
+
+#### 13/03/2025
+44. House Painting Problem
+45. Pacific Atlantic Water Flow - Find common co-orinates where both ocean can flow
+
