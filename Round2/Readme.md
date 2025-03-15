@@ -101,8 +101,9 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 #### 14/03/2025
 
 44. House Painting Problem
-45. Pacific Atlantic Water Flow - Find common co-orinates where both ocean can flow
+45. Pacific Atlantic Water Flow - Find common co-ordinates where both ocean can flow
 
 #### 15/03/2025
 
-46. Prime Factors - find all the prime factors of given N
+46. Prime Factors - Find all the prime factors of given N
+47. Proper Fraction - Find the number of proper fractions that can be formed for given Numerator N
