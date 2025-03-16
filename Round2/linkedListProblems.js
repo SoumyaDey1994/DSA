@@ -3,6 +3,12 @@
  * Problem Statements:
  *    1. Reverse a Linked List – Reverse a singly linked list. (Iterative & Recursive)
  *    2. Merge Two Sorted Lists – Merge two sorted linked lists into one sorted list.
+ * Date: 16th march, 2025
+ * Problem Statement:
+ *    3. Swap adjacent nodes of a Singly Linked List
+ *      Example: 
+ *          Input: 1->2->3->4->5
+ *          Output: 2->1->4->3->5
  */
 class Node {
   constructor(data) {
@@ -132,6 +138,43 @@ class LinkedList {
       return head2;
     }
   }
+  /**
+   *
+   * @returns this
+   * a->b->c->d->e
+   * b->a->d->c->e
+   */
+  swapAdjacentNodes() {
+    if (!this.head) return;
+
+    let prev = null,
+      curr = this.head;
+
+    while (curr !== null && curr.next !== null) {
+      const adj = curr.next;
+      const nextTarget = adj?.next;
+      /**
+       * Initial case, when prev is null
+       * assign first adj node as head
+       * other time, assign adj to prev.next
+       */
+      if (prev === null) {
+        this.head = adj;
+      } else {
+        prev.next = adj;
+      }
+      /**
+       * assign curr to adj.next
+       * assign nextTarget to curr.next
+       * assign prev to curr & move curr to nextTarget
+       */
+      adj.next = curr;
+      curr.next = nextTarget;
+      prev = curr;
+      curr = nextTarget;
+    }
+    return this;
+  }
 }
 
 let list1 = new LinkedList();
@@ -174,3 +217,22 @@ list1.print(mergedListHead);
 mergedListHead = list1.reverseRecursive(mergedListHead);
 console.log("Merged List post reverse (Recursive): ");
 list1.print(mergedListHead);
+
+const node8 = new Node(18);
+const node9 = new Node(19);
+const node10 = new Node(20);
+const node11 = new Node(21);
+const node12 = new Node(22);
+const list3 = new LinkedList();
+
+list3.insert(list3.head, node8);
+list3.insert(list3.head, node9);
+list3.insert(list3.head, node10);
+list3.insert(list3.head, node11);
+list3.insert(list3.head, node12);
+
+console.log("List2 before swapping adjacents: ");
+list3.print(list3.head);
+list3.swapAdjacentNodes();
+console.log("List post swapping adjacents: ");
+list3.print(list3.head);

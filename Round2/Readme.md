@@ -107,3 +107,7 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 
 46. Prime Factors - Find all the prime factors of given N
 47. Proper Fraction - Find the number of proper fractions that can be formed for given Numerator N
+
+#### 16/03/2025
+
+48. Swap adjacent nodes of a Singly Linked List
