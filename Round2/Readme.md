@@ -111,3 +111,8 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 #### 16/03/2025
 
 48. Swap adjacent nodes of a Singly Linked List
+
+#### 17/03/2025
+
+49. Detect cycle in a Singly Linked List
+50. Invert a Binary Tree - Swapping the left and right subtrees of every node

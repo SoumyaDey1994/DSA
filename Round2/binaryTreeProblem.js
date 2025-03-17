@@ -104,6 +104,28 @@ class BinaryTree {
 
     return 1 + Math.max(leftDepth, rightDepth); // Return the max + 1 node for current level
   }
+  /**
+   * Date: 17th march, 2025
+   * Problem Statement: Invert a Binary Tree
+   * The problem requires us to invert (or mirror) a given binary tree
+   * by swapping the left and right subtrees of every node.
+   * Given the root of a binary tree, return its mirror image, where:
+   *      Each node’s left subtree becomes its right subtree.
+   *      Each node’s right subtree becomes its left subtree.
+   *
+   * @param {*} root
+   */
+  invertTree(root) {
+    if (!root) return;
+
+    const temp = root.left;
+    root.left = root.right;
+    root.right = temp;
+
+    this.invertTree(root.left);
+    this.invertTree(root.right);
+    return root;
+  }
 }
 
 let tree = new BinaryTree();
@@ -157,3 +179,14 @@ tree.traverseLevelOrder(tree.root);
 
 depth = tree.getTreeDepth(tree.root);
 console.log(`Now, max depth of tree is: ${depth}`);
+
+console.log(`Tree before Inverting: `);
+tree.printInorder(tree.root);
+
+tree.root = tree.invertTree(tree.root);
+console.log(`Tree After Inverting: `);
+tree.printInorder(tree.root);
+
+tree.root = tree.invertTree(tree.root);
+console.log(`Tree After Inverting Back: `);
+tree.printInorder(tree.root);

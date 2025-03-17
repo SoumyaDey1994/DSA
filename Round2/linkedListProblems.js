@@ -6,9 +6,16 @@
  * Date: 16th march, 2025
  * Problem Statement:
  *    3. Swap adjacent nodes of a Singly Linked List
- *      Example: 
+ *        Example:
  *          Input: 1->2->3->4->5
  *          Output: 2->1->4->3->5
+ *    4. Detect Cycle is a Single Linked List
+ *        Example 1:
+ *          Input: 1->2->3->4->2.....
+ *          Output: true
+ *        Example 2:
+ *          Input: 12->15->17->20
+ *          Output: false
  */
 class Node {
   constructor(data) {
@@ -175,6 +182,30 @@ class LinkedList {
     }
     return this;
   }
+  /**
+   * Detect cycle in a Linked List
+   * @param {*} head
+   * @returns
+   */
+  detectCycle(head) {
+    if (!head) return false;
+
+    let slow = head,
+      fast = head;
+    slow = slow.next;
+    fast = fast.next?.next;
+    let hasCycle = false;
+    while (slow !== null && fast !== null && fast.next !== null) {
+      if (slow === fast) {
+        hasCycle = true;
+        break;
+      }
+      slow = slow.next;
+      fast = fast.next?.next;
+    }
+
+    return hasCycle;
+  }
 }
 
 let list1 = new LinkedList();
@@ -218,6 +249,12 @@ mergedListHead = list1.reverseRecursive(mergedListHead);
 console.log("Merged List post reverse (Recursive): ");
 list1.print(mergedListHead);
 
+console.log("List2 before swapping adjacents: ");
+list2.print(list2.head);
+list2.swapAdjacentNodes();
+console.log("List2 post swapping adjacents: ");
+list1.print(list2.head);
+
 const node8 = new Node(18);
 const node9 = new Node(19);
 const node10 = new Node(20);
@@ -231,8 +268,16 @@ list3.insert(list3.head, node10);
 list3.insert(list3.head, node11);
 list3.insert(list3.head, node12);
 
-console.log("List2 before swapping adjacents: ");
+console.log("List3 before swapping adjacents: ");
 list3.print(list3.head);
 list3.swapAdjacentNodes();
-console.log("List post swapping adjacents: ");
+console.log("List3 post swapping adjacents: ");
 list3.print(list3.head);
+
+console.log(`List1 has Cycle ? ${list1.detectCycle(list1.head)}`);
+console.log(`List2 has Cycle ? ${list2.detectCycle(list2.head)}`);
+console.log(`List3 has Cycle ? ${list3.detectCycle(list3.head)}`);
+// Add Cycle: 22->18
+node12.next = node8;
+console.log(`List3 has Cycle after 22->18 ? ${list3.detectCycle(list3.head)}`);
+node12.next = null; // Revert back
