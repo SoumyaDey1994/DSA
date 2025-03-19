@@ -116,3 +116,7 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 
 49. Detect cycle in a Singly Linked List
 50. Invert a Binary Tree - Swapping the left and right subtrees of every node
+
+#### 18/03/2025
+
+51. Find Trailing Zeros in factorial
