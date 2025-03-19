@@ -120,3 +120,7 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 #### 18/03/2025
 
 51. Find Trailing Zeros in factorial
+
+#### 19/03/2025
+
+52. Longest Increasing Subsequence (LIS)
