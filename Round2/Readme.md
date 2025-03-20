@@ -1,4 +1,4 @@
-## DSA PRACTICE
+## DSA PRACTICE - Round 2
 
 #### 23/02/2025
 1. Find leftmost repeating char of a given string
@@ -124,3 +124,9 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 #### 19/03/2025
 
 52. Longest Increasing Subsequence (LIS)
+
+#### 20/03/2025
+
+53. Surrounded Regions - capture all regions '0' surrounded by 'X'
+54. Shortest Path in Binary Matrix - find the shortest path from the top-left corner to bottom-right corner of a given grid (n x n)
+
