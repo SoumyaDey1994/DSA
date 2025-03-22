@@ -130,3 +130,7 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 53. Surrounded Regions - capture all regions '0' surrounded by 'X'
 54. Shortest Path in Binary Matrix - find the shortest path from the top-left corner to bottom-right corner of a given grid (n x n)
 
+#### 22/03/2025
+
+55. Rotten Mangoes Problem -  Return the minimum time required for all fresh mangoes to rot
+56. Find Frequency in a Sorted Number Array - Find number of times the target number appears
