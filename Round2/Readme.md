@@ -134,3 +134,6 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 
 55. Rotten Mangoes Problem -  Return the minimum time required for all fresh mangoes to rot
 56. Find Frequency in a Sorted Number Array - Find number of times the target number appears
+
+#### 24/03/2025
+57. Capacity To Ship Packages Within D Days
