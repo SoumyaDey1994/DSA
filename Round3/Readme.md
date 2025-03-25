@@ -10,3 +10,7 @@
 #### 24/03/2025
 4. Find Next Permutation
 5. Move All Zeros to the End
+
+#### 25/03/2025
+6. Merge Intervals
+7. Coin Change - No of ways to get change of given amount
