@@ -137,3 +137,7 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 
 #### 24/03/2025
 57. Capacity To Ship Packages Within D Days
+
+#### 26/03/2025
+58. Split Array Largest Sum - Return the minimum possible largest sum among these subarrays
+
