@@ -14,3 +14,7 @@
 #### 25/03/2025
 6. Merge Intervals
 7. Coin Change - No of ways to get change of given amount
+
+#### 27/03/2025
+6. Prime Factors
+7. House Thief (House Robber) Problem
