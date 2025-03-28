@@ -16,5 +16,10 @@
 7. Coin Change - No of ways to get change of given amount
 
 #### 27/03/2025
-6. Prime Factors
-7. House Thief (House Robber) Problem
+8. Prime Factors
+9. House Thief (House Robber) Problem
+
+#### 28/03/2025
+10. Word Search Problem - Check if word can be formed from a given char board
+11. Longest Consecutive Sequence - Find length of the longest consecutive sequence
+

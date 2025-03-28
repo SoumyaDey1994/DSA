@@ -98,3 +98,23 @@ word3 = "ABCB";
 console.log(`Word ${word1} present in board: ${isWordPresent(board, word1)}`);
 console.log(`Word ${word2} present in board: ${isWordPresent(board, word2)}`);
 console.log(`Word ${word3} present in board: ${isWordPresent(board, word3)}`);
+
+board = [
+  ["A", "B", "C", "E"],
+  ["S", "F", "C", "S"],
+  ["A", "D", "E", "E"],
+];
+console.log();
+word1 = "SEE";
+word2 = "BEE";
+word3 = "ECE";
+word4 = "CSE";
+word5 = "DFS";
+word6 = "BFS";
+
+console.log(`Word ${word1} exists in board: ${isWordPresent(board, word1)}`);
+console.log(`Word ${word2} exists in board: ${isWordPresent(board, word2)}`);
+console.log(`Word ${word3} exists in board: ${isWordPresent(board, word3)}`);
+console.log(`Word ${word4} exists in board: ${isWordPresent(board, word4)}`);
+console.log(`Word ${word5} exists in board: ${isWordPresent(board, word5)}`);
+console.log(`Word ${word6} exists in board: ${isWordPresent(board, word6)}`);
