@@ -141,3 +141,7 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 #### 26/03/2025
 58. Split Array Largest Sum - Return the minimum possible largest sum among these subarrays
 
+#### 29/03/2025
+59. Get All Possible Permutations
+60. Get All Possible Combinations
+ 
