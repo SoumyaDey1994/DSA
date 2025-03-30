@@ -21,8 +21,7 @@ function getUniquePathCount(rows, cols) {
 
   // iterate through rows & cols
   // path count at position j is j+(j-1)
-  for (let i = 1; i < rows; i++) {
-    // O(c^2): c = no of cols
+  for (let i = 1; i < rows; i++) { // O(r * c); r = rowCount, c = colCount
     for (let j = 1; j < cols; j++) {
       path[j] = path[j] + path[j - 1];
     }
@@ -45,4 +44,10 @@ console.log(`No of unique paths are: ${getUniquePathCount(m, n)}`);
 console.log(`No of unique paths are: ${getUniquePathCount(m, n)}`);
 
 (m = 3), (n = 3);
+console.log(`No of unique paths are: ${getUniquePathCount(m, n)}`);
+
+(m = 6), (n = 2);
+console.log(`No of unique paths are: ${getUniquePathCount(m, n)}`);
+
+(m = 5), (n = 5);
 console.log(`No of unique paths are: ${getUniquePathCount(m, n)}`);

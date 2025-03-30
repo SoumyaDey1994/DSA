@@ -145,3 +145,6 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 59. Get All Possible Permutations
 60. Get All Possible Combinations
  
+#### 30/03/2025
+61. Find the Smallest Divisor Given a Threshold
+62. Aggressive Cows (or Allocate Minimum Pages) Problem
