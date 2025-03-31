@@ -26,3 +26,8 @@
 #### 29/03/2025
 12. Maximum Sum Subarray - Kadane's algortithm
 13. Unique Paths (Robot Grid Path Count)
+
+#### 31/03/2025
+14. Kth Highest Element in a List
+15. Trapping Rain Water
+
