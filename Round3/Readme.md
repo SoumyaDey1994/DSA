@@ -31,3 +31,6 @@
 14. Kth Highest Element in a List
 15. Trapping Rain Water
 
+#### 01/04/2025
+16. Container with Most Water
+17. Coin Change - Get min no of coins to get change
