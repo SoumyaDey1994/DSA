@@ -34,3 +34,7 @@
 #### 01/04/2025
 16. Container with Most Water
 17. Coin Change - Get min no of coins to get change
+
+#### 02/04/2025
+18. Implement a function using curry in JS
+19. Number to Excel Column Title Conversion
