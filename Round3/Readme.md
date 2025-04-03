@@ -38,3 +38,7 @@
 #### 02/04/2025
 18. Implement a function using curry in JS
 19. Number to Excel Column Title Conversion
+
+#### 03/04/2025
+20. No of Islands
+21. Zigzag Word (Zigzag Conversion)
