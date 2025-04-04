@@ -42,3 +42,6 @@
 #### 03/04/2025
 20. No of Islands
 21. Zigzag Word (Zigzag Conversion)
+
+#### 04/04/2025
+22. Pacific Atlantic Water Flow - DFS Solution

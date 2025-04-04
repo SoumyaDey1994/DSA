@@ -100,7 +100,7 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 
 #### 14/03/2025
 
-44. House Painting Problem
+44. House Painting Problem (Google Interview)
 45. Pacific Atlantic Water Flow - Find common co-ordinates where both ocean can flow
 
 #### 15/03/2025
@@ -148,3 +148,6 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 #### 30/03/2025
 61. Find the Smallest Divisor Given a Threshold
 62. Aggressive Cows (or Allocate Minimum Pages) Problem
+
+#### 04/04/2025
+63. Find square-root of a number using Binary Search
