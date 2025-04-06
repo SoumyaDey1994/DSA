@@ -151,3 +151,6 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 
 #### 04/04/2025
 63. Find square-root of a number using Binary Search
+
+#### 05/04/2025
+64. N-Queens Problem
