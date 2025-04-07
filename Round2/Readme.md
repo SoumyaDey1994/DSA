@@ -154,3 +154,6 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 
 #### 05/04/2025
 64. N-Queens Problem
+
+#### 06/04/2025
+65. Array Chunking
