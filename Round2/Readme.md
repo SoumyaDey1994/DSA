@@ -157,3 +157,7 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 
 #### 06/04/2025
 65. Array Chunking
+
+#### 07/04/2025
+66. Maximum Sum Subarray of Size K - Find the maximum sum of any contiguous subarray of size K.
+67. Minimum Size Subarray Sum - Find the length of the smallest contiguous subarray whose sum is greater than or equal to s.
