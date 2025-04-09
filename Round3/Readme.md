@@ -53,3 +53,7 @@
 
 #### 08/04/2025
 26. Isomorphic strings - find out given 2 strings isomorphic or not
+
+#### 09/04/2025
+27. Climbing stairs - find no of ways to climb n stairs
+28. Check if 2 strings are valid anagrams or not

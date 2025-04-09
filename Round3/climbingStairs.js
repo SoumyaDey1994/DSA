@@ -1,24 +1,26 @@
 /**
- * Date: 26th February, 2025
+ * Date: 9th April, 2025
  * Problem Statement: Climbing Stairs
  * You are climbing a staircase. It takes n steps to reach the top.
  * Each time you can either climb 1 step or 2 steps.
  * In how many distinct ways can you climb to the top?
  * For a given n value
- * 
+ *
  * Note: Similar to Fibonacci problem
  */
+function getNoOfWaysToClimb(n, memo = new Map()) {
+  // base cases:
+  if (n === 0) return 0;
+  // When climbing 1 or 2 step, only 1 & 2 ways possible respectively
+  if (n === 1 || n === 2) return n;
 
-function getNoOfWaysToClimb(steps, memo={}) {
-    // Base cases for 1 & 2 steps
-    if(steps === 1) return 1;
-    if(steps === 2) return 2;
+  // check if value already computed for step n
+  if (memo.has(n)) return memo.get(n);
+  // else. compute the result & save to memo first
+  const result = getNoOfWaysToClimb(n - 1) + getNoOfWaysToClimb(n - 2);
+  memo.set(n, result);
 
-    // if step exists in memo, return count
-    if(memo[steps]) return memo[steps];
-
-    memo[steps] = getNoOfWaysToClimb(steps-1) + getNoOfWaysToClimb(steps-2);
-    return memo[steps];
+  return result;
 }
 
 let steps = 3;
