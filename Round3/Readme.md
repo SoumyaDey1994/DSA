@@ -57,3 +57,7 @@
 #### 09/04/2025
 27. Climbing stairs - find no of ways to climb n stairs
 28. Check if 2 strings are valid anagrams or not
+
+#### 10/04/2025
+29. Find Trailing Zeros in factorial
+30. Product of Array Except Self
