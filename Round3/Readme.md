@@ -61,3 +61,8 @@
 #### 10/04/2025
 29. Find Trailing Zeros in factorial
 30. Product of Array Except Self
+
+#### 12/04/2025
+31. Find leftmost repeating char of a given string
+32. Efficient Janitor Problem - Find the minimum number of trips required to move all the garbage bags.
+
