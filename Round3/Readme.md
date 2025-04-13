@@ -66,3 +66,6 @@
 31. Find leftmost repeating char of a given string
 32. Efficient Janitor Problem - Find the minimum number of trips required to move all the garbage bags.
 
+#### 13/04/2025
+33. Shortest Path in Binary Matrix - find the shortest path from the top-left corner to bottom-right corner of a given grid (n x n)
+34. Find square-root of a number using Binary Search
