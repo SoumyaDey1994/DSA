@@ -74,3 +74,6 @@
 35. Two Sum - Return indices of the two numbers that add up to the target
 36. Find Frequency in a Sorted Number Array - Find number of times the target number appears
 37. Rotation count of a sorted array - Identify How Many Times a Sorted Array is Rotated
+38. Word Ladder Problem - Given two words, beginWord and endWord, and a wordList,
+goal is to transform beginWord into endWord by changing only one letter at a time
+
