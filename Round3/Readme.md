@@ -69,3 +69,8 @@
 #### 13/04/2025
 33. Shortest Path in Binary Matrix - find the shortest path from the top-left corner to bottom-right corner of a given grid (n x n)
 34. Find square-root of a number using Binary Search
+
+#### 14/04/2025
+35. Two Sum - Return indices of the two numbers that add up to the target
+36. Find Frequency in a Sorted Number Array - Find number of times the target number appears
+37. Rotation count of a sorted array - Identify How Many Times a Sorted Array is Rotated
