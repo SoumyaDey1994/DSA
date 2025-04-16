@@ -168,4 +168,6 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 #### 15/04/2025
 69. Clone Graph - Return a deep copy (clone) of the graph.
 
-
+#### 15/04/2025
+70. Course Schedule - Check if we can finish all courses
+71. Course Schedule 2 - Return possible order to take the courses
