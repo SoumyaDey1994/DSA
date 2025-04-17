@@ -77,3 +77,6 @@
 38. Word Ladder Problem - Given two words, beginWord and endWord, and a wordList,
 goal is to transform beginWord into endWord by changing only one letter at a time
 
+#### 17/04/2025
+39. Array Chunking
+40. Search in Rotated Sorted Array - check target number exists in the array and return index
