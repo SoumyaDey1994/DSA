@@ -63,6 +63,19 @@
 9. Longest Repeating Character Replacement
 10. Fruits into Baskets (Longest Substring with 2 Distinct Characters)
 
+### Top DSA problems on Two Pointer Pattern
+1. Two Sum II – Input Array is Sorted: Given a sorted array, find two numbers such that they add up to a specific target. Return their indices.
+2. 3Sum - Find all unique triplets in the array which gives the sum of zero.
+3. Container With Most Water
+4. Remove Duplicates from Sorted Array
+5. Valid Palindrome
+6. Merge Sorted Array - Merge two sorted arrays in-place into the first one which has enough space.
+7. Move Zeroes - Move all zeroes to the end while maintaining the relative order of non-zero elements.
+8. Reverse String / Reverse Vowels of a String - Reverse elements of a string or only vowels using two pointers.
+9. Longest Substring with At Most Two Distinct Characters
+10. Minimum Size Subarray Sum - Find the smallest subarray with sum ≥ target.
+
+
 ### Top DSA problems on Dynamic Programming
 
 1. House Thief(House Robber) Problem
