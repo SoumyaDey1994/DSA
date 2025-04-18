@@ -80,3 +80,8 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 #### 17/04/2025
 39. Array Chunking
 40. Search in Rotated Sorted Array - check target number exists in the array and return index
+
+#### 18/04/2025
+41. Reverse a Singly Linked List
+42. Merge 2 Sorted SLL
+43. Swap adjacent nodes of a SLL
