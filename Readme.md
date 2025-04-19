@@ -121,3 +121,7 @@
 2. Count no of Trailing Zeros in N!
 3. Count of Proper Fractions
 4. Push all Zeros at the end of Array
+
+### Top DSA problems on Stack & Queue
+1. Check for Balanced Parenthesis in given expression
+2. Implement a Queue using 2 Stacks
