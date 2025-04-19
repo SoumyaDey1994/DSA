@@ -85,3 +85,9 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 41. Reverse a Singly Linked List
 42. Merge 2 Sorted SLL
 43. Swap adjacent nodes of a SLL
+
+#### 18/04/2025
+44. Print a SLL in Reverse Order
+45. Find Nth Element of a SLL from End
+46. Detect Cycle in a Singly Linked List (SLL)
+47. Find Merge-point of 2 SLL
