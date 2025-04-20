@@ -93,6 +93,7 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 47. Find Merge-point of 2 SLL
 48. Check Balanced Parenthesis - Find out given expression is balanced or not
 
-
-
+#### 20/04/2025
+49. Binary Tree Level Order Traversal → Print a binary tree level by level.
+50. Maximum Depth of Binary Tree → Find the maximum depth of a binary tree using DFS/BFS.
 
