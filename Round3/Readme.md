@@ -97,3 +97,8 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 49. Binary Tree Level Order Traversal → Print a binary tree level by level.
 50. Maximum Depth of Binary Tree → Find the maximum depth of a binary tree using DFS/BFS.
 
+#### 21/04/2025
+51. Invert a Binary Tree
+52. Check if a Binary tree is BST or not
+53. Find Lowest Common Ancestor of a Binary Tree
+

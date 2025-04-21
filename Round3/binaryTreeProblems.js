@@ -38,8 +38,8 @@ class BinaryTree {
   }
   /**
    * Inorder traversal of Binary Tree
-   * @param {*} root 
-   * @returns 
+   * @param {*} root
+   * @returns
    */
   printInOrder(root = null) {
     if (!root) return;
@@ -50,8 +50,8 @@ class BinaryTree {
   }
   /**
    * Preorder traversal of Binary Tree
-   * @param {*} root 
-   * @returns 
+   * @param {*} root
+   * @returns
    */
   printPreOrder(root = null) {
     if (!root) return;
@@ -62,8 +62,8 @@ class BinaryTree {
   }
   /**
    * Postorder traversal of Binary Tree
-   * @param {*} root 
-   * @returns 
+   * @param {*} root
+   * @returns
    */
   printPostOrder(root = null) {
     if (!root) return;
@@ -101,6 +101,65 @@ class BinaryTree {
 
     return Math.max(leftDepth, rightDepth);
   }
+
+  /**
+   * Problem Statement: Lowest Common Ancestor (LCA) in a Binary Tree
+   * Given 2 nodes p and q in a Binary Tree,
+   * find the lowest (or deepest) node that has
+   * both p and q as descendants (where a node can be a descendant of itself).
+   * @param {*} root
+   * @param {*} data1
+   * @param {*} data2
+   * @returns
+   */
+  findLowestCommonAncestor(root = null, data1, data2) {
+    if (!root) return null;
+
+    if (root.data === data1 || root.data === data2) return root;
+
+    const leftLCA = this.findLowestCommonAncestor(root.left, data1, data2);
+    const rightLCA = this.findLowestCommonAncestor(root.right, data1, data2);
+
+    if (!leftLCA && !rightLCA) return null;
+
+    if (leftLCA && rightLCA) return root;
+
+    return leftLCA ?? rightLCA;
+  }
+  /**
+   * Invert a Binary Tree
+   * @param {*} root
+   * @returns
+   */
+  invertTree(root) {
+    if (!root) return;
+
+    const temp = root.left;
+    root.left = root.right;
+    root.right = temp;
+
+    this.invertTree(root.left);
+    this.invertTree(root.right);
+  }
+  /**
+   * Check if a given Binary Tree
+   * is a Binary Search Tree or not
+   * @param {*} root
+   * @returns
+   */
+  isBST(root) {
+    if (!root) return;
+    // if root is leaf node, return true
+    if (root.left === null && root.right === null) return true;
+    // If root is non-left node, return false
+    if (root.left === null && root.right !== null) return false;
+    if (root.right === null && root.left !== null) return false;
+
+    const isLeftSubTreeBST = this.isBST(root.left);
+    const isRightSubTreeBST = this.isBST(root.right);
+
+    return isLeftSubTreeBST && isRightSubTreeBST;
+  }
 }
 
 let binaryTree = new BinaryTree();
@@ -134,3 +193,48 @@ console.log("Binary Tree Level-Order Traversal (post insert 4 new nodes): ");
 binaryTree.levelOrderTraversal(binaryTree.root);
 
 console.log(`Depth of Binary Tree: ${binaryTree.findDepth(binaryTree.root)}`);
+
+let data1 = 14,
+  data2 = 22;
+let lcaNode = binaryTree.findLowestCommonAncestor(
+  binaryTree.root,
+  data1,
+  data2
+);
+console.log(`LCA of Node 14 & 22 is: ${lcaNode?.data}`);
+
+(data1 = 1), (data2 = 4);
+lcaNode = binaryTree.findLowestCommonAncestor(binaryTree.root, data1, data2);
+console.log(`LCA of Node 14 & 22 is: ${lcaNode?.data}`);
+
+(data1 = 7), (data2 = 14);
+lcaNode = binaryTree.findLowestCommonAncestor(binaryTree.root, data1, data2);
+console.log(`LCA of Node 14 & 22 is: ${lcaNode?.data}`);
+
+let binaryTree2 = new BinaryTree();
+binaryTree2
+  .addNode(50, binaryTree2.root)
+  .addNode(30, binaryTree2.root)
+  .addNode(70, binaryTree2.root)
+  .addNode(75, binaryTree2.root)
+  .addNode(71, binaryTree2.root)
+  .addNode(20, binaryTree2.root)
+  .addNode(32, binaryTree2.root);
+
+console.log("In-Order Traversal: ");
+binaryTree.printInOrder(binaryTree2.root);
+// Invert Binary Tree
+binaryTree2.invertTree(binaryTree2.root);
+
+console.log("In-Order Traversal Post Invert: ");
+binaryTree2.printInOrder(binaryTree2.root);
+
+let isTree2BST = binaryTree2.isBST(binaryTree2.root);
+console.log("Tree2 is a Binary Search Tree: ", isTree2BST);
+
+binaryTree2.addNode(65).addNode(80);
+isTree2BST = binaryTree2.isBST(binaryTree2.root);
+console.log(
+  "Post Inserting 65 & 80: Tree2 is a Binary Search Tree: ",
+  isTree2BST
+);
