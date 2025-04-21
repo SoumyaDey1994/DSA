@@ -171,3 +171,7 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 #### 15/04/2025
 70. Course Schedule - Check if we can finish all courses
 71. Course Schedule 2 - Return possible order to take the courses
+
+#### 22/04/2025
+72. Merge Two Sorted Arrays (in-place)
+73. Reverse Vowels of a String
