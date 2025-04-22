@@ -175,3 +175,6 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 #### 22/04/2025
 72. Merge Two Sorted Arrays (in-place)
 73. Reverse Vowels of a String
+74. 3 Sum - Find all unique triplets such as (nums[i]+nums[j]+nums[k]=0)
+75. Longest Substring with At Most Two Distinct Characters
+
