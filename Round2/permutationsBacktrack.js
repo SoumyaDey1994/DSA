@@ -18,7 +18,7 @@ function backtrack(nums, curr, dp, result) {
     if (dp[i]) continue; // if current element index = True, continue
 
     dp[i] = true; // set element index to true
-    curr.push(nums[i]); // pusg current element to curr list
+    curr.push(nums[i]); // push current element to curr list
 
     // console.log("Before backtrack: ", curr);
     backtrack(nums, curr, dp, result); // backtrack

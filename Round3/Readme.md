@@ -102,3 +102,6 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 52. Check if a Binary tree is BST or not
 53. Find Lowest Common Ancestor of a Binary Tree
 
+#### 23/04/2025
+54. Permutation of an Array (using Backtracking)
+55. Combination of an Array (using Backtracking)
