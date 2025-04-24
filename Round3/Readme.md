@@ -104,4 +104,7 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 
 #### 23/04/2025
 54. Permutation of an Array (using Backtracking)
+
+#### 24/04/2025
 55. Combination of an Array (using Backtracking)
+56. Longest Increasing Subsequence (LIS)
