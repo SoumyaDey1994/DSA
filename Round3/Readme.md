@@ -108,3 +108,6 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 #### 24/04/2025
 55. Combination of an Array (using Backtracking)
 56. Longest Increasing Subsequence (LIS)
+
+#### 25/04/2025
+57. Surrounded Regions - capture all regions '0' surrounded by 'X'
