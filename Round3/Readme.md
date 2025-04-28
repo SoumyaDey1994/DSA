@@ -111,3 +111,7 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 
 #### 25/04/2025
 57. Surrounded Regions - capture all regions '0' surrounded by 'X'
+
+#### 28/04/2025
+58. N-Queens Problem
+59. Clone Graph - Return a deep copy (clone) of the graph.
