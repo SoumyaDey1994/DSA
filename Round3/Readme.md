@@ -115,3 +115,7 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 #### 28/04/2025
 58. N-Queens Problem
 59. Clone Graph - Return a deep copy (clone) of the graph.
+
+#### 29/04/2025
+60. Reverse Vowels of a String
+61. Remove Duplicates from Sorted Array
