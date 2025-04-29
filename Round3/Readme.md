@@ -119,3 +119,4 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 #### 29/04/2025
 60. Reverse Vowels of a String
 61. Remove Duplicates from Sorted Array
+62. 3 Sum - Find all unique triplets such as (nums[i]+nums[j]+nums[k]=0)
