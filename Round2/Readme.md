@@ -180,3 +180,6 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 
 #### 28/04/2025
 76. Remove Duplicates from Sorted Array
+
+#### 05/05/2025
+77. Longest Repeating Character Replacement
