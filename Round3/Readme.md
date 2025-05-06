@@ -120,3 +120,6 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 60. Reverse Vowels of a String
 61. Remove Duplicates from Sorted Array
 62. 3 Sum - Find all unique triplets such as (nums[i]+nums[j]+nums[k]=0)
+
+#### 06/05/2025
+63. Longest Substring with At Most Two Distinct Characters
