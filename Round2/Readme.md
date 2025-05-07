@@ -183,3 +183,8 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 
 #### 05/05/2025
 77. Longest Repeating Character Replacement
+
+#### 07/05/2025
+78. Max Consecutive Ones III
+79. Sliding Window Maximum
+
