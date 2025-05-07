@@ -105,6 +105,8 @@
 1. Word Search → Check if a word exists in a 2D board following adjacent cells.
 2. N-Queen Problem
 3. Permutations & Combinations of a given string
+4. Palindrome Partitioning
+5. Combination Sum / Combination Sum II
 
 ### Top DSA problems on Greedy Algorithm
 
@@ -120,7 +122,6 @@
 1. Prime Factors of a given Number
 2. Count no of Trailing Zeros in N!
 3. Count of Proper Fractions
-4. Push all Zeros at the end of Array
 
 ### Top DSA problems on Stack & Queue
 1. Check for Balanced Parenthesis in given expression

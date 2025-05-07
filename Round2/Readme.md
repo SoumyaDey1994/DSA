@@ -188,3 +188,14 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 78. Max Consecutive Ones III
 79. Sliding Window Maximum
 
+
+
+80. Permutation in String
+81. Count Anagrams (Find All Anagrams in a String)
+82. Longest Substring with 2 Distinct Characters
+83. Valid Palindrome
+85. Merge Sorted Array
+86. Implement a Queue using 2 Stacks
+87. Two Sum II – Input Array is Sorted: Given a sorted array, find two numbers such that they add up to a specific target. Return their indices
+88. Palindrome Partitioning
+89. Combination Sum / Combination Sum II
