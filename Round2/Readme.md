@@ -197,8 +197,10 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 83. Combination Sum
 84. Combination Sum II
 
-1. Permutation in String
-2. Count Anagrams (Find All Anagrams in a String)
-3. Longest Substring with 2 Distinct Characters
-4. Implement a Queue using 2 Stacks
+#### 10/05/2025
+85. Permutation in String
+86. Implement a Stack using 2 Queues
 
+
+1. Count Anagrams (Find All Anagrams in a String)
+2. Longest Substring with 2 Distinct Characters
