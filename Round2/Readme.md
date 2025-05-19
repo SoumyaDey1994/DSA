@@ -201,6 +201,6 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 85. Permutation in String
 86. Implement a Stack using 2 Queues
 
+#### 19/05/2025
+87. Count Anagrams (Find All Anagrams in a String)
 
-1. Count Anagrams (Find All Anagrams in a String)
-2. Longest Substring with 2 Distinct Characters
