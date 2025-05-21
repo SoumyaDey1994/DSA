@@ -14,3 +14,5 @@
 7. Coin Change - Get no of ways to get change of a given
 8. Isomorphic strings - find out given 2 strings isomorphic or not
 9. Climbing stairs - find no of ways to climb n stairs
+10. Check if 2 strings are valid anagrams or not
+11. Group Anagrams - Given an array of strings, group all the anagrams together
