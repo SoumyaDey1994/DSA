@@ -22,3 +22,8 @@
 13. Zigzag Conversion - Rearrange i/p in zigzag pattern for give no rows and read row by row
 14. Merge Intervals - Merge overlapping intervals & return array of non-overlapping intervals
 15. Implement a function using curry in JS
+
+### 22/05/2025
+16. Count and Say - countAndSay(n) is obtained by describing the previous term (countAndSay(n-1)) using the format "count of digit + digit itself".
+17. Container with Most Water - Find two lines that, together with the x-axis, form a container that can hold the maximum water
+18. Maximum Sum Subarray - find the contiguous subarray that has the largest sum, and return that sum
