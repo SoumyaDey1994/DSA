@@ -16,3 +16,9 @@
 9. Climbing stairs - find no of ways to climb n stairs
 10. Check if 2 strings are valid anagrams or not
 11. Group Anagrams - Given an array of strings, group all the anagrams together
+
+### 22/05/2025
+12. Efficient Janitor Problem - Find the minimum number of trips required to move all the garbage bags
+13. Zigzag Conversion - Rearrange i/p in zigzag pattern for give no rows and read row by row
+14. Merge Intervals - Merge overlapping intervals & return array of non-overlapping intervals
+15. Implement a function using curry in JS

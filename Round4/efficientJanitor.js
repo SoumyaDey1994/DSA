@@ -1,11 +1,12 @@
 /**
- * Date: 27th February, 2025
+ * Date: 22nd May, 2025
  * Efficient Janitor Problem - DSA Explanation
  * Problem Statement:
  * A janitor has to carry garbage bags, and each bag has a weight between 1.01 and 3.00 kilograms.
  * The janitor can carry at most N kg in one trip.
  * Find the minimum number of trips required to move all the garbage bags.
  * Example 1:
+ *      N: 3.0
  *      Input: [1.50, 1.99, 2.50, 1.01, 2.30] 
  *      Output: 3 trips
  *      Explanation: 
@@ -25,52 +26,46 @@
  *      Output: 4 trips
  *      Explanation: Each heavy bag has to be taken alone.
  */
-function getTripCount(bags, maxWeight) {
-    // sort the bags
-    bags.sort((w1, w2) => w1-w2); // O(nlogn)
-    let tripCount=0;
-    let start=0, end=bags.length - 1;
-    // let groups = [];
-    // continue loop untill all bags are covered
-    while(start <= end) { // O(n)
-        const combined = bags[start] + bags[end];
-        // Always consider the heaviest bag first
-        // if lightest & heaviest < maxWeight, consider both
-        if(combined <= maxWeight) {
-            // groups.push([bags[start], bags[end]]);
-            start++;
-            end--;
-        } else {
-            // groups.push([bags[end]]);
-            end--;
-        }
-        tripCount++;
+
+function findNoOfTrips(weights, maxWeight) {
+  if (!weights || weights.length === 0) return;
+  // Sort weights in asc order
+  weights = weights.sort((w1, w2) => w1 - w2);
+
+  let low = 0,
+    high = weights.length - 1;
+  let count = 0;
+  while (low <= high) {
+    if (weights[low] + weights[high] <= maxWeight) {
+      low++;
     }
-    // console.log(groups);
-    return tripCount;
+    high--;
+    count++;
+  }
+  return count;
 }
 
 let maxWeight = 3.0;
-let bags = [1.50, 1.99, 2.50, 1.01, 2.30];
-let output = getTripCount(bags, maxWeight);
+let bags = [1.5, 1.99, 2.5, 1.01, 2.3];
+let output = findNoOfTrips(bags, maxWeight);
 console.log(`No of trips required to carry [${bags}] bags are: ${output}`);
 
-bags = [2.90, 2.80, 2.70, 1.50];
-output = getTripCount(bags, maxWeight);
+bags = [2.9, 2.8, 2.7, 1.5];
+output = findNoOfTrips(bags, maxWeight);
 console.log(`No of trips required to carry [${bags}] bags are: ${output}`);
 
-bags = [1.20, 1.80, 2.40, 2.00, 1.00];
-output = getTripCount(bags, maxWeight);
+bags = [1.2, 1.8, 2.4, 2.0, 1.0];
+output = findNoOfTrips(bags, maxWeight);
 console.log(`No of trips required to carry [${bags}] bags are: ${output}`);
 
-bags = [1.01, 2.99, 2.50, 1.49];
-output = getTripCount(bags, maxWeight);
+bags = [1.01, 2.99, 2.5, 1.49];
+output = findNoOfTrips(bags, maxWeight);
 console.log(`No of trips required to carry [${bags}] bags are: ${output}`);
 
-bags = [1.10, 1.20, 1.30, 1.40, 1.50, 2.50, 2.60, 2.70, 2.80, 2.90];
-output = getTripCount(bags, maxWeight);
+bags = [1.1, 1.2, 1.3, 1.4, 1.5, 2.5, 2.6, 2.7, 2.8, 2.9];
+output = findNoOfTrips(bags, maxWeight);
 console.log(`No of trips required to carry [${bags}] bags are: ${output}`);
 
-bags = [1.10, 1.40, 1.60, 1.80, 2.50, 2.60, 2.70, 2.90];
-output = getTripCount(bags, maxWeight);
+bags = [1.1, 1.4, 1.6, 1.8, 2.5, 2.6, 2.7, 2.9];
+output = findNoOfTrips(bags, maxWeight);
 console.log(`No of trips required to carry [${bags}] bags are: ${output}`);
