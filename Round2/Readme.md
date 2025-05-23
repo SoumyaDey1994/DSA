@@ -64,8 +64,7 @@
 
 25. Next Permutation - find the next lexicographically greater permutation of a given sequence of numbers
 26. Number of Islands – Count the number of islands in a 2D grid (DFS/BFS)
-27. Word Ladder Problem - Given two words, beginWord and endWord, and a wordList,
-goal is to transform beginWord into endWord by changing only one letter at a time
+27. Word Ladder Problem - Given two words, beginWord and endWord, and a wordList, goal is to transform beginWord into endWord by changing only one letter at a time
 
 #### 08/03/2025
 

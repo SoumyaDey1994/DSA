@@ -123,3 +123,6 @@ goal is to transform beginWord into endWord by changing only one letter at a tim
 
 #### 06/05/2025
 63. Longest Substring with At Most Two Distinct Characters
+
+#### 23/05/2025
+64. Count and Say - countAndSay(n) is obtained by describing the previous term (countAndSay(n-1)) using the format "count of digit + digit itself".
