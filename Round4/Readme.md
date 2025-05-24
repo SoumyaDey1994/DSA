@@ -23,8 +23,15 @@
 14. Merge Intervals - Merge overlapping intervals & return array of non-overlapping intervals
 15. Implement a function using curry in JS
 
-### 22/05/2025
+### 23/05/2025
 16. Count and Say - countAndSay(n) is obtained by describing the previous term (countAndSay(n-1)) using the format "count of digit + digit itself".
 17. Container with Most Water - Find two lines that, together with the x-axis, form a container that can hold the maximum water
 18. Maximum Sum Subarray - find the contiguous subarray that has the largest sum, and return that sum
 19. Find Kth Heighest Element - find the Kth highest (largest) element in the array
+
+### 24/05/2025
+20. Trapping Rain Water - Compute the total water trapped b/w given bars(heights)
+21. Move All Zeros to the End of a given list
+22. Find Trailing Zeros in factorial
+23. Next Permutation - find the next lexicographically greater permutation of a given sequence of numbers
+24. Number of Islands – Count the number of islands in a 2D grid (DFS/BFS)
