@@ -35,3 +35,9 @@
 22. Find Trailing Zeros in factorial
 23. Next Permutation - find the next lexicographically greater permutation of a given sequence of numbers
 24. Number of Islands – Count the number of islands in a 2D grid (DFS/BFS)
+
+### 24/05/2025
+25. Reverse Vowels of a String
+26. Remove Duplicates from Sorted Array
+27. Number to Excel Column Title Conversion - given an integer n, Return its corresponding column title as it appears in an Excel
+28. Merge Two Sorted Arrays (in-place)
