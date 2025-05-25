@@ -41,3 +41,5 @@
 26. Remove Duplicates from Sorted Array
 27. Number to Excel Column Title Conversion - given an integer n, Return its corresponding column title as it appears in an Excel
 28. Merge Two Sorted Arrays (in-place)
+29. Find Frequency in a Sorted Number Array - Find number of times the target number appears
+30. Array Chunking
