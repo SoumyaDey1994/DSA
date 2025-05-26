@@ -36,10 +36,15 @@
 23. Next Permutation - find the next lexicographically greater permutation of a given sequence of numbers
 24. Number of Islands – Count the number of islands in a 2D grid (DFS/BFS)
 
-### 24/05/2025
+### 25/05/2025
 25. Reverse Vowels of a String
 26. Remove Duplicates from Sorted Array
 27. Number to Excel Column Title Conversion - given an integer n, Return its corresponding column title as it appears in an Excel
 28. Merge Two Sorted Arrays (in-place)
 29. Find Frequency in a Sorted Number Array - Find number of times the target number appears
 30. Array Chunking
+
+### 26/05/2025
+31. Print whole function definition as string with custom prefix & suffix
+32. Two Sum II – Input Array is Sorted: Given a sorted array, find two numbers such that they add up to a specific target. Return their indices
+33. Maximum Sum Subarray of Size K - Find the maximum sum of any contiguous subarray of size K
