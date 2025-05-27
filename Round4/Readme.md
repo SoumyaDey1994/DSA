@@ -48,3 +48,8 @@
 31. Print whole function definition as string with custom prefix & suffix
 32. Two Sum II – Input Array is Sorted: Given a sorted array, find two numbers such that they add up to a specific target. Return their indices
 33. Maximum Sum Subarray of Size K - Find the maximum sum of any contiguous subarray of size K
+
+### 27/05/2025
+34. Word Ladder Problem - Given two words, beginWord and endWord, and a wordList, goal is to transform beginWord into endWord by changing only one letter at a time
+35. Product of Array Except Self
+36. Print 2D array in Spiral order

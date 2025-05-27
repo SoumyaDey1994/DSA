@@ -1,5 +1,5 @@
 /**
- * Date: 11th March, 2025
+ * Date: 27th May, 2025
  * Problem Statement: Product of Array Except Self
  * given an integer array nums of size n,
  * You need to return an array output such that output[i] is equal to the product of all elements in nums except nums[i].
@@ -21,28 +21,28 @@
  * all elements except the one at index 2 (where 0 exists) become 0.
  * The only nonzero value comes from multiplying the nonzero numbers (-1 × 1 × -3 × 3 = 9).
  */
+function findProductList(nums) {
+  if (!nums || nums.length === 0) return;
 
-function getProductExceptSelf(arr) {
-  let length = arr.length;
   let prefix = 1,
     suffix = 1;
-  let result = new Array(length).fill(1);
-  for (let i = 0; i < length; i++) {
+  const result = [];
+  for (let i = 0; i < nums.length; i++) {
     result[i] = prefix;
-    prefix = prefix * arr[i];
+    prefix = prefix * nums[i];
   }
 
-  for (let i = length - 1; i >= 0; i--) {
-    result[i] = suffix * result[i];
-    suffix = suffix * arr[i];
+  for (let i = nums.length - 1; i >= 0; i--) {
+    // console.log(result[i], suffix, nums[i]);
+    result[i] = result[i] * suffix;
+    suffix = suffix * nums[i];
   }
+
   return result;
 }
 
-let nums = [1, 2, 3, 4]; // 1, 2, 6, 24
-let output = getProductExceptSelf(nums);
-console.log(`Product of [${nums}] except self: [${output}]`);
+let nums = [1, 2, 3, 4]; // [1, 2, 6, 24] ==> [24, 12, 8, 6]
+console.log(`Product of Array [${nums}] becomes: [${findProductList(nums)}]`);
 
-nums = [-1, 1, 0, -3, 3]; // 1, 2, 6, 24
-output = getProductExceptSelf(nums);
-console.log(`Product of [${nums}] except self: [${output}]`);
+nums = [-1, 1, 0, -3, 3];
+console.log(`Product of Array [${nums}] becomes: [${findProductList(nums)}]`);
