@@ -54,3 +54,6 @@
 35. Product of Array Except Self
 36. Print 2D array in Spiral order
 37. 3 Sum - Find all unique triplets such as (nums[i]+nums[j]+nums[k]=0)
+
+### 28/05/2025
+38. Prime Factors - Find all the prime factors of given N
