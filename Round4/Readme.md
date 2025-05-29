@@ -57,3 +57,8 @@
 
 ### 28/05/2025
 38. Prime Factors - Find all the prime factors of given N
+
+### 29/05/2025
+39. Rotation count of a sorted array - Identify How Many Times a Sorted Array is Rotated
+40. Search in Rotated Sorted Array - check given target number exists in the array and return its index
+41. Find square-root of a number using Binary Search
