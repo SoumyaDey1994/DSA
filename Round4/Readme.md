@@ -62,3 +62,11 @@
 39. Rotation count of a sorted array - Identify How Many Times a Sorted Array is Rotated
 40. Search in Rotated Sorted Array - check given target number exists in the array and return its index
 41. Find square-root of a number using Binary Search
+
+### 30/05/2025
+42. Longest Consecutive Sequence - find the length of the longest consecutive sequence in a given number list
+43. Subarray Sum Equals K - total number of contiguous subarrays whose sum equals k
+44. House Thief (House Robber) Problem
+
+
+45. Longest Substring with At Most Two Distinct Characters

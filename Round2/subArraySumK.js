@@ -21,7 +21,7 @@
  *          [1,4,2] (index 5 to 7)
  */
 
-function getNoOfSubArrays(nums, k) {
+function getNoOfSubArrays(nums, k) { // O(n^2)
     const length = nums.length;
     let count = 0;
     for(let i=0; i<length; i++) {
