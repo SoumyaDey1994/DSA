@@ -68,5 +68,8 @@
 43. Subarray Sum Equals K - total number of contiguous subarrays whose sum equals k
 44. House Thief (House Robber) Problem
 
-
+### 31/05/2025
 45. Longest Substring with At Most Two Distinct Characters
+46. Valid Palindrome
+47. Pacific Atlantic Water Flow - Find common co-ordinates where both ocean can flow
+48. Surrounded Regions - capture all regions '0' surrounded by 'X'
