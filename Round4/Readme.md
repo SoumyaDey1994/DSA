@@ -73,3 +73,7 @@
 46. Valid Palindrome
 47. Pacific Atlantic Water Flow - Find common co-ordinates where both ocean can flow
 48. Surrounded Regions - capture all regions '0' surrounded by 'X'
+
+### 1/06/2025
+49. Rotten Mangoes Problem -  Return the minimum time required for all fresh mangoes to rot
+50. Count Anagrams (Find All Anagrams in a String)
