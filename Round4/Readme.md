@@ -77,3 +77,8 @@
 ### 1/06/2025
 49. Rotten Mangoes Problem -  Return the minimum time required for all fresh mangoes to rot
 50. Count Anagrams (Find All Anagrams in a String)
+
+### 2/06/2025
+51. Reverse a Linked List – Reverse a singly linked list. (Iterative & Recursive)
+52. Merge Two Sorted Lists – Merge two sorted linked lists into one sorted list
+53. Swap adjacent nodes of a Singly Linked List
