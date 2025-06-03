@@ -82,3 +82,8 @@
 51. Reverse a Linked List – Reverse a singly linked list. (Iterative & Recursive)
 52. Merge Two Sorted Lists – Merge two sorted linked lists into one sorted list
 53. Swap adjacent nodes of a Singly Linked List
+
+### 3/06/2025
+54. Find Nth Element of a SLL from End
+55. Detect Cycle in a Singly Linked List (SLL)
+56. Find Merge-point of 2 SLL
