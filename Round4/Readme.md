@@ -87,3 +87,8 @@
 54. Find Nth Element of a SLL from End
 55. Detect Cycle in a Singly Linked List (SLL)
 56. Find Merge-point of 2 SLL
+
+### 4/06/2025
+57. Shortest Path in Binary Matrix
+58. Get All Possible Permutations
+59. Get All Possible Combinations
