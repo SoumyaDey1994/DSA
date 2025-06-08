@@ -92,3 +92,11 @@
 57. Shortest Path in Binary Matrix
 58. Get All Possible Permutations
 59. Get All Possible Combinations
+
+### 7/06/2025
+60. Split Array Largest Sum - Return the minimum possible largest sum among these subarrays
+
+### 8/06/2025
+61. Proper Fraction - Find the number of proper fractions that can be formed for given Numerator N
+62. Unique Paths (Robot Grid Path Count)
+63. Balanced Parenthesis
