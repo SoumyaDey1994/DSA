@@ -13,44 +13,53 @@
         Explanation: The character 'a' appears only once in `s`, so no valid substring exists.
  */
 function getMinWindowSubstr(source, target) {
-    if(source.length < target.length) return "";
+  if (source.length < target.length) return "";
 
-    const charFreq = new Map(); // Form char freq map
-    for(let char of target) {
-        charFreq.set(char, (charFreq.get(char) || 0) + 1);
+  const charFreq = new Map(); // Form char freq map
+  for (let char of target) {
+    charFreq.set(char, (charFreq.get(char) || 0) + 1);
+  }
+
+  let left = 0,
+    right = 0,
+    required = charFreq.size;
+  let minLength = Infinity,
+    minStart = 0,
+    formed = 0;
+  let windowFreq = new Map();
+  while (right < source.length) {
+    const char = source[right];
+    windowFreq.set(char, (windowFreq.get(char) || 0) + 1); // Form window freq
+
+    if (charFreq.has(char) && charFreq.get(char) === windowFreq.get(char)) {
+      formed++; // if target char included, increment formed
     }
 
-    let left=0, right=0, required = charFreq.size;
-    let minLength = Infinity, minStart = 0, formed = 0;
-    let windowFreq = new Map();
-    while(right < source.length) {
-        const char = source[right];
-        windowFreq.set(char, (windowFreq.get(char) || 0) + 1); // Form window freq
+    while (formed === required) {
+      if (right - left + 1 < minLength) {
+        minLength = right - left + 1;
+        minStart = left;
+      }
 
-        if(charFreq.has(char) && charFreq.get(char) === windowFreq.get(char)) {
-            formed++; // if target char included, increment formed
-        }
-
-        while(formed === required) {
-            if((right - left + 1) < minLength) {
-                minLength = right - left + 1;
-                minStart = left;
-            }
-
-            // move left pointer towards right & decrement formed
-            let leftChar = source[left];
-            windowFreq.set(leftChar, (windowFreq.get(leftChar) || 0) - 1);
-            if(charFreq.has(leftChar) && windowFreq.get(leftChar) < charFreq.get(leftChar)) {
-                formed--;
-            }
-            left++;
-        }
-        right++;
+      // move left pointer towards right & decrement formed
+      let leftChar = source[left];
+      windowFreq.set(leftChar, (windowFreq.get(leftChar) || 0) - 1);
+      if (
+        charFreq.has(leftChar) &&
+        windowFreq.get(leftChar) < charFreq.get(leftChar)
+      ) {
+        formed--;
+      }
+      left++;
     }
-    // console.log("Min Length: ", minLength);
-    // console.log("Left & Right: ", left, right);
-    // console.log("Min Start: ", minStart);
-    return minLength === Infinity ? "" : source.substring(minStart, minStart + minLength);
+    right++;
+  }
+  // console.log("Min Length: ", minLength);
+  // console.log("Left & Right: ", left, right);
+  // console.log("Min Start: ", minStart);
+  return minLength === Infinity
+    ? ""
+    : source.substring(minStart, minStart + minLength);
 }
 
 let source = "ADOBECODEBANC";

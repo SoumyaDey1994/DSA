@@ -100,3 +100,10 @@
 61. Proper Fraction - Find the number of proper fractions that can be formed for given Numerator N
 62. Unique Paths (Robot Grid Path Count)
 63. Balanced Parenthesis
+
+### 9/06/2025
+64. Minimum Window Substring - Return smallest substring of s that contains all characters of t.
+65. Capacity To Ship Packages Within D Days
+
+### 10/06/2025
+66. Longest Increasing Subsequence (LIS)
