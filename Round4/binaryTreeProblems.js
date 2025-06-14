@@ -4,6 +4,8 @@
  *      1. Binary Tree Level Order Traversal
  *      2. Lowest Common Ancestor (LCA) of a Binary Tree
  *      3. Depth of binary tree
+ *      4. Binary Tree is BST or not
+ *      5. Invert a Binary Tree
  */
 class Node {
   constructor(data) {
@@ -103,6 +105,41 @@ class BinaryTree {
 
     return Math.max(leftDepth, rightDepth);
   }
+
+  /**
+   * Check if a Binary Tree is BST or not
+   * @param {*} root
+   * @returns
+   */
+  isBST(root) {
+    if (!root) return;
+
+    if (root.left === null && root.right !== null) return false;
+    if (root.left !== null && root.right === null) return false;
+    if (root.left === null && root.right === null) return true;
+
+    const isLeftBST = this.isBST(root.left);
+    const isRightBST = this.isBST(root.right);
+
+    return isLeftBST && isRightBST;
+  }
+  /**
+   * Invert a Binary Tree
+   * Swap Left & Right subtree nodes
+   * @param {*} root
+   * @returns
+   */
+  invertTree(root) {
+    if (!root) return;
+
+    // swap right & left
+    const temp = root.left;
+    root.left = root.right;
+    root.right = temp;
+
+    this.invertTree(root.left);
+    this.invertTree(root.right);
+  }
 }
 
 const node10 = new Node(10);
@@ -132,14 +169,14 @@ console.log(
 const node11 = new Node(11);
 const node50 = new Node(50);
 const node1 = new Node(1);
-const node4 = new Node(4);
+const node3 = new Node(3);
 const node13 = new Node(13);
 
 binaryTree
   .insert(node11)
   .insert(node1)
   .insert(node13)
-  .insert(node4)
+  .insert(node3)
   .insert(node50);
 
 console.log(`Tree inorder traversal after new inserts: `);
@@ -148,11 +185,15 @@ binaryTree.printInorder(binaryTree.root);
 console.log(`Tree level order traversal after new inserts: `);
 binaryTree.printLevelOrder(binaryTree.root);
 
+console.log(
+  `Is Current Binary Tree a BST: ${binaryTree.isBST(binaryTree.root)}`
+);
+
 let lcaNode = binaryTree.findLCANode(binaryTree.root, node5, node12);
 console.log(`LCA of node ${node5.data} & ${node12.data} is: ${lcaNode?.data}`);
 
-lcaNode = binaryTree.findLCANode(binaryTree.root, node4, node13);
-console.log(`LCA of node ${node4.data} & ${node13.data} is: ${lcaNode?.data}`);
+lcaNode = binaryTree.findLCANode(binaryTree.root, node3, node13);
+console.log(`LCA of node ${node3.data} & ${node13.data} is: ${lcaNode?.data}`);
 
 lcaNode = binaryTree.findLCANode(binaryTree.root, node11, node13);
 console.log(`LCA of node ${node11.data} & ${node13.data} is: ${lcaNode?.data}`);
@@ -161,10 +202,37 @@ console.log(
   `Current depth of Binary Tree: ${binaryTree.findDepth(binaryTree.root)}`
 );
 
-const node3 = new Node(3);
-binaryTree.insert(node3);
+console.log(
+  `Is Current Binary Tree a BST: ${binaryTree.isBST(binaryTree.root)}`
+);
+
+const node2 = new Node(2);
+binaryTree.insert(node2);
 console.log(
   `Depth of Binary Tree post inserting node3: ${binaryTree.findDepth(
     binaryTree.root
   )}`
+);
+
+const node4 = new Node(4);
+const node0 = new Node(0);
+binaryTree.insert(node0).insert(node4);
+
+console.log(`Tree Inorder Traversal after inserting 0 & 4: `);
+binaryTree.printInorder(binaryTree.root);
+
+console.log(`Tree Level Order Traversal after inserting 0 & 4: `);
+binaryTree.printLevelOrder(binaryTree.root);
+
+console.log(
+  `After adding 0 & 4, Is Current Binary Tree a BST: ${binaryTree.isBST(
+    binaryTree.root
+  )}`
+);
+
+binaryTree.invertTree(binaryTree.root);
+console.log(`Inorder Traversal after inverting tree: `);
+binaryTree.printInorder(binaryTree.root);
+console.log(
+  `Current depth of Binary Tree: ${binaryTree.findDepth(binaryTree.root)}`
 );

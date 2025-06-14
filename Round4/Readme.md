@@ -112,3 +112,5 @@
 67. Binary Tree Level Order Traversal → Print a binary tree level by level
 68. Lowest Common Ancestor of Two Nodes → Find the lowest common ancestor of two nodes in a binary tree
 69. Maximum Depth of Binary Tree → Find the maximum depth of a binary tree using DFS/BFS
+70. Check a Binary Tree is BST or not
+71. Invert the Binary Tree
