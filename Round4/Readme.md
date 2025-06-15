@@ -114,3 +114,20 @@
 69. Maximum Depth of Binary Tree → Find the maximum depth of a binary tree using DFS/BFS
 70. Check a Binary Tree is BST or not
 71. Invert the Binary Tree
+
+### 15/06/2025
+72. N-Queens Problem
+73. Max Consecutive Ones III
+
+
+73. Clone Graph - Return a deep copy (clone) of the graph.
+74. Course Schedule - Check if we can finish all courses
+75. Course Schedule 2 - Return possible order to take the courses
+
+77. Palindrome Partitioning
+78. Implement a Stack using 2 Queues
+79. Edit/Min Distance - Minimum number of operations needed to convert one string into another
+80. Find the Smallest Divisor Given a Threshold
+81. Aggressive Cows (or Allocate Minimum Pages) Problem
+82. Combination Sum
+83. Combination Sum II
