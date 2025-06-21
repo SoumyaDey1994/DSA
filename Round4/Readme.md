@@ -119,6 +119,9 @@
 72. N-Queens Problem
 73. Max Consecutive Ones III
 
+### 19/06/2025
+74. Palindrome Partitioning
+
 
 73. Clone Graph - Return a deep copy (clone) of the graph.
 74. Course Schedule - Check if we can finish all courses
