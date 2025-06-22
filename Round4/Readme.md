@@ -122,12 +122,12 @@
 ### 19/06/2025
 74. Palindrome Partitioning
 
+### 22/06/2025
+75. Course Schedule - Check if we can finish all courses
+76. Course Schedule 2 - Return possible order to take the courses
+77. Clone Graph - Return a deep copy (clone) of the graph.
 
-73. Clone Graph - Return a deep copy (clone) of the graph.
-74. Course Schedule - Check if we can finish all courses
-75. Course Schedule 2 - Return possible order to take the courses
 
-77. Palindrome Partitioning
 78. Implement a Stack using 2 Queues
 79. Edit/Min Distance - Minimum number of operations needed to convert one string into another
 80. Find the Smallest Divisor Given a Threshold
