@@ -127,6 +127,9 @@
 76. Course Schedule 2 - Return possible order to take the courses
 77. Clone Graph - Return a deep copy (clone) of the graph.
 
+### 25/06/2025
+78. Combination Sum
+79. Combination Sum II
 
 78. Implement a Stack using 2 Queues
 79. Edit/Min Distance - Minimum number of operations needed to convert one string into another
