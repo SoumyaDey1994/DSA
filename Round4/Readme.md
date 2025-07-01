@@ -135,5 +135,3 @@
 79. Edit/Min Distance - Minimum number of operations needed to convert one string into another
 80. Find the Smallest Divisor Given a Threshold
 81. Aggressive Cows (or Allocate Minimum Pages) Problem
-82. Combination Sum
-83. Combination Sum II
