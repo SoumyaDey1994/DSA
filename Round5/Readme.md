@@ -11,15 +11,18 @@
 6. Word Break - Given string & dictionary, determine if string can be segmented
 7. Check if 2 strings are valid anagrams or not
 
+### 05/07/2025
+8. Merge Intervals - Merge overlapping intervals & return array of non-overlapping intervals
+17. Container with Most Water - Find two lines that, together with the x-axis, form a container that can hold the maximum water
+32. Two Sum II – Input Array is Sorted: Given a sorted array, find two numbers such that they add up to a specific target. Return their indices
+
 
 ### Tobe Done
 1. Find leftmost repeating char of a given string
-8. Merge Intervals - Merge overlapping intervals & return array of non-overlapping intervals
 9. Climbing stairs - find no of ways to climb n stairs
 11. Group Anagrams - Given an array of strings, group all the anagrams together
 13. Zigzag Conversion - Rearrange i/p in zigzag pattern for give no rows and read row by row
 16. Count and Say - countAndSay(n) is obtained by describing the previous term (countAndSay(n-1)) using the format "count of digit + digit itself".
-17. Container with Most Water - Find two lines that, together with the x-axis, form a container that can hold the maximum water
 18. Maximum Sum Subarray - find the contiguous subarray that has the largest sum, and return that sum
 19. Find Kth Heighest Element - find the Kth highest (largest) element in the array
 20. Trapping Rain Water - Compute the total water trapped b/w given bars(heights)
@@ -30,7 +33,6 @@
 27. Number to Excel Column Title Conversion - given an integer n, Return its corresponding column title as it appears in an Excel
 28. Merge Two Sorted Arrays (in-place)
 30. Array Chunking
-32. Two Sum II – Input Array is Sorted: Given a sorted array, find two numbers such that they add up to a specific target. Return their indices
 33. Maximum Sum Subarray of Size K - Find the maximum sum of any contiguous subarray of size K
 35. Product of Array Except Self
 36. Print 2D array in Spiral order
