@@ -13,15 +13,17 @@
 
 ### 05/07/2025
 8. Merge Intervals - Merge overlapping intervals & return array of non-overlapping intervals
-17. Container with Most Water - Find two lines that, together with the x-axis, form a container that can hold the maximum water
-32. Two Sum II – Input Array is Sorted: Given a sorted array, find two numbers such that they add up to a specific target. Return their indices
+9. Container with Most Water - Find two lines that, together with the x-axis, form a container that can hold the maximum water
+10. Two Sum II – Input Array is Sorted: Given a sorted array, find two numbers such that they add up to a specific target. Return their indices
 
+### 09/07/2025
+11. Find leftmost repeating char of a given string
+12. Zigzag Conversion - Rearrange i/p in zigzag pattern for give no rows and read row by row
+13. Group Anagrams - Given an array of strings, group all the anagrams together
 
 ### Tobe Done
-1. Find leftmost repeating char of a given string
+
 9. Climbing stairs - find no of ways to climb n stairs
-11. Group Anagrams - Given an array of strings, group all the anagrams together
-13. Zigzag Conversion - Rearrange i/p in zigzag pattern for give no rows and read row by row
 16. Count and Say - countAndSay(n) is obtained by describing the previous term (countAndSay(n-1)) using the format "count of digit + digit itself".
 18. Maximum Sum Subarray - find the contiguous subarray that has the largest sum, and return that sum
 19. Find Kth Heighest Element - find the Kth highest (largest) element in the array
