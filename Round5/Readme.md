@@ -21,12 +21,18 @@
 12. Zigzag Conversion - Rearrange i/p in zigzag pattern for give no rows and read row by row
 13. Group Anagrams - Given an array of strings, group all the anagrams together
 
+### 11/07/2025
+14. Climbing stairs - find no of ways to climb n stairs
+
+
+19. Find Kth Heighest Element - find the Kth highest (largest) element in the array
+30. Array Chunking
+38. Prime Factors - Find all the prime factors of given N
+
 ### Tobe Done
 
-9. Climbing stairs - find no of ways to climb n stairs
 16. Count and Say - countAndSay(n) is obtained by describing the previous term (countAndSay(n-1)) using the format "count of digit + digit itself".
 18. Maximum Sum Subarray - find the contiguous subarray that has the largest sum, and return that sum
-19. Find Kth Heighest Element - find the Kth highest (largest) element in the array
 20. Trapping Rain Water - Compute the total water trapped b/w given bars(heights)
 22. Find Trailing Zeros in factorial
 23. Next Permutation - find the next lexicographically greater permutation of a given sequence of numbers
@@ -34,12 +40,10 @@
 26. Remove Duplicates from Sorted Array
 27. Number to Excel Column Title Conversion - given an integer n, Return its corresponding column title as it appears in an Excel
 28. Merge Two Sorted Arrays (in-place)
-30. Array Chunking
 33. Maximum Sum Subarray of Size K - Find the maximum sum of any contiguous subarray of size K
 35. Product of Array Except Self
 36. Print 2D array in Spiral order
 37. 3 Sum - Find all unique triplets such as (nums[i]+nums[j]+nums[k]=0)
-38. Prime Factors - Find all the prime factors of given N
 42. Longest Consecutive Sequence - find the length of the longest consecutive sequence in a given number list
 43. Subarray Sum Equals K - total number of contiguous subarrays whose sum equals k
 45. Longest Substring with At Most Two Distinct Characters
