@@ -24,10 +24,12 @@
 ### 11/07/2025
 14. Climbing stairs - find no of ways to climb n stairs
 
+### 13/07/2025
+15. Array Chunking
+16. Find Kth Heighest Element - find the Kth highest (largest) element in the array
 
-19. Find Kth Heighest Element - find the Kth highest (largest) element in the array
-30. Array Chunking
-38. Prime Factors - Find all the prime factors of given N
+
+17. Prime Factors - Find all the prime factors of given N
 
 ### Tobe Done
 
