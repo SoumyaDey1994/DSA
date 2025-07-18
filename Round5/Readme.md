@@ -32,14 +32,15 @@
 17. Prime Factors - Find all the prime factors of given N
 18. Maximum Sum Subarray - find the contiguous subarray that has the largest sum, and return that sum
 
+### 18/07/2025
+19. Trapping Rain Water - Compute the total water trapped b/w given bars(heights)
+20. Find Trailing Zeros in factorial
+21. Next Permutation - find the next lexicographically greater permutation of a given sequence of numbers
+22. Reverse Vowels of a String
 
 ### Tobe Done
 
 16. Count and Say - countAndSay(n) is obtained by describing the previous term (countAndSay(n-1)) using the format "count of digit + digit itself".
-20. Trapping Rain Water - Compute the total water trapped b/w given bars(heights)
-22. Find Trailing Zeros in factorial
-23. Next Permutation - find the next lexicographically greater permutation of a given sequence of numbers
-25. Reverse Vowels of a String
 26. Remove Duplicates from Sorted Array
 27. Number to Excel Column Title Conversion - given an integer n, Return its corresponding column title as it appears in an Excel
 28. Merge Two Sorted Arrays (in-place)
