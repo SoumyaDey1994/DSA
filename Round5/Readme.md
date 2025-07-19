@@ -43,9 +43,14 @@
 26. 3 Sum - Find all unique triplets such as (nums[i]+nums[j]+nums[k]=0)
 27. Remove Duplicates from Sorted Array
 
+### 19/07/2025
+28. Longest Substring with At Most Two Distinct Characters
+29. Number of Islands
+30. Surrounded Regions
+
+
 ### Tobe Done
 
-28. Longest Substring with At Most Two Distinct Characters
 16. Count and Say - countAndSay(n) is obtained by describing the previous term (countAndSay(n-1)) using the format "count of digit + digit itself".
 28. Merge Two Sorted Arrays (in-place)
 33. Maximum Sum Subarray of Size K - Find the maximum sum of any contiguous subarray of size K
