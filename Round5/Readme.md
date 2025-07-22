@@ -48,14 +48,17 @@
 29. Number of Islands
 30. Surrounded Regions
 
+### 22/07/2025
+31. Merge Two Sorted Arrays (in-place)
+32. Maximum Sum Subarray of Size K - Find the maximum sum of any contiguous subarray of size K
+
+
+43. Subarray Sum Equals K - total number of contiguous subarrays whose sum equals k
 
 ### Tobe Done
 
 16. Count and Say - countAndSay(n) is obtained by describing the previous term (countAndSay(n-1)) using the format "count of digit + digit itself".
-28. Merge Two Sorted Arrays (in-place)
-33. Maximum Sum Subarray of Size K - Find the maximum sum of any contiguous subarray of size K
 42. Longest Consecutive Sequence - find the length of the longest consecutive sequence in a given number list
-43. Subarray Sum Equals K - total number of contiguous subarrays whose sum equals k
 46. Valid Palindrome
 50. Count Anagrams (Find All Anagrams in a String)
 60. Split Array Largest Sum - Return the minimum possible largest sum among these subarrays
