@@ -50,17 +50,18 @@
 
 ### 22/07/2025
 31. Merge Two Sorted Arrays (in-place)
-32. Maximum Sum Subarray of Size K - Find the maximum sum of any contiguous subarray of size K
+32. Subarray Sum Equals K - total number of contiguous subarrays whose sum equals k
 
+### 23/07/2025
+33. Maximum Sum Subarray of Size K - Find the maximum sum of any contiguous subarray of size K
 
-43. Subarray Sum Equals K - total number of contiguous subarrays whose sum equals k
+42. Longest Consecutive Sequence - find the length of the longest consecutive sequence in a given number list
+50. Count Anagrams (Find All Anagrams in a String)
 
 ### Tobe Done
 
 16. Count and Say - countAndSay(n) is obtained by describing the previous term (countAndSay(n-1)) using the format "count of digit + digit itself".
-42. Longest Consecutive Sequence - find the length of the longest consecutive sequence in a given number list
 46. Valid Palindrome
-50. Count Anagrams (Find All Anagrams in a String)
 60. Split Array Largest Sum - Return the minimum possible largest sum among these subarrays
 61. Proper Fraction - Find the number of proper fractions that can be formed for given Numerator N
 64. Minimum Window Substring - Return smallest substring of s that contains all characters of t.
