@@ -55,7 +55,10 @@
 ### 23/07/2025
 33. Maximum Sum Subarray of Size K - Find the maximum sum of any contiguous subarray of size K
 
-42. Longest Consecutive Sequence - find the length of the longest consecutive sequence in a given number list
+### 24/07/2025
+34. Longest Consecutive Sequence - find the length of the longest consecutive sequence in a given number list
+
+
 50. Count Anagrams (Find All Anagrams in a String)
 
 ### Tobe Done
