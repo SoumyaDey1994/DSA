@@ -58,6 +58,11 @@
 ### 24/07/2025
 34. Longest Consecutive Sequence - find the length of the longest consecutive sequence in a given number list
 
+### 26/07/2025
+35. Reverse a Linked List – Reverse a singly linked list. (Iterative & Recursive)
+36. Swap adjacent nodes of a Singly Linked List
+37. Merge Two Sorted Lists – Merge two sorted linked lists into one sorted list
+
 
 50. Count Anagrams (Find All Anagrams in a String)
 
