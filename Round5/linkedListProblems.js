@@ -177,6 +177,92 @@ class SinglyLinkedList {
 
     return aux.data;
   }
+
+  /**
+   * Detect Cycle in a Singly Linked List
+   * @returns
+   */
+  hasCycle() {
+    if (!this.head) return false;
+
+    let slow = this.head;
+    let fast = this.head;
+
+    slow = slow.next;
+    fast = fast.next.next;
+
+    while (slow !== null && fast !== null) {
+      if (slow === fast) {
+        return true;
+      }
+      slow = slow.next;
+      fast = fast.next.next;
+    }
+
+    return false;
+  }
+
+  /**
+   * Find merge-point of 2 SLL (if exists)
+   * If not, return null
+   * @param {*} head1
+   * @param {*} head2
+   * @returns
+   */
+  findMergePoint(head1, head2) {
+    if (!head1 || !head2) return;
+
+    const length1 = this.#findLength(head1);
+    const length2 = this.#findLength(head2);
+
+    // console.log(`Length 1: ${length1}`);
+    // console.log(`Length 2: ${length2}`);
+
+    let temp1 = head1;
+    let temp2 = head2;
+
+    if (length1 > length2) {
+      let delta = length1 - length2;
+      while (delta > 0) {
+        temp1 = temp1.next;
+        delta--;
+      }
+    } else {
+      let delta = length2 - length1;
+      while (delta > 0) {
+        temp2 = temp2.next;
+        delta--;
+      }
+    }
+
+    while (temp1 !== null && temp2 !== null) {
+      if (temp1 === temp2) {
+        return temp1;
+      }
+      temp1 = temp1.next;
+      temp2 = temp2.next;
+    }
+
+    if (temp1 === null || temp2 === null) return null;
+  }
+
+  /**
+   * Private Method
+   * Find length of SLL
+   * @param {*} head
+   * @returns
+   */
+  #findLength(head) {
+    if (!head) return 0;
+
+    let temp = head;
+    let length = 0;
+    while (temp !== null) {
+      temp = temp.next;
+      length++;
+    }
+    return length;
+  }
 }
 
 let list = new SinglyLinkedList();
@@ -218,3 +304,36 @@ const seventhLast = mergedList.findNthElementFromEnd(7);
 console.log(`2nd last element of mergedList is: ${secondLast}`);
 console.log(`4th last element of mergedList is: ${fourthLast}`);
 console.log(`7th last element of mergedList is: ${seventhLast}`);
+
+const cNode1 = new Node(1);
+const cNode2 = new Node(2);
+const cNode3 = new Node(3);
+const cNode4 = new Node(4);
+
+const cyclicList = new SinglyLinkedList();
+cyclicList
+  .addNode(cNode1)
+  .addNode(cNode2)
+  .addNode(cNode3)
+  .addNode(cNode4)
+  .addNode(cNode2);
+
+console.log(`Case 1: List has cycle: ${cyclicList.hasCycle()}`);
+console.log(`Case 2: Merged List has cycle: ${mergedList.hasCycle()}`);
+
+const newList = new SinglyLinkedList();
+newList
+  .addNode(new Node(100))
+  .addNode(new Node(110))
+  .addNode(new Node(120))
+  .addNode(new Node(130))
+  .addNode(node2);
+
+console.log(`\nOld List is: ${list.getList()}`);
+console.log(`New List is: ${newList.getList()}`);
+
+const mergePointNode = list.findMergePoint(list.head, newList.head);
+console.log(`Merge-point Node: ${mergePointNode?.data}`);
+
+const mergePointNode2 = list.findMergePoint(list.head, mergedList.head);
+console.log(`Merge-point Node 2: ${mergePointNode2?.data}`);
