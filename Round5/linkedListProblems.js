@@ -152,6 +152,31 @@ class SinglyLinkedList {
 
     return mergedList;
   }
+
+  /**
+   * Find Nth Element of SLL from end
+   * @param {*} n
+   * @returns
+   */
+  findNthElementFromEnd(n) {
+    if (!this.head) return;
+
+    let temp = this.head;
+    while (n > 0 && temp !== null) {
+      temp = temp.next;
+      n--;
+    }
+
+    if (n !== 0) return -1;
+
+    let aux = this.head;
+    while (temp !== null) {
+      aux = aux.next;
+      temp = temp.next;
+    }
+
+    return aux.data;
+  }
 }
 
 let list = new SinglyLinkedList();
@@ -185,3 +210,11 @@ list3.addNode(new Node(12)).addNode(new Node(14)).addNode(new Node(22));
 
 const mergedList = list.mergeTwoSortedList(list2.head, list3.head);
 console.log(`Merged List Becomes: ${mergedList.getList()}`);
+
+const secondLast = mergedList.findNthElementFromEnd(2);
+const fourthLast = mergedList.findNthElementFromEnd(4);
+const seventhLast = mergedList.findNthElementFromEnd(7);
+
+console.log(`2nd last element of mergedList is: ${secondLast}`);
+console.log(`4th last element of mergedList is: ${fourthLast}`);
+console.log(`7th last element of mergedList is: ${seventhLast}`);

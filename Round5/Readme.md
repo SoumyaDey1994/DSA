@@ -63,6 +63,12 @@
 36. Swap adjacent nodes of a Singly Linked List
 37. Merge Two Sorted Lists – Merge two sorted linked lists into one sorted list
 
+### 28/07/2025
+38. Find Nth Element of a SLL from End
+
+39. Detect Cycle is a Single Linked List
+40. Find Merge-point of 2 SLL
+
 
 50. Count Anagrams (Find All Anagrams in a String)
 
