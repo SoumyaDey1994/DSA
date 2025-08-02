@@ -70,13 +70,15 @@
 39. Detect Cycle is a Single Linked List
 40. Find Merge-point of 2 SLL
 
+### 02/08/2025
+41. Count Anagrams (Find All Anagrams in a String)
 
-50. Count Anagrams (Find All Anagrams in a String)
+
+42. Split Array Largest Sum - Return the minimum possible largest sum among these subarrays
 
 ### Tobe Done
 
 16. Count and Say - countAndSay(n) is obtained by describing the previous term (countAndSay(n-1)) using the format "count of digit + digit itself".
 46. Valid Palindrome
-60. Split Array Largest Sum - Return the minimum possible largest sum among these subarrays
 61. Proper Fraction - Find the number of proper fractions that can be formed for given Numerator N
 64. Minimum Window Substring - Return smallest substring of s that contains all characters of t.
