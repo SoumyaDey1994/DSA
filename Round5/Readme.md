@@ -76,6 +76,10 @@
 ### 03/08/2025
 42. Split Array Largest Sum - Return the minimum possible largest sum among these subarrays
 
+### 09/08/2025
+43. Coin Change - Get min no of coins to get change
+44. Coin Change - Get no of ways to get change of a given
+
 ### Tobe Done
 
 16. Count and Say - countAndSay(n) is obtained by describing the previous term (countAndSay(n-1)) using the format "count of digit + digit itself".
