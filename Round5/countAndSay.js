@@ -1,5 +1,5 @@
 /**
- * Date: 23rd May, 2025
+ * Date: 10th August, 2025
  * Count and Say - Efficient JavaScript Solution
  * Problem Statement: 
  *      The Count and Say sequence is defined recursively as follows:
@@ -13,14 +13,14 @@
         countAndSay(4) = "1211" → One occurrences of 2, One occurrences of 1
         countAndSay(5) = "111221" → One occurrences of 1, One occurrences of 2, Two occurrences of 1
  */
-function getCountAndSayString(num) {
-  if (!num || num <= 0) return;
+function findPronunciation(num) {
+  if (!num || num <= 0) return num;
 
   let output = "1";
   for (let i = 2; i <= num; i++) {
     let counter = 1;
     let current = "";
-    for (j = 0; j < output.length; j++) {
+    for (let j = 0; j < output.length; j++) {
       if (j < output.length - 1 && output[j] === output[j + 1]) {
         counter++;
       } else {
@@ -28,7 +28,6 @@ function getCountAndSayString(num) {
         counter = 1;
       }
     }
-
     output = current;
   }
 
@@ -36,16 +35,16 @@ function getCountAndSayString(num) {
 }
 
 let num = 2;
-console.log(`Count & Say format of ${num} is: ${getCountAndSayString(num)}`);
+console.log(`Count & Say format of ${num} is: ${findPronunciation(num)}`);
 
 num = 3;
-console.log(`Count & Say format of ${num} is: ${getCountAndSayString(num)}`);
+console.log(`Count & Say format of ${num} is: ${findPronunciation(num)}`);
 
 num = 5;
-console.log(`Count & Say format of ${num} is: ${getCountAndSayString(num)}`);
+console.log(`Count & Say format of ${num} is: ${findPronunciation(num)}`);
 
 num = 1;
-console.log(`Count & Say format of ${num} is: ${getCountAndSayString(num)}`);
+console.log(`Count & Say format of ${num} is: ${findPronunciation(num)}`);
 
 num = 10;
-console.log(`Count & Say format of ${num} is: ${getCountAndSayString(num)}`);
+console.log(`Count & Say format of ${num} is: ${findPronunciation(num)}`);

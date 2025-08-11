@@ -80,9 +80,12 @@
 43. Coin Change - Get min no of coins to get change
 44. Coin Change - Get no of ways to get change of a given
 
+### 10/08/2025
+45. Count and Say - countAndSay(n) is obtained by describing the previous term (countAndSay(n-1)) 
+46. Minimum Window Substring - Return smallest substring of s that contains all characters of t.
+
 ### Tobe Done
 
-16. Count and Say - countAndSay(n) is obtained by describing the previous term (countAndSay(n-1)) using the format "count of digit + digit itself".
+using the format "count of digit + digit itself".
 46. Valid Palindrome
 61. Proper Fraction - Find the number of proper fractions that can be formed for given Numerator N
-64. Minimum Window Substring - Return smallest substring of s that contains all characters of t.
