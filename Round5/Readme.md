@@ -92,6 +92,15 @@
 49. Word Ladder Problem - Given two words, beginWord and endWord, and a wordList, goal is to transform beginWord into endWord by changing only one letter at a time
 50. Unique Paths (Robot Grid Path Count)
 
+### 24/08/2025
+
+51. Binary Tree Level Order Traversal → Print a binary tree level by level
+52. Lowest Common Ancestor of Two Nodes → Find the lowest common ancestor of two nodes in a binary tree
+53. Maximum Depth of Binary Tree → Find the maximum depth of a binary tree using DFS/BFS
+54. Check a Binary Tree is BST or not
+55. Invert the Binary Tree
+
+
 ### Tobe Done
 
 using the format "count of digit + digit itself".
