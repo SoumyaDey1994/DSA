@@ -99,6 +99,13 @@
 53. Maximum Depth of Binary Tree → Find the maximum depth of a binary tree using DFS/BFS
 54. Check a Binary Tree is BST or not
 55. Invert the Binary Tree
+56. Palindrome Partitioning
+57. Max Consecutive Ones III
+
+
+57. Get All Possible Permutations
+58. Get All Possible Combinations
+59. N-Queens Problem
 
 
 ### Tobe Done
