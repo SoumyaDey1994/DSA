@@ -93,7 +93,6 @@
 50. Unique Paths (Robot Grid Path Count)
 
 ### 24/08/2025
-
 51. Binary Tree Level Order Traversal → Print a binary tree level by level
 52. Lowest Common Ancestor of Two Nodes → Find the lowest common ancestor of two nodes in a binary tree
 53. Maximum Depth of Binary Tree → Find the maximum depth of a binary tree using DFS/BFS
@@ -102,14 +101,10 @@
 56. Palindrome Partitioning
 57. Max Consecutive Ones III
 
-
-57. Get All Possible Permutations
-58. Get All Possible Combinations
-59. N-Queens Problem
-
-
-### Tobe Done
-
-using the format "count of digit + digit itself".
-46. Valid Palindrome
+### 30/08/2025
+58. Get All Possible Permutations
+59. Get All Possible Combinations
+60. Valid Palindrome
+60. N-Queens Problem
 61. Proper Fraction - Find the number of proper fractions that can be formed for given Numerator N
+
