@@ -5,3 +5,8 @@
 2. Isomorphic strings - find out given 2 strings isomorphic or not
 3. Two Sum - Return indices of the two numbers that add up to the target
 
+### 08/11/2025
+4. Two Sum II – Input Array is Sorted: Given a sorted array, find two numbers such that they add up to a specific target. Return their indices
+5. Merge Intervals - Merge overlapping intervals & return array of non-overlapping intervals
+6. Find the longest palindromic substring in a given input string
+
