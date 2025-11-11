@@ -15,5 +15,9 @@
 8. Check if 2 strings are valid anagrams or not
 9. Find Kth Heighest Element - find the Kth highest (largest) element in the array
 
-
+### 11/11/2025
 10. Prime Factors - Find all the prime factors of given N
+11. Move All Zeros to the End of a given list
+
+
+12. Zigzag Conversion - Rearrange i/p in zigzag pattern for give no rows and read row by row
