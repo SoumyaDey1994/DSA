@@ -19,5 +19,7 @@
 10. Prime Factors - Find all the prime factors of given N
 11. Move All Zeros to the End of a given list
 
-
+### 13/11/2025
 12. Zigzag Conversion - Rearrange i/p in zigzag pattern for give no rows and read row by row
+13. Climbing stairs - find no of ways to climb n stairs
+14. Array Chunking
