@@ -23,3 +23,11 @@
 12. Zigzag Conversion - Rearrange i/p in zigzag pattern for give no rows and read row by row
 13. Climbing stairs - find no of ways to climb n stairs
 14. Array Chunking
+
+### 15/11/2025
+15. Container with Most Water - Find two lines that, together with the x-axis, form a container that can hold the maximum water
+16. Trapping Rain Water - Compute the total water trapped b/w given bars(heights)
+17. Print 2D array in Spiral order
+18. Find Trailing Zeros in factorial
+19. Number to Excel Column Title Conversion - given an integer n, Return its corresponding column title as it appears in an Excel
+20. Product of Array Except Self
