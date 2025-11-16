@@ -31,3 +31,10 @@
 18. Find Trailing Zeros in factorial
 19. Number to Excel Column Title Conversion - given an integer n, Return its corresponding column title as it appears in an Excel
 20. Product of Array Except Self
+
+### 16/11/2025
+21. Find leftmost repeating char of a given string
+22. Group Anagrams - Given an array of strings, group all the anagrams together
+23. Maximum Sum Subarray - find the contiguous subarray that has the largest sum, and return that sum
+24. Next Permutation - find the next lexicographically greater permutation of a given sequence of numbers
+25. Reverse Vowels of a String
