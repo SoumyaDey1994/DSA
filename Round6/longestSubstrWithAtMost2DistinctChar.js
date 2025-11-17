@@ -22,22 +22,23 @@
  *      Output: 4
  *      Explanation: Longest substring with at most 2 distinct characters is "aabb" or "bbcc"
  */
-function findTargetSubstr(input) {
-  if (!input || input.length === 0) return;
+function findTargetSubstr(inputStr) {
+  if (!inputStr || inputStr.length === 0) return "";
 
+  const uniqueCharAllowed = 2;
   const indexMap = new Map();
-  let left = 0;
-  let maxLength = -Infinity;
-  const uniqueCharCount = 2;
+  let left = 0,
+    maxLength = -Infinity;
+  for (let right = 0; right < inputStr.length; right++) {
+    const curr = inputStr[right];
+    indexMap.set(curr, right);
 
-  for (let right = 0; right < input.length; right++) {
-    const currChar = input[right];
-    indexMap.set(currChar, right);
-
-    if (indexMap.size > uniqueCharCount) {
-      const minFreqCharIndex = Math.min(...indexMap.values());
-      indexMap.delete(input[minFreqCharIndex]);
-      left = minFreqCharIndex + 1;
+    if (indexMap.size > uniqueCharAllowed) {
+      // Remove the char which is at least index &
+      // increment left pointer to immediate right of that
+      const minFreqIndex = Math.min(...indexMap.values());
+      indexMap.delete(inputStr[minFreqIndex]);
+      left = 1 + minFreqIndex;
     }
 
     maxLength = Math.max(maxLength, right - left + 1);

@@ -38,3 +38,12 @@
 23. Maximum Sum Subarray - find the contiguous subarray that has the largest sum, and return that sum
 24. Next Permutation - find the next lexicographically greater permutation of a given sequence of numbers
 25. Reverse Vowels of a String
+
+### 17/11/2025
+26. 3 Sum - Find all unique triplets such as (nums[i]+nums[j]+nums[k]=0)
+27. Remove Duplicates from Sorted Array
+28. Longest Substring with At Most Two Distinct Characters
+
+
+29. Subarray Sum Equals K - total number of contiguous subarrays whose sum equals k
+30. Merge Two Sorted Arrays (in-place)
