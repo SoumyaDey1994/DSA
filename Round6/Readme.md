@@ -44,6 +44,8 @@
 27. Remove Duplicates from Sorted Array
 28. Longest Substring with At Most Two Distinct Characters
 
-
+### 19/11/2025
 29. Subarray Sum Equals K - total number of contiguous subarrays whose sum equals k
 30. Merge Two Sorted Arrays (in-place)
+31. Number of Islands
+32. Longest Consecutive Sequence - find the length of the longest consecutive sequence in a given number list
