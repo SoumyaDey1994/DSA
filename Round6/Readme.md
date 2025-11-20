@@ -49,3 +49,8 @@
 30. Merge Two Sorted Arrays (in-place)
 31. Number of Islands
 32. Longest Consecutive Sequence - find the length of the longest consecutive sequence in a given number list
+
+### 20/11/2025
+33. Count Anagrams (Find All Anagrams in a String)
+34. Efficient Janitor Problem - Find the minimum number of trips required to move all the garbage bags
+35. Rotation count of a sorted array - Identify How Many Times a Sorted Array is Rotated
