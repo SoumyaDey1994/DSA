@@ -54,3 +54,9 @@
 33. Count Anagrams (Find All Anagrams in a String)
 34. Efficient Janitor Problem - Find the minimum number of trips required to move all the garbage bags
 35. Rotation count of a sorted array - Identify How Many Times a Sorted Array is Rotated
+
+### 22/11/2025
+36. Word Ladder Problem - Given two words, beginWord and endWord, and a wordList, goal is to transform beginWord into endWord by changing only one letter at a time
+37. Coin Change - Get min no of coins to get change
+38. Coin Change - Get no of ways to get change of a given
+39. Unique Paths (Robot Grid Path Count)
