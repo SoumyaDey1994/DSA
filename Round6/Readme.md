@@ -60,3 +60,13 @@
 37. Coin Change - Get min no of coins to get change
 38. Coin Change - Get no of ways to get change of a given
 39. Unique Paths (Robot Grid Path Count)
+
+### 23/11/2025
+40. Surrounded Regions
+41. Count and Say - countAndSay(n) is obtained by describing the previous term (countAndSay(n-1)) 
+42. Proper Fraction - Find the number of proper fractions that can be formed for given Numerator N
+43. Find Frequency in a Sorted Number Array - Find number of times the target number appears
+44. Find square-root of a number using Binary Search
+
+
+45. House Thief (House Robber) Problem
