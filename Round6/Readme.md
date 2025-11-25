@@ -70,3 +70,8 @@
 
 ### 24/11/2025
 45. House Thief (House Robber) Problem
+
+### 25/11/2025
+46. Contains Duplicate
+46. Intersection of Two Arrays II
+47. First Unique Character in a String
