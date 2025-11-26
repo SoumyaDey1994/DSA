@@ -75,3 +75,8 @@
 46. Contains Duplicate
 46. Intersection of Two Arrays II
 47. First Unique Character in a String
+
+### 26/11/2025
+48. Majority Element (Boyer-Moore)
+49. Binary Search (Classic)
+50. Valid Palindrome II (Allow deleting 1 char)
