@@ -80,3 +80,10 @@
 48. Majority Element (Boyer-Moore)
 49. Binary Search (Classic)
 50. Valid Palindrome II (Allow deleting 1 char)
+
+### 28/11/2025
+51. Best Time to Buy and Sell Stock (I) - Classic profit-maximization using running minimum.
+
+### 29/11/2025
+52. Happy Number
+53. Missing Number
