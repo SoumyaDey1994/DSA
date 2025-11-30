@@ -87,3 +87,7 @@
 ### 29/11/2025
 52. Happy Number
 53. Missing Number
+
+### 30/11/2025
+54. Spiral Matrix II
+55. Top K Frequent Elements
