@@ -134,12 +134,12 @@
 
 65. Rotate Image (Matrix Rotation)
 
-66. Kth Smallest Element in a BST
+66. Kth Smallest Element in a BST - IP
 
-67. Spiral Matrix II
+67. Spiral Matrix II - Done
 
-68. Binary Tree Right Side View
+68. Binary Tree Right Side View - IP
 
-69. Top K Frequent Elements
+69. Top K Frequent Elements - IP
 
 70. Set Matrix Zeroes

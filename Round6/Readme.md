@@ -91,3 +91,12 @@
 ### 30/11/2025
 54. Spiral Matrix II
 55. Top K Frequent Elements
+
+### 01/12/2025
+56. Binary Tree Level Order Traversal → Print a binary tree level by level
+57. Lowest Common Ancestor of Two Nodes → Find the lowest common ancestor of two nodes in a binary tree
+58. Maximum Depth of Binary Tree → Find the maximum depth of a binary tree using DFS/BFS
+59. Check a Binary Tree is BST or not
+60. Invert the Binary Tree
+61. Kth Smallest Element in a BST
+62. Binary Tree Right Side View
