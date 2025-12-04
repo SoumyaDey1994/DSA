@@ -104,3 +104,10 @@
 ### 02/12/2025
 63. Rotate Image (Matrix Rotation)
 64. Set Matrix Zeroes
+
+### 04/12/2025
+51. Reverse a Linked List – Reverse a singly linked list. (Iterative & Recursive)
+52. Merge Two Sorted Lists – Merge two sorted linked lists into one sorted list
+
+
+53. Swap adjacent nodes of a Singly Linked List
