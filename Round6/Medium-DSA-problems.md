@@ -132,14 +132,14 @@
 
 ### Added 6 New Medium Problems
 
-65. Rotate Image (Matrix Rotation)
+65. Rotate Image (Matrix Rotation) - Done
 
-66. Kth Smallest Element in a BST - IP
+66. Kth Smallest Element in a BST - Done
 
 67. Spiral Matrix II - Done
 
-68. Binary Tree Right Side View - IP
+68. Binary Tree Right Side View - Done
 
-69. Top K Frequent Elements - IP
+69. Top K Frequent Elements - Done
 
 70. Set Matrix Zeroes

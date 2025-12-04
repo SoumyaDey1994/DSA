@@ -100,3 +100,7 @@
 60. Invert the Binary Tree
 61. Kth Smallest Element in a BST
 62. Binary Tree Right Side View
+
+### 02/12/2025
+63. Rotate Image (Matrix Rotation)
+64. Set Matrix Zeroes
