@@ -114,3 +114,5 @@
 68. Find Nth Element of a SLL from End
 69. Detect Cycle is a Single Linked List
 
+### 07/12/2025
+70. Find Merge-point of 2 SLL
