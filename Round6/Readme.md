@@ -116,3 +116,14 @@
 
 ### 07/12/2025
 70. Find Merge-point of 2 SLL
+
+### 10/12/2025
+71. Function Curry
+72. Function toString() Formatter
+73. Find Element in Rotated Sorted Array
+74. Capacity To Ship Packages Within D Days
+
+
+
+75. Find the Smallest Divisor Given a Threshold
+76. Aggressive Cows (or Allocate Minimum Pages) Problem
