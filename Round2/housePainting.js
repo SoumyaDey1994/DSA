@@ -42,7 +42,7 @@ function getWays(currHouse, prevColor, noOfHouses, noOfColors, lastColor) {
     let ways = 0;
     for(let currColor=1; currColor<=noOfColors; currColor++) {
         if(prevColor !== currColor) {
-            const newWays = getWays(currHouse+1, currColor, noOfHouses, noOfColors, lastColor, memo);
+            const newWays = getWays(currHouse+1, currColor, noOfHouses, noOfColors, lastColor);
             ways += newWays;
         }
     }

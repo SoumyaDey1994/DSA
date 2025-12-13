@@ -126,3 +126,9 @@
 ### 11/12/2025
 75. Find the Smallest Divisor Given a Threshold
 76. Aggressive Cows (or Allocate Minimum Pages) Problem
+
+### 12/12/2025
+77. Max Consecutive Ones III
+78. Course Schedule - I
+79. Course Schedule - II
+80. House Painting Problem
