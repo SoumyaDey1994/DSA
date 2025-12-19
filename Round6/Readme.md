@@ -138,3 +138,15 @@
 ### 15/12/2025
 81. Pacific-Atlantic Water Flow
 82. Clone Graph
+
+### 19/12/2025
+83. Get All Possible Permutations
+84. Get All Possible Combinations
+85. Palindrome Partitioning
+86. Sliding Window Maximum
+
+
+87. Combination Sum
+88. Combination Sum II
+89. Permutation in String
+90. N-Queens Problem
