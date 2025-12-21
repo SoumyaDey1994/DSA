@@ -149,10 +149,13 @@
 87. Combination Sum
 88. Combination Sum II
 
+### 21/12/2025
+89. Check Balanced Parenthesis - Find out given expression is balanced or not
+90. N-Queens Problem
+91. Min Stack - Implement stack supporting O(1) min()
+
 
 89. Permutation in String
-90. N-Queens Problem
 91. Rotten Mangoes Problem -  Return the minimum time required for all fresh mangoes to rot
 92. Minimum window substring
-93. Check Balanced Parenthesis - Find out given expression is balanced or not
 94. Min Stack - Implement stack supporting O(1) min()
