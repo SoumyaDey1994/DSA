@@ -155,7 +155,10 @@
 91. Min Stack - Implement stack supporting O(1) min()
 
 
-89. Permutation in String
-91. Rotten Mangoes Problem -  Return the minimum time required for all fresh mangoes to rot
+### 22/12/2025
 92. Minimum window substring
-94. Min Stack - Implement stack supporting O(1) min()
+93. Rotten Mangoes Problem -  Return the minimum time required for all fresh mangoes to rot
+
+94. Permutation in String
+
+
