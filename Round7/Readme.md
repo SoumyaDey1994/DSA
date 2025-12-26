@@ -2,9 +2,9 @@
 
 a. Two Sum -- Done
 
-b. Word Break
+b. Word Break -- Done
 
-c. Binary Tree Level Order Traversal
+c. Merge Intervals -- Done
 
 d. Product of Array Except Self -- Done
 
@@ -12,15 +12,15 @@ e. Happy Number -- Done
 
 ## 🧩 Batch 2
 
-Merge Intervals
+a. Binary Tree Level Order Traversal
 
-Find square-root using Binary Search
+b. Find square-root using Binary Search
 
-Reverse a Linked List
+c. Reverse a Linked List
 
-Group Anagrams
+d. Group Anagrams -- Done
 
-Best Time to Buy and Sell Stock (I)
+e. Best Time to Buy and Sell Stock (I) -- Done
 
 ## 🧩 Batch 3
 
