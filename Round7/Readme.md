@@ -12,11 +12,11 @@ e. Happy Number -- Done
 
 ## 🧩 Batch 2
 
-a. Binary Tree Level Order Traversal
+a. Binary Tree Level Order Traversal -- Done
 
-b. Find square-root using Binary Search
+b. Find square-root using Binary Search -- Done
 
-c. Reverse a Linked List
+c. Reverse a Linked List -- Done
 
 d. Group Anagrams -- Done
 
