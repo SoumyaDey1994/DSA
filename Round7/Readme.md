@@ -1,18 +1,18 @@
 ## 🧩 Batch 1
 
-a. Two Sum -- Done
-b. Word Break -- Done
-c. Merge Intervals -- Done
-d. Product of Array Except Self -- Done
-e. Happy Number -- Done
+a. Two Sum
+b. Word Break
+c. Merge Intervals
+d. Product of Array Except Self
+e. Happy Number
 
 ## 🧩 Batch 2
 
-a. Binary Tree Level Order Traversal -- Done
-b. Find square-root using Binary Search -- Done
-c. Reverse a Linked List -- Done
-d. Group Anagrams -- Done
-e. Best Time to Buy and Sell Stock (I) -- Done
+a. Binary Tree Level Order Traversal
+b. Find square-root using Binary Search
+c. Reverse a Linked List
+d. Group Anagrams
+e. Best Time to Buy and Sell Stock (I)
 
 ## 🧩 Batch 3
 
@@ -20,20 +20,15 @@ a. Longest Substring with Unique Characters
 b. Coin Change – Min Coins
 c. Number of Islands
 d. Contains Duplicate
-
-Rotate Image (Matrix Rotation)
+e. Rotate Image (Matrix Rotation)
 
 🧩 Batch 4
 
-Trapping Rain Water
-
-Binary Search (Classic)
-
-First Unique Character in a String
-
-Kth Smallest Element in a BST
-
-Function Curry
+a. Trapping Rain Water
+b. Binary Search (Classic)
+c. First Unique Character in a String
+d. Kth Smallest Element in a BST
+e. Function Curry
 
 🧩 Batch 5
 
@@ -48,7 +43,6 @@ Top K Frequent Elements
 Valid Palindrome II
 
 🧩 Batch 6
-
 
 3 Sum
 
@@ -67,7 +61,6 @@ Find Trailing Zeros in Factorial
 
 
 🧩 Batch 7
-
 
 Longest Consecutive Sequence
 

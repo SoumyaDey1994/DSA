@@ -1,6 +1,8 @@
 /**
- * Date: 1st Jan, 2025
- * Problem: Binary Tree - Level Order Traversal
+ * Date: 1st Jan, 2026
+ *    Problem: Binary Tree - Level Order Traversal
+ * Date: 2nd Jan, 2026
+ *    Problem: kth Smallest Element in Binary Tree
  */
 class Node {
   constructor(data) {
@@ -61,6 +63,34 @@ class BinaryTree {
 
     console.log(output.join("-->"));
   }
+
+  /**
+   * Find kth Smallest element of a binary tree
+   * @param {*} root 
+   * @param {*} k 
+   * @returns 
+   */
+  findKthSmallestElement(root, k) {
+    if (!root) return null;
+
+    let curr = root;
+    const stack = [];
+    while (curr !== null || stack.length > 0) {
+      while (curr !== null) {
+        stack.push(curr);
+        curr = curr.left;
+      }
+
+      curr = stack.pop();
+      k--;
+
+      if (k === 0) return curr;
+
+      curr = curr.right;
+    }
+
+    return null;
+  }
 }
 
 const node10 = new Node(10);
@@ -95,3 +125,15 @@ binaryTree
 
 console.log(`Tree level-order traversal after new inserts: `);
 binaryTree.printLevelOrder(binaryTree.root);
+
+let k = 3;
+let kthSmallestElement = binaryTree.findKthSmallestElement(binaryTree.root, k);
+console.log(`${k}th smallest element is: ${kthSmallestElement?.data}`);
+
+k = 4;
+kthSmallestElement = binaryTree.findKthSmallestElement(binaryTree.root, k);
+console.log(`${k}th smallest element is: ${kthSmallestElement?.data}`);
+
+k = 7;
+kthSmallestElement = binaryTree.findKthSmallestElement(binaryTree.root, k);
+console.log(`${k}th smallest element is: ${kthSmallestElement?.data}`);
