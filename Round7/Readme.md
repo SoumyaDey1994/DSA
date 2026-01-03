@@ -35,10 +35,8 @@ e. Function Curry
 a. Subarray Sum Equals K
 b. House Robber (House Thief)
 c. Top K Frequent Elements
-
-Detect Cycle in a Singly Linked List
-
-Valid Palindrome II
+d. Detect Cycle in a Singly Linked List
+e. Valid Palindrome II
 
 🧩 Batch 6
 

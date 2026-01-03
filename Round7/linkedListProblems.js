@@ -1,6 +1,8 @@
 /**
  * Date: 1st Jan, 2026
- * Problem: Reverse Singly Linked List
+ *    Problem: Reverse Singly Linked List
+ * Date: 3rd Jan, 2026
+ *    Problem: Detect Cycle in a Singly Linked List
  */
 class Node {
   constructor(data) {
@@ -78,6 +80,25 @@ class SinglyLinkedList {
     curr.next = prev;
     this.reverseListRecursive(curr, next);
   }
+
+  detectCycle() {
+    if (!this.head) return false;
+
+    let slow = this.head;
+    let fast = this.head;
+
+    slow = slow.next;
+    fast = fast.next?.next;
+
+    while (slow && fast) {
+      if (slow === fast) return true;
+
+      slow = slow.next;
+      fast = fast.next?.next;
+    }
+
+    return false;
+  }
 }
 
 const list = new SinglyLinkedList();
@@ -90,3 +111,5 @@ list.insert(8).insert(6).insert(4).insert(3).insert(1);
 console.log(`List Post Adding new elements: ${list.getList()}`);
 list.reverseListRecursive();
 console.log(`List Post Reverse (Recursive): ${list.getList()}`);
+
+console.log(`List has cycle: ${list.detectCycle()}`);
