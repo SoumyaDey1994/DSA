@@ -40,20 +40,13 @@ e. Valid Palindrome II
 
 🧩 Batch 6
 
-3 Sum
-
+a. 3 Sum
+b. Find Trailing Zeros in Factorial
+c. Majority Element (Boyer-Moore)
 
 Spiral Matrix II
 
-
-Majority Element (Boyer-Moore)
-
-
 Binary Tree Right Side View
-
-
-Find Trailing Zeros in Factorial
-
 
 
 🧩 Batch 7
