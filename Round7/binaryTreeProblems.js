@@ -3,6 +3,8 @@
  *    Problem: Binary Tree - Level Order Traversal
  * Date: 2nd Jan, 2026
  *    Problem: kth Smallest Element in Binary Tree
+ * Date: 5th Jan, 2026
+ *    Problem: Binary Tree Right-side view
  */
 class Node {
   constructor(data) {
@@ -66,9 +68,9 @@ class BinaryTree {
 
   /**
    * Find kth Smallest element of a binary tree
-   * @param {*} root 
-   * @param {*} k 
-   * @returns 
+   * @param {*} root
+   * @param {*} k
+   * @returns
    */
   findKthSmallestElement(root, k) {
     if (!root) return null;
@@ -90,6 +92,27 @@ class BinaryTree {
     }
 
     return null;
+  }
+
+  getRightSideView(root) {
+    if (!root) return;
+
+    const queue = [root];
+    const output = [];
+    while (queue.length > 0) {
+      const length = queue.length;
+      let rightMostVal = null;
+      for (let i = 0; i < length; i++) {
+        const curr = queue.shift();
+        rightMostVal = curr.data;
+
+        if (curr.left !== null) queue.push(curr.left);
+        if (curr.right !== null) queue.push(curr.right);
+      }
+      output.push(rightMostVal);
+    }
+
+    return output;
   }
 }
 
@@ -115,13 +138,15 @@ const node50 = new Node(50);
 const node1 = new Node(1);
 const node3 = new Node(3);
 const node13 = new Node(13);
+const node4 = new Node(4);
 
 binaryTree
   .insert(node11)
   .insert(node1)
   .insert(node13)
   .insert(node3)
-  .insert(node50);
+  .insert(node50)
+  .insert(node4);
 
 console.log(`Tree level-order traversal after new inserts: `);
 binaryTree.printLevelOrder(binaryTree.root);
@@ -137,3 +162,6 @@ console.log(`${k}th smallest element is: ${kthSmallestElement?.data}`);
 k = 7;
 kthSmallestElement = binaryTree.findKthSmallestElement(binaryTree.root, k);
 console.log(`${k}th smallest element is: ${kthSmallestElement?.data}`);
+
+const rightSideNodes = binaryTree.getRightSideView(binaryTree.root);
+console.log(rightSideNodes);

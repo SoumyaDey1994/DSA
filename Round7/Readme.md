@@ -43,29 +43,20 @@ e. Valid Palindrome II
 a. 3 Sum
 b. Find Trailing Zeros in Factorial
 c. Majority Element (Boyer-Moore)
-
-Spiral Matrix II
-
-Binary Tree Right Side View
+d. Spiral Matrix II
+e. Binary Tree Right Side View
 
 
 🧩 Batch 7
 
-Longest Consecutive Sequence
-
-
-Unique Paths (Robot Grid)
-
+a. Longest Consecutive Sequence
+b. Unique Paths (Robot Grid)
 
 Merge Two Sorted Lists
 
-
 Find Frequency in Sorted Array
 
-
 Min Stack
-
-
 
 🧩 Batch 8
 
