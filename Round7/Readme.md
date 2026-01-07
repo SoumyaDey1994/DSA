@@ -51,30 +51,21 @@ e. Binary Tree Right Side View
 
 a. Longest Consecutive Sequence
 b. Unique Paths (Robot Grid)
-
-Merge Two Sorted Lists
-
-Find Frequency in Sorted Array
-
-Min Stack
+c. Find Frequency in Sorted Array
+d. Merge Two Sorted Lists
+e. Move All Zeros to End
 
 🧩 Batch 8
 
+a. Min Stack
 
 Word Ladder
 
-
-Move All Zeros to End
-
-
 Check Balanced Parenthesis
-
 
 Set Matrix Zeroes
 
-
 Find Merge-Point of Two Linked Lists
-
 
 
 🧩 Batch 9
