@@ -58,20 +58,16 @@ e. Move All Zeros to End
 🧩 Batch 8
 
 a. Min Stack
+b. Word Ladder
+c. Check Balanced Parenthesis
+d. Find Merge-Point of Two Linked Lists
 
-Word Ladder
-
-Check Balanced Parenthesis
-
-Set Matrix Zeroes
-
-Find Merge-Point of Two Linked Lists
-
+e. Set Matrix Zeroes
 
 🧩 Batch 9
 
 
-Container With Most Water
+a. Container With Most Water
 
 
 Course Schedule – I
