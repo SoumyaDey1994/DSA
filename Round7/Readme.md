@@ -61,23 +61,15 @@ a. Min Stack
 b. Word Ladder
 c. Check Balanced Parenthesis
 d. Find Merge-Point of Two Linked Lists
-
 e. Set Matrix Zeroes
 
 🧩 Batch 9
 
 
 a. Container With Most Water
-
-
-Course Schedule – I
-
-
-Remove Duplicates from Sorted Array
-
-
-Number to Excel Column Title
-
+b. Remove Duplicates from Sorted Array
+c. Number to Excel Column Title
+d. Course Schedule – I
 
 Find Nth Node from End (SLL)
 
