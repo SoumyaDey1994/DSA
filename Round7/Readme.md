@@ -70,28 +70,18 @@ a. Container With Most Water
 b. Remove Duplicates from Sorted Array
 c. Number to Excel Column Title
 d. Course Schedule – I
-
-Find Nth Node from End (SLL)
-
+e. Find Nth Node from End (SLL)
 
 
 🧩 Batch 10
 
-
-Sliding Window Maximum
-
-
-Invert Binary Tree
-
-
-Missing Number
-
-
-Array Chunking
+a. Invert Binary Tree
+b. Sliding Window Maximum
+c. Missing Number
+d. Array Chunking
 
 
 Clone Graph
-
 
 
 🧩 Batch 11

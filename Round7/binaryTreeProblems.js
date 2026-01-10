@@ -5,6 +5,8 @@
  *    Problem: kth Smallest Element in Binary Tree
  * Date: 5th Jan, 2026
  *    Problem: Binary Tree Right-side view
+ * Date: 10th Jan, 2026
+ *    Problem: Invert the Binary Tree
  */
 class Node {
   constructor(data) {
@@ -114,6 +116,20 @@ class BinaryTree {
 
     return output;
   }
+
+  invertTree(root) {
+    if(!root) return null;
+
+    // perform swap
+    const temp = root.left;
+    root.left = root.right;
+    root.right = temp;
+    // recursively check the child & revert
+    this.invertTree(root.left);
+    this.invertTree(root.right);
+
+    return this;
+  }
 }
 
 const node10 = new Node(10);
@@ -165,3 +181,7 @@ console.log(`${k}th smallest element is: ${kthSmallestElement?.data}`);
 
 const rightSideNodes = binaryTree.getRightSideView(binaryTree.root);
 console.log(rightSideNodes);
+
+binaryTree.invertTree(binaryTree.root);
+console.log(`Binary Tree leve-order post invert`)
+binaryTree.printLevelOrder(binaryTree.root);

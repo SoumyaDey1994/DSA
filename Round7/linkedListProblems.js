@@ -3,6 +3,8 @@
  *    Problem: Reverse Singly Linked List
  * Date: 3rd Jan, 2026
  *    Problem: Detect Cycle in a Singly Linked List
+ * Date: 10th Jan, 2026
+ *    Problem: Find Nth node from end
  */
 class Node {
   constructor(data) {
@@ -99,6 +101,24 @@ class SinglyLinkedList {
 
     return false;
   }
+
+  findNthNodeFromEnd(n) {
+    if (n < 0 || !this.head) return null;
+
+    let temp = this.head;
+    while (n > 0 && temp !== null) {
+      temp = temp.next;
+      n--;
+    }
+
+    let temp2 = this.head;
+    while (temp !== null && temp2 !== null) {
+      temp = temp.next;
+      temp2 = temp2.next;
+    }
+
+    return temp2;
+  }
 }
 
 const list = new SinglyLinkedList();
@@ -113,3 +133,15 @@ list.reverseListRecursive();
 console.log(`List Post Reverse (Recursive): ${list.getList()}`);
 
 console.log(`List has cycle: ${list.detectCycle()}`);
+
+const secLastNode = list.findNthNodeFromEnd(2);
+console.log(`2nd last node is: ${secLastNode.data}`);
+
+const thirdLastNode = list.findNthNodeFromEnd(3);
+console.log(`3rd last node is: ${thirdLastNode.data}`);
+
+const sixthLastNode = list.findNthNodeFromEnd(6);
+console.log(`6th last node is: ${sixthLastNode.data}`);
+
+const eightLastNode = list.findNthNodeFromEnd(8);
+console.log(`6th last node is: ${eightLastNode.data}`);
