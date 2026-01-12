@@ -84,36 +84,23 @@ e. Clone Graph
 
 🧩 Batch 11
 
-
-Minimum Window Substring
-
-
-Count Anagrams (Find All Anagrams in String)
-
-
-Lowest Common Ancestor of Binary Tree
-
-
-Prime Factors
-
-
-Find Element in Rotated Sorted Array
-
+a. Prime Factors
+b. Lowest Common Ancestor of Binary Tree
+c. Count Anagrams (Find All Anagrams in String)
+d. Find Element in Rotated Sorted Array
+e. Reverse Vowels of a String
+f. Coin Change – Number of Ways
 
 
 🧩 Batch 12
 
 
+Minimum Window Substring
+
 Max Consecutive Ones III
 
 
-Coin Change – Number of Ways
-
-
 Intersection of Two Arrays II
-
-
-Reverse Vowels of a String
 
 
 Check Binary Tree is BST

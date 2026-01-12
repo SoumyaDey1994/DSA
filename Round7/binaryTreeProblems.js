@@ -7,6 +7,8 @@
  *    Problem: Binary Tree Right-side view
  * Date: 10th Jan, 2026
  *    Problem: Invert the Binary Tree
+ * Date: 12th Jan, 2026
+ *    Problem: Lowest Common Ancestor of Binary Tree
  */
 class Node {
   constructor(data) {
@@ -118,7 +120,7 @@ class BinaryTree {
   }
 
   invertTree(root) {
-    if(!root) return null;
+    if (!root) return null;
 
     // perform swap
     const temp = root.left;
@@ -129,6 +131,23 @@ class BinaryTree {
     this.invertTree(root.right);
 
     return this;
+  }
+
+  findLCANode(root, fNode, sNode) {
+    if (!root) return null;
+
+    if (root.left === fNode || root.right === sNode) {
+      return root;
+    }
+
+    const leftLCA = this.findLCANode(root.left, fNode, sNode);
+    const rightLCA = this.findLCANode(root.right, fNode, sNode);
+
+    if (!leftLCA && !rightLCA) return null;
+
+    if (leftLCA && rightLCA) return root;
+
+    return leftLCA ? leftLCA : rightLCA;
   }
 }
 
@@ -183,5 +202,14 @@ const rightSideNodes = binaryTree.getRightSideView(binaryTree.root);
 console.log(rightSideNodes);
 
 binaryTree.invertTree(binaryTree.root);
-console.log(`Binary Tree leve-order post invert`)
+console.log(`Binary Tree leve-order post invert`);
 binaryTree.printLevelOrder(binaryTree.root);
+
+let lcaNode = binaryTree.findLCANode(binaryTree.root, node5, node12);
+console.log(`LCA of node ${node5.data} & ${node12.data} is: ${lcaNode?.data}`);
+
+lcaNode = binaryTree.findLCANode(binaryTree.root, node3, node13);
+console.log(`LCA of node ${node3.data} & ${node13.data} is: ${lcaNode?.data}`);
+
+lcaNode = binaryTree.findLCANode(binaryTree.root, node11, node13);
+console.log(`LCA of node ${node11.data} & ${node13.data} is: ${lcaNode?.data}`);
