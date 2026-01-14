@@ -94,17 +94,12 @@ f. Coin Change – Number of Ways
 
 🧩 Batch 12
 
-
-Minimum Window Substring
-
-Max Consecutive Ones III
+a. Check Binary Tree is BST
+b. Max Consecutive Ones III
 
 
-Intersection of Two Arrays II
-
-
-Check Binary Tree is BST
-
+c. Intersection of Two Arrays II
+d. Minimum Window Substring
 
 
 🧩 Batch 13

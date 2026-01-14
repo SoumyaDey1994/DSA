@@ -9,6 +9,8 @@
  *    Problem: Invert the Binary Tree
  * Date: 12th Jan, 2026
  *    Problem: Lowest Common Ancestor of Binary Tree
+ * Date: 14th Jan, 2026
+ *    Problem: Check if a Binary is BST or not
  */
 class Node {
   constructor(data) {
@@ -149,6 +151,20 @@ class BinaryTree {
 
     return leftLCA ? leftLCA : rightLCA;
   }
+
+  isBST(root) {
+    if (!root) return false;
+
+    if (root.left === null && root.right === null) return true;
+
+    if (root.left && root.data < root.left.data) return false;
+    if (root.right && root.data > root.right.data) return false;
+
+    const isLeftSubtreeBST = this.isBST(root.left);
+    const isRightSubtreeBST = this.isBST(root.right);
+
+    return isLeftSubtreeBST && isRightSubtreeBST;
+  }
 }
 
 const node10 = new Node(10);
@@ -213,3 +229,28 @@ console.log(`LCA of node ${node3.data} & ${node13.data} is: ${lcaNode?.data}`);
 
 lcaNode = binaryTree.findLCANode(binaryTree.root, node11, node13);
 console.log(`LCA of node ${node11.data} & ${node13.data} is: ${lcaNode?.data}`);
+
+let isTreeBST = binaryTree.isBST(binaryTree.root);
+console.log(`Is Tree BST: ${isTreeBST}`);
+
+const node100 = new Node(100);
+const node90 = new Node(90);
+const node120 = new Node(120);
+const node80 = new Node(80);
+const node110 = new Node(110);
+const node130 = new Node(130);
+const node95 = new Node(95);
+
+const binaryTree2 = new BinaryTree();
+binaryTree2
+  .insert(node100)
+  .insert(node90)
+  .insert(node120)
+  .insert(node80)
+  .insert(node110);
+isTreeBST = binaryTree2.isBST(binaryTree2.root);
+console.log(`Is New Tree BST: ${isTreeBST}`);
+
+binaryTree2.insert(node95).insert(node130);
+isTreeBST = binaryTree2.isBST(binaryTree2.root);
+console.log(`Is New Tree BST (post inserting 2 more nodes): ${isTreeBST}`);
