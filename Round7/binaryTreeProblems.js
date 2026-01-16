@@ -11,6 +11,8 @@
  *    Problem: Lowest Common Ancestor of Binary Tree
  * Date: 14th Jan, 2026
  *    Problem: Check if a Binary is BST or not
+ * Date: 16th Jan, 2026
+ *    Problem: Binary Tree Maximum Depth
  */
 class Node {
   constructor(data) {
@@ -165,6 +167,15 @@ class BinaryTree {
 
     return isLeftSubtreeBST && isRightSubtreeBST;
   }
+
+  findMaxDepth(root) {
+    if (!root) return 0;
+
+    const leftDepth = 1 + this.findMaxDepth(root.left);
+    const rightDepth = 1 + this.findMaxDepth(root.right);
+
+    return Math.max(leftDepth, rightDepth);
+  }
 }
 
 const node10 = new Node(10);
@@ -254,3 +265,6 @@ console.log(`Is New Tree BST: ${isTreeBST}`);
 binaryTree2.insert(node95).insert(node130);
 isTreeBST = binaryTree2.isBST(binaryTree2.root);
 console.log(`Is New Tree BST (post inserting 2 more nodes): ${isTreeBST}`);
+
+console.log(`Depth of Tree 1: ${binaryTree.findMaxDepth(binaryTree.root)}`);
+console.log(`Depth of Tree 2: ${binaryTree2.findMaxDepth(binaryTree2.root)}`);

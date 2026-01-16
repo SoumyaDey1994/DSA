@@ -96,8 +96,6 @@ f. Coin Change – Number of Ways
 
 a. Check Binary Tree is BST
 b. Max Consecutive Ones III
-
-
 c. Intersection of Two Arrays II
 d. Minimum Window Substring
 
@@ -105,20 +103,12 @@ d. Minimum Window Substring
 🧩 Batch 13
 
 
+a. Binary Tree Maximum Depth
+b. Efficient Janitor Problem
+c. Find Leftmost Repeating Character
+d. Zigzag Conversion
+
 Aggressive Cows / Allocate Minimum Pages
-
-
-Binary Tree Maximum Depth
-
-
-Efficient Janitor Problem
-
-
-Zigzag Conversion
-
-
-Find Leftmost Repeating Character
-
 
 
 🧩 Batch 14
