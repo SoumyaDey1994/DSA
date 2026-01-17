@@ -107,27 +107,15 @@ a. Binary Tree Maximum Depth
 b. Efficient Janitor Problem
 c. Find Leftmost Repeating Character
 d. Zigzag Conversion
-
-Aggressive Cows / Allocate Minimum Pages
-
+e. Aggressive Cows / Allocate Minimum Pages
 
 🧩 Batch 14
 
-
-Course Schedule – II
-
-
-Find Kth Highest Element
-
-
-Print 2D Array in Spiral Order
-
-
-Proper Fraction
-
-
-Function toString Formatter
-
+a. Function toString Formatter
+b. Find Kth Highest Element
+c. Proper Fraction
+d. Course Schedule – II
+e. Print 2D Array in Spiral Order
 
 
 🧩 Batch 15
