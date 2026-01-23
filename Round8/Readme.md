@@ -15,3 +15,11 @@ b. Find square-root using Binary Search
 c. Group Anagrams
 d. Best Time to Buy and Sell Stock (I)
 e. Reverse a Linked List
+
+### 23/01/2026
+a. Longest Substring with Unique Characters
+b. Coin Change – Min Coins
+
+c. Number of Islands
+d. Contains Duplicate
+e. Rotate Image (Matrix Rotation)
