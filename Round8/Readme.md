@@ -20,6 +20,8 @@ e. Reverse a Linked List
 a. Longest Substring with Unique Characters
 b. Coin Change – Min Coins
 
+### 24/01/2026
 c. Number of Islands
 d. Contains Duplicate
 e. Rotate Image (Matrix Rotation)
+
