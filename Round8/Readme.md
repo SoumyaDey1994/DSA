@@ -25,3 +25,9 @@
 14. Contains Duplicate
 15. Rotate Image (Matrix Rotation)
 
+### 25/01/2026
+16. Trapping Rain Water
+17. Binary Search (Classic)
+18. First Unique Character in a String
+19. Kth Smallest Element in a BST
+20. Function Curry

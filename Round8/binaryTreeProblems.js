@@ -47,7 +47,11 @@ class BinaryTree {
     console.log(root.data);
     this.printInOrderTraversal(root.right);
   }
-
+  /**
+   * Levele-order traversal of binary tree
+   * @param {*} root
+   * @returns
+   */
   printLevelOrder(root) {
     if (!root) return;
 
@@ -62,6 +66,34 @@ class BinaryTree {
         queue.push(current.right);
       }
     }
+  }
+  /**
+   * Kth Smallest element in BST
+   *
+   */
+
+  findKthSmallestElement(root, k) {
+    if (!root) return null;
+
+    const stack = [];
+    let curr = root;
+
+    while (curr !== null || stack.length > 0) {
+      while (curr !== null) {
+        stack.push(curr);
+        curr = curr.left;
+      }
+
+      curr = stack.pop();
+      k--;
+      if (k === 0) {
+        return curr;
+      }
+
+      curr = curr.right;
+    }
+
+    return null;
   }
 }
 
@@ -87,3 +119,15 @@ tree.printInOrderTraversal(tree.root);
 
 console.log(`.....Binary Tree Level-order Traversal.....`);
 tree.printLevelOrder(tree.root);
+
+let k = 3;
+let kthSmallestElement = tree.findKthSmallestElement(tree.root, k);
+console.log(`${k}th smallest element is: ${kthSmallestElement?.data}`);
+
+k = 4;
+kthSmallestElement = tree.findKthSmallestElement(tree.root, k);
+console.log(`${k}th smallest element is: ${kthSmallestElement?.data}`);
+
+k = 7;
+kthSmallestElement = tree.findKthSmallestElement(tree.root, k);
+console.log(`${k}th smallest element is: ${kthSmallestElement?.data}`);
