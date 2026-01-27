@@ -31,3 +31,12 @@
 18. First Unique Character in a String
 19. Kth Smallest Element in a BST
 20. Function Curry
+
+### 26/01/2026
+21. Subarray Sum Equals K
+22. House Robber (House Thief)
+23. Top K Frequent Elements
+24. Valid Palindrome II
+
+d. Detect Cycle in a Singly Linked List
+
