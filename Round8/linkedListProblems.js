@@ -79,6 +79,28 @@ class SinglyLinkedList {
     this.reverseListRecursive(next, curr);
     return this;
   }
+  /**
+   * Check if any cycle present in SLL
+   * @returns 
+   */
+  detectCycle() {
+    if (!this.head) return false;
+
+    let slow = this.head;
+    let fast = this.head;
+
+    slow = slow.next;
+    fast = fast.next?.next;
+
+    while (slow && fast) {
+      if (slow === fast) return true;
+
+      slow = slow.next;
+      fast = fast.next?.next;
+    }
+
+    return false;
+  }
 }
 
 const list = new SinglyLinkedList();
@@ -105,3 +127,5 @@ list.insertNode(node8).insertNode(node5).insertNode(node3);
 console.log(`List Post Adding new elements: ${list.getList()}`);
 list.reverseListRecursive();
 console.log(`List Post Reverse (Recursive): ${list.getList()}`);
+
+console.log(`List has cycle ? ${list.detectCycle()}`);

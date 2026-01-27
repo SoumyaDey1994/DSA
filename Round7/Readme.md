@@ -120,22 +120,11 @@ e. Print 2D Array in Spiral Order
 
 🧩 Batch 15
 
-
-Pacific Atlantic Water Flow
-
-
-Capacity To Ship Packages Within D Days
-
-
-Isomorphic Strings
-
-
-Merge Two Sorted Arrays (in-place)
-
-
-Find Smallest Divisor Given Threshold
-
-
+a. Isomorphic Strings
+b. Merge Two Sorted Arrays (in-place)
+c. Pacific Atlantic Water Flow
+d. Capacity To Ship Packages Within D Days
+e. Find Smallest Divisor Given Threshold
 
 🧩 Batch 16
 

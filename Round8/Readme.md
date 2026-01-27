@@ -38,5 +38,6 @@
 23. Top K Frequent Elements
 24. Valid Palindrome II
 
-d. Detect Cycle in a Singly Linked List
+### 27/01/2026
+25. Detect Cycle in a Singly Linked List
 
