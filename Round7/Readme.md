@@ -129,13 +129,10 @@ e. Find Smallest Divisor Given Threshold
 🧩 Batch 16
 
 a. Rotation Count of Sorted Array
-
 b. Get All Possible Permutations
-
 c. Find All Possible Combinations
-
 d. Palindrome Partitioning
-
+e. Max Consecutive Ones III
 
 🧩 Batch 17
 
@@ -186,6 +183,4 @@ Permutation in String
 
 House Painting Problem
 
-
-Max Consecutive Ones III
 
