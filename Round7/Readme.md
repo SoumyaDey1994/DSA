@@ -128,21 +128,13 @@ e. Find Smallest Divisor Given Threshold
 
 🧩 Batch 16
 
+a. Rotation Count of Sorted Array
 
-Get All Possible Permutations
+b. Get All Possible Permutations
 
+c. Find All Possible Combinations
 
-Palindrome Partitioning
-
-
-Binary Tree Right Side View
-
-
-Rotation Count of Sorted Array
-
-
-Find All Possible Combinations
-
+d. Palindrome Partitioning
 
 
 🧩 Batch 17

@@ -1,5 +1,5 @@
 /**
- * Date: 19th Dec, 2025
+ * Date: 28th Jan, 2026
  * Problem Statement: Permutation of an Array
  * Find all possible Orders from given list of nums using Backtracking
  * Example 1:
@@ -12,23 +12,21 @@
 function getAllPermutations(nums) {
   if (!nums || nums.length <= 1) return nums;
 
-  const dp = new Array(nums.length).fill(false);
   const result = [];
+  const dp = new Array(nums.length).fill(false);
 
-  backtrack(nums, [], dp, result);
+  backtrack(nums, [], dp, result); // nums, curr, dp, result
   return result;
 }
 
 function backtrack(nums, curr, dp, result) {
-  // console.log("curr: ", curr);
   if (curr.length === nums.length) {
-    // console.log(`Getting pushed: `, curr)
     result.push([...curr]);
     return;
   }
 
   for (let i = 0; i < nums.length; i++) {
-    if (dp[i] === true) continue;
+    if (dp[i]) continue;
 
     dp[i] = true;
     curr.push(nums[i]);
@@ -36,8 +34,7 @@ function backtrack(nums, curr, dp, result) {
     backtrack(nums, curr, dp, result);
 
     dp[i] = false;
-    const popped = curr.pop();
-    // console.log(`Getting popped: `, popped);
+    curr.pop();
   }
 }
 
