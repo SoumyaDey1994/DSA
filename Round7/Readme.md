@@ -136,21 +136,11 @@ e. Max Consecutive Ones III
 
 🧩 Batch 17
 
-
-N-Queens Problem
-
-
-Combination Sum
-
-
-Combination Sum II
-
-
-Swap Adjacent Nodes in Linked List
-
-
-Longest Palindromic Substring
-
+a. Longest Palindromic Substring
+b. Swap Adjacent Nodes in Linked List
+c. Combination Sum
+d. Combination Sum II
+e. Find Longest Substring with At Most Two Distinct Characters
 
 
 🧩 Batch 18
@@ -158,8 +148,7 @@ Longest Palindromic Substring
 
 Surrounded Regions
 
-
-Find Longest Substring with At Most Two Distinct Characters
+N-Queens Problem
 
 
 Find Smallest Divisor Given Threshold

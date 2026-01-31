@@ -5,6 +5,7 @@
  *    Problem: Detect Cycle in a Singly Linked List
  * Date: 10th Jan, 2026
  *    Problem: Find Nth node from end
+ * Date: 31st Jan, 2026
  */
 class Node {
   constructor(data) {
@@ -119,6 +120,28 @@ class SinglyLinkedList {
 
     return temp2;
   }
+
+  swapAdjacentNodes() {
+    if (!this.head) return;
+
+    let prev = null,
+      curr = this.head;
+
+    while (curr !== null && curr.next !== null) {
+      const adj = curr.next;
+      const nextHop = adj.next;
+
+      if (prev === null) {
+        this.head = adj;
+      } else {
+        prev.next = adj;
+      }
+      adj.next = curr;
+      curr.next = nextHop;
+      prev = curr;
+      curr = nextHop;
+    }
+  }
 }
 
 const list = new SinglyLinkedList();
@@ -145,3 +168,9 @@ console.log(`6th last node is: ${sixthLastNode.data}`);
 
 const eightLastNode = list.findNthNodeFromEnd(8);
 console.log(`6th last node is: ${eightLastNode.data}`);
+
+console.log(`.......Testing Adjacent Node Swapping.......`);
+list.insert(40);
+console.log(`List Before SWAP: ${list.getList()}`);
+list.swapAdjacentNodes();
+console.log(`List After SWAP: ${list.getList()}`);
