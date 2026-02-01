@@ -6,6 +6,7 @@
  * Date: 10th Jan, 2026
  *    Problem: Find Nth node from end
  * Date: 31st Jan, 2026
+ *    Problem: Swap adjacent nodes of a SLL
  */
 class Node {
   constructor(data) {

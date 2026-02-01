@@ -142,23 +142,12 @@ c. Combination Sum
 d. Combination Sum II
 e. Find Longest Substring with At Most Two Distinct Characters
 
-
 🧩 Batch 18
 
-
-Surrounded Regions
-
-N-Queens Problem
-
-
-Find Smallest Divisor Given Threshold
-
-
-Count and Say
-
-
-Find Nth Element from End of Linked List
-
+a. Surrounded Regions
+b. N-Queens Problem
+c. Count and Say
+d. Next Permutation
 
 
 🧩 Batch 19 (Last – 4 problems)
