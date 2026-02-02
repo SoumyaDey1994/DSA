@@ -22,7 +22,7 @@ c. Number of Islands
 d. Contains Duplicate
 e. Rotate Image (Matrix Rotation)
 
-🧩 Batch 4
+## 🧩 Batch 4
 
 a. Trapping Rain Water
 b. Binary Search (Classic)
@@ -30,7 +30,7 @@ c. First Unique Character in a String
 d. Kth Smallest Element in a BST
 e. Function Curry
 
-🧩 Batch 5
+## 🧩 Batch 5
 
 a. Subarray Sum Equals K
 b. House Robber (House Thief)
@@ -38,7 +38,7 @@ c. Top K Frequent Elements
 d. Detect Cycle in a Singly Linked List
 e. Valid Palindrome II
 
-🧩 Batch 6
+## 🧩 Batch 6
 
 a. 3 Sum
 b. Find Trailing Zeros in Factorial
@@ -46,8 +46,7 @@ c. Majority Element (Boyer-Moore)
 d. Spiral Matrix II
 e. Binary Tree Right Side View
 
-
-🧩 Batch 7
+## 🧩 Batch 7
 
 a. Longest Consecutive Sequence
 b. Unique Paths (Robot Grid)
@@ -55,7 +54,7 @@ c. Find Frequency in Sorted Array
 d. Merge Two Sorted Lists
 e. Move All Zeros to End
 
-🧩 Batch 8
+## 🧩 Batch 8
 
 a. Min Stack
 b. Word Ladder
@@ -63,8 +62,7 @@ c. Check Balanced Parenthesis
 d. Find Merge-Point of Two Linked Lists
 e. Set Matrix Zeroes
 
-🧩 Batch 9
-
+## 🧩 Batch 9
 
 a. Container With Most Water
 b. Remove Duplicates from Sorted Array
@@ -73,7 +71,7 @@ d. Course Schedule – I
 e. Find Nth Node from End (SLL)
 
 
-🧩 Batch 10
+## 🧩 Batch 10
 
 a. Invert Binary Tree
 b. Sliding Window Maximum
@@ -82,7 +80,7 @@ d. Array Chunking
 e. Clone Graph
 
 
-🧩 Batch 11
+## 🧩 Batch 11
 
 a. Prime Factors
 b. Lowest Common Ancestor of Binary Tree
@@ -92,7 +90,7 @@ e. Reverse Vowels of a String
 f. Coin Change – Number of Ways
 
 
-🧩 Batch 12
+## 🧩 Batch 12
 
 a. Check Binary Tree is BST
 b. Max Consecutive Ones III
@@ -100,7 +98,7 @@ c. Intersection of Two Arrays II
 d. Minimum Window Substring
 
 
-🧩 Batch 13
+## 🧩 Batch 13
 
 
 a. Binary Tree Maximum Depth
@@ -109,7 +107,7 @@ c. Find Leftmost Repeating Character
 d. Zigzag Conversion
 e. Aggressive Cows / Allocate Minimum Pages
 
-🧩 Batch 14
+## 🧩 Batch 14
 
 a. Function toString Formatter
 b. Find Kth Highest Element
@@ -118,7 +116,7 @@ d. Course Schedule – II
 e. Print 2D Array in Spiral Order
 
 
-🧩 Batch 15
+## 🧩 Batch 15
 
 a. Isomorphic Strings
 b. Merge Two Sorted Arrays (in-place)
@@ -126,7 +124,7 @@ c. Pacific Atlantic Water Flow
 d. Capacity To Ship Packages Within D Days
 e. Find Smallest Divisor Given Threshold
 
-🧩 Batch 16
+## 🧩 Batch 16
 
 a. Rotation Count of Sorted Array
 b. Get All Possible Permutations
@@ -134,7 +132,7 @@ c. Find All Possible Combinations
 d. Palindrome Partitioning
 e. Max Consecutive Ones III
 
-🧩 Batch 17
+## 🧩 Batch 17
 
 a. Longest Palindromic Substring
 b. Swap Adjacent Nodes in Linked List
@@ -142,7 +140,7 @@ c. Combination Sum
 d. Combination Sum II
 e. Find Longest Substring with At Most Two Distinct Characters
 
-🧩 Batch 18
+## 🧩 Batch 18
 
 a. Surrounded Regions
 b. N-Queens Problem
@@ -152,12 +150,11 @@ d. Next Permutation
 
 🧩 Batch 19 (Last – 4 problems)
 
+a. Rotten Mangoes Problem
 
-Rotten Mangoes Problem
-
+Word Search Problem
 
 Permutation in String
-
 
 House Painting Problem
 
