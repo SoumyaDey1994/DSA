@@ -151,11 +151,11 @@ d. Next Permutation
 🧩 Batch 19 (Last – 4 problems)
 
 a. Rotten Mangoes Problem
-
-Word Search Problem
+b. Word Search Problem
+c. House Painting Problem
 
 Permutation in String
 
-House Painting Problem
+
 
 
