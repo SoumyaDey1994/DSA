@@ -41,3 +41,11 @@
 ### 27/01/2026
 25. Detect Cycle in a Singly Linked List
 
+#### 05/02/2026
+26. 3 Sum
+
+
+b. Find Trailing Zeros in Factorial
+c. Majority Element (Boyer-Moore)
+d. Spiral Matrix II
+e. Binary Tree Right Side View

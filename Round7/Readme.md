@@ -147,13 +147,18 @@ b. N-Queens Problem
 c. Count and Say
 d. Next Permutation
 
-
 ## 🧩 Batch 19
 
 a. Rotten Mangoes Problem
 b. Word Search Problem
 c. House Painting Problem
 d. Find smallest deviation in a list
+e. Two Sum II – Input Array is Sorted: Given a sorted array, find two numbers such that they add up to a specific target. Return their indices
+
+## 🧩 Batch 20
+
+a. Climbing stairs - find no of ways to climb n stairs
+b. Maximum Sum Subarray
 
 Permutation in String
 
