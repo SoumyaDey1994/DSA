@@ -148,14 +148,13 @@ c. Count and Say
 d. Next Permutation
 
 
-🧩 Batch 19 (Last – 4 problems)
+## 🧩 Batch 19
 
 a. Rotten Mangoes Problem
 b. Word Search Problem
 c. House Painting Problem
+d. Find smallest deviation in a list
 
 Permutation in String
-
-
 
 
