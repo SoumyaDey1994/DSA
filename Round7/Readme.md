@@ -159,7 +159,9 @@ e. Two Sum II – Input Array is Sorted: Given a sorted array, find two numbers 
 
 a. Climbing stairs - find no of ways to climb n stairs
 b. Maximum Sum Subarray
+c. Peak Element
+d. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 
-Permutation in String
+e. Permutation in String
 
 
