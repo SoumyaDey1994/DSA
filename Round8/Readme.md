@@ -44,8 +44,10 @@
 #### 05/02/2026
 26. 3 Sum
 
+#### 07/02/2026
+27. Find Trailing Zeros in Factorial
+28. Majority Element (Boyer-Moore)
 
-b. Find Trailing Zeros in Factorial
-c. Majority Element (Boyer-Moore)
+
 d. Spiral Matrix II
 e. Binary Tree Right Side View
