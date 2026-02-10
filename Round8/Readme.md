@@ -48,6 +48,9 @@
 27. Find Trailing Zeros in Factorial
 28. Majority Element (Boyer-Moore)
 
+#### 10/02/2026
+29. Find smallest deviation in a list
+30. Peak Element
 
 d. Spiral Matrix II
 e. Binary Tree Right Side View
