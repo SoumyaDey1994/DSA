@@ -95,6 +95,28 @@ class BinaryTree {
 
     return null;
   }
+
+  getRightSideView(root) {
+    if (!root) return;
+
+    const queue = [root],
+      result = [];
+    while (queue.length > 0) {
+      let rightMostVal = null;
+      let curr = null;
+
+      while(queue.length > 0) {
+        curr = queue.shift();
+        rightMostVal = curr.data;
+      }
+      result.push(rightMostVal);
+
+      if (curr.left) queue.push(curr.left);
+      if (curr.right) queue.push(curr.right);
+    }
+
+    return result;
+  }
 }
 
 let tree = new BinaryTree();
@@ -131,3 +153,6 @@ console.log(`${k}th smallest element is: ${kthSmallestElement?.data}`);
 k = 7;
 kthSmallestElement = tree.findKthSmallestElement(tree.root, k);
 console.log(`${k}th smallest element is: ${kthSmallestElement?.data}`);
+
+const rightSideView = tree.getRightSideView(tree.root);
+console.log(`Right-side view of Binary Tree is: [${rightSideView}]`);

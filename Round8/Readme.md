@@ -52,5 +52,17 @@
 29. Find smallest deviation in a list
 30. Peak Element
 
-d. Spiral Matrix II
-e. Binary Tree Right Side View
+#### 11/02/2026
+31. Climbing stairs - find no of ways to climb n stairs
+32. Maximum Sum Subarray
+33. Move All Zeros to End
+34. Merge Two Sorted Lists
+35. Find Frequency in Sorted Array
+36. Longest Consecutive Sequence
+37. Binary Tree Right Side View
+38. Unique Paths (Robot Grid)
+39. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
+40. Spiral Matrix II
+
+
+
