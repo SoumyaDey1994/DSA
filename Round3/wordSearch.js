@@ -47,7 +47,7 @@ function isExists(matrix, word, row, col, index = 0) {
     return false;
   }
   // Base case: when last index is reached
-  if (index === word.length) return true;
+  if (index === word.length - 1) return true;
 
   const tempChar = matrix[row][col];
   // mark the char as visited

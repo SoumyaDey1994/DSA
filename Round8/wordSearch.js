@@ -1,5 +1,5 @@
 /**
- * Date: 3rd Feb, 2026
+ * Date: 12th Feb, 2026
  * Problem Statement: Word Search Problem
  * Given a m x n grid of characters (board) and a word (word), 
  * return true if the word exists in the grid. 
@@ -33,8 +33,8 @@
         word3: "WORLD"
             Output: false
  */
-function isWordExists(board, word) {
-  if (!board || board.length === 0 || board[0].length === 0) return;
+function checkIfWordExists(board, word) {
+  if (!board || board.length === 0 || board[0].length === 0) return false;
 
   const rowCount = board.length,
     colCount = board[0].length;
@@ -50,7 +50,7 @@ function isWordExists(board, word) {
   return false;
 }
 
-function isExists(board, word, row, col, index) {
+function isExists(board, word, row, col, startIndex) {
   const rowCount = board.length,
     colCount = board[0].length;
 
@@ -59,25 +59,25 @@ function isExists(board, word, row, col, index) {
     row >= rowCount ||
     col < 0 ||
     col >= colCount ||
-    board[row][col] !== word[index]
+    board[row][col] !== word[startIndex]
   )
     return false;
 
-  if (index === word.length - 1) return true;
+      // Base case: when last index is reached
+  if (startIndex === word.length - 1) return true;
 
   const temp = board[row][col];
-  // mark as visited
-  board[row][col] = "#";
+  board[row][col] = "#"; // mark as visited
 
-  const isWordPresent =
-    isExists(board, word, row - 1, col, index + 1) || // top
-    isExists(board, word, row + 1, col, index + 1) || // bottom
-    isExists(board, word, row, col - 1, index + 1) || // left
-    isExists(board, word, row, col + 1, index + 1); // right
+  // check in all 4 direction for next char
+  const isPresent = 
+    isExists(board, word, row - 1, col, startIndex + 1) ||
+      isExists(board, word, row + 1, col, startIndex + 1) ||
+      isExists(board, word, row, col - 1, startIndex + 1) ||
+      isExists(board, word, row, col + 1, startIndex + 1);
 
-  board[row][col] = temp;
-
-  return isWordPresent;
+  board[row][col] = temp; // backtrack
+  return isPresent;
 }
 
 let board = [
@@ -86,7 +86,7 @@ let board = [
   ["A", "D", "E", "E"],
 ];
 let word1 = "ABCCED";
-let isPresent = isWordExists(board, word1);
+let isPresent = checkIfWordExists(board, word1);
 console.log(`Word ${word1} exists in board: ${isPresent}`);
 
 board = [
@@ -98,9 +98,9 @@ word1 = "HELLO";
 word2 = "THERE";
 word3 = "WORLD";
 
-console.log(`Word ${word1} exists in board: ${isWordExists(board, word1)}`);
-console.log(`Word ${word2} exists in board: ${isWordExists(board, word2)}`);
-console.log(`Word ${word3} exists in board: ${isWordExists(board, word3)}`);
+console.log(`Word ${word1} exists in board: ${checkIfWordExists(board, word1)}`);
+console.log(`Word ${word2} exists in board: ${checkIfWordExists(board, word2)}`);
+console.log(`Word ${word3} exists in board: ${checkIfWordExists(board, word3)}`);
 
 board = [
   ["A", "B", "C", "E"],
@@ -114,16 +114,16 @@ word4 = "CSE";
 word5 = "DFS";
 word6 = "BFS";
 
-console.log(`Word ${word1} exists in board: ${isWordExists(board, word1)}`);
-console.log(`Word ${word2} exists in board: ${isWordExists(board, word2)}`);
-console.log(`Word ${word3} exists in board: ${isWordExists(board, word3)}`);
-console.log(`Word ${word4} exists in board: ${isWordExists(board, word4)}`);
-console.log(`Word ${word5} exists in board: ${isWordExists(board, word5)}`);
-console.log(`Word ${word6} exists in board: ${isWordExists(board, word6)}`);
+console.log(`Word ${word1} exists in board: ${checkIfWordExists(board, word1)}`);
+console.log(`Word ${word2} exists in board: ${checkIfWordExists(board, word2)}`);
+console.log(`Word ${word3} exists in board: ${checkIfWordExists(board, word3)}`);
+console.log(`Word ${word4} exists in board: ${checkIfWordExists(board, word4)}`);
+console.log(`Word ${word5} exists in board: ${checkIfWordExists(board, word5)}`);
+console.log(`Word ${word6} exists in board: ${checkIfWordExists(board, word6)}`);
 
 board = [
   ["A", "B"],
   ["C", "D"],
 ];
 word1 = "ABCD";
-console.log(`Word ${word1} exists in board: ${isWordExists(board, word1)}`);
+console.log(`Word ${word1} exists in board: ${checkIfWordExists(board, word1)}`);

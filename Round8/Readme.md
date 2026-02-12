@@ -64,5 +64,19 @@
 39. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 40. Spiral Matrix II
 
+#### 12/02/2026
+41. Min Stack
+42. Two Sum II – Input Array is Sorted: Given a sorted array, find two numbers such that they add up to a specific target. Return their indices
+43. House Painting Problem
+44. Word Ladder
+45. Check Balanced Parenthesis
+46. Word Search Problem
 
 
+
+a. Rotten Mangoes Problem
+d. Find Merge-Point of Two Linked Lists
+a. Container With Most Water
+b. Remove Duplicates from Sorted Array
+c. Number to Excel Column Title
+e. Set Matrix Zeroes
