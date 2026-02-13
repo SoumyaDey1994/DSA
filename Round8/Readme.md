@@ -72,11 +72,20 @@
 45. Check Balanced Parenthesis
 46. Word Search Problem
 
+#### 13/02/2026
+47. Container With Most Water
+48. Remove Duplicates from Sorted Array
+49. Number to Excel Column Title
+50. Rotten Mangoes Problem
+51. Find Merge-Point of Two Linked Lists
+52. Set Matrix Zeroes
+ 
+d. Course Schedule – I
+e. Find Nth Node from End (SLL)
+a. Surrounded Regions
+b. N-Queens Problem
 
-
-a. Rotten Mangoes Problem
-d. Find Merge-Point of Two Linked Lists
-a. Container With Most Water
-b. Remove Duplicates from Sorted Array
-c. Number to Excel Column Title
-e. Set Matrix Zeroes
+c. Count and Say
+d. Next Permutation
+a. Invert Binary Tree
+b. Sliding Window Maximum
