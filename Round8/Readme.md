@@ -80,10 +80,12 @@
 51. Find Merge-Point of Two Linked Lists
 52. Set Matrix Zeroes
  
-d. Course Schedule – I
-e. Find Nth Node from End (SLL)
-a. Surrounded Regions
-b. N-Queens Problem
+#### 14/02/2026
+53. Course Schedule – I
+54. Find Nth Node from End (SLL)
+55. Surrounded Regions
+56. N-Queens Problem
+
 
 c. Count and Say
 d. Next Permutation

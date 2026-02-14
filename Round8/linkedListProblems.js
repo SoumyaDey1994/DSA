@@ -81,7 +81,7 @@ class SinglyLinkedList {
   }
   /**
    * Check if any cycle present in SLL
-   * @returns 
+   * @returns
    */
   detectCycle() {
     if (!this.head) return false;
@@ -100,6 +100,29 @@ class SinglyLinkedList {
     }
 
     return false;
+  }
+
+  /**
+   * Find Nth node from end
+   */
+  findNthElementFromEnd(n) {
+    if (!this.head) return;
+
+    let temp = this.head;
+    while (n > 0) {
+      temp = temp.next;
+      n--;
+
+      if (temp === null) return null;
+    }
+
+    let headStart = this.head;
+    while (headStart !== null && temp !== null) {
+      temp = temp.next;
+      headStart = headStart.next;
+    }
+
+    return headStart.data;
   }
 }
 
@@ -129,3 +152,14 @@ list.reverseListRecursive();
 console.log(`List Post Reverse (Recursive): ${list.getList()}`);
 
 console.log(`List has cycle ? ${list.detectCycle()}`);
+
+let elementOfListFromEnd = list.findNthElementFromEnd(2);
+let elementOfList2FromEnd = list.findNthElementFromEnd(1);
+
+console.log(
+  `Elements from End: List(-2):${elementOfListFromEnd}, List(-1):${elementOfList2FromEnd}`,
+);
+elementOfListFromEnd = list.findNthElementFromEnd(5);
+console.log(`Elements from End: List(-5):${elementOfListFromEnd}`);
+elementOfListFromEnd = list.findNthElementFromEnd(10);
+console.log(`Elements from End: List(-10):${elementOfListFromEnd}`);
