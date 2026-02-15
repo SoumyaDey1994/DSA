@@ -91,3 +91,10 @@
 58. Next Permutation
 59. Invert Binary Tree
 60. Sliding Window Maximum
+
+
+c. Combination Sum
+d. Combination Sum II
+e. Find Longest Substring with At Most Two Distinct Characters
+a. Prime Factors
+b. Lowest Common Ancestor of Binary Tree

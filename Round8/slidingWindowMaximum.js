@@ -21,6 +21,7 @@ function getSlidingWindowMaxValues(nums, k) {
   let output = [],
     indexList = [];
 
+    // Target: Keep max element index at first position of indexMap
   for (let i = 0; i < nums.length; i++) {
     if (indexList.length > 0 && indexList[0] === i - k) {
       indexList.shift();
