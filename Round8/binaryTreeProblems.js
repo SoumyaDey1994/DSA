@@ -1,7 +1,9 @@
 /**
  * Date: 22nd Jan, 2026
- * Problem Statement:
- *      Binary Tree - Level-order Traversal
+ * Problem Statement: Binary Tree - Level-order Traversal
+ * 
+ * Date: 15th Feb, 2026
+ * Problem Statement: Invert Binary Tree
  */
 class Node {
   constructor(data) {
@@ -96,6 +98,11 @@ class BinaryTree {
     return null;
   }
 
+  /**
+   * Get right-side element view of Binary Tree
+   * @param {*} root
+   * @returns
+   */
   getRightSideView(root) {
     if (!root) return;
 
@@ -105,7 +112,7 @@ class BinaryTree {
       let rightMostVal = null;
       let curr = null;
 
-      while(queue.length > 0) {
+      while (queue.length > 0) {
         curr = queue.shift();
         rightMostVal = curr.data;
       }
@@ -116,6 +123,24 @@ class BinaryTree {
     }
 
     return result;
+  }
+
+  /**
+   * Invert the Binary Tree
+   */
+  invertTree(root) {
+    if (!root) return null;
+
+    const curr = root;
+    // swap left & right of current
+    const temp = curr.left;
+    curr.left = curr.right;
+    curr.right = temp;
+    // repeat the same process for left & right subtree
+    this.invertTree(curr.left);
+    this.invertTree(curr.right);
+
+    return this;
   }
 }
 
@@ -156,3 +181,9 @@ console.log(`${k}th smallest element is: ${kthSmallestElement?.data}`);
 
 const rightSideView = tree.getRightSideView(tree.root);
 console.log(`Right-side view of Binary Tree is: [${rightSideView}]`);
+
+console.log(`.....Tree Before Invert.......`);
+tree.printInOrderTraversal(tree.root)
+tree.invertTree(tree.root);
+console.log(`.....Tree After Invert.......`);
+tree.printInOrderTraversal(tree.root)

@@ -86,8 +86,8 @@
 55. Surrounded Regions
 56. N-Queens Problem
 
-
-c. Count and Say
-d. Next Permutation
-a. Invert Binary Tree
-b. Sliding Window Maximum
+#### 14/02/2026
+57. Count and Say
+58. Next Permutation
+59. Invert Binary Tree
+60. Sliding Window Maximum
