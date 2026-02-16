@@ -1,9 +1,10 @@
 /**
  * Date: 22nd Jan, 2026
  * Problem Statement: Binary Tree - Level-order Traversal
- * 
  * Date: 15th Feb, 2026
  * Problem Statement: Invert Binary Tree
+ * Date: 16th Feb, 2026
+ * Problem Statement: Find LCA of 2 give nodes
  */
 class Node {
   constructor(data) {
@@ -142,6 +143,28 @@ class BinaryTree {
 
     return this;
   }
+
+  /**
+   * Find LCA of given 2 nodes
+   * @param {*} root 
+   * @param {*} firstNode 
+   * @param {*} secondNode 
+   * @returns 
+   */
+  findLcaNode(root, firstNode, secondNode) {
+    if (!root) return null;
+
+    if (root.left === firstNode || root.right === secondNode) return root;
+
+    const leftLca = this.findLcaNode(root.left, firstNode, secondNode);
+    const rightLca = this.findLcaNode(root.right, firstNode, secondNode);
+
+    if (!leftLca && !rightLca) return null;
+
+    if (leftLca && rightLca) return root;
+
+    return leftLca ? leftLca : rightLca;
+  }
 }
 
 let tree = new BinaryTree();
@@ -183,7 +206,16 @@ const rightSideView = tree.getRightSideView(tree.root);
 console.log(`Right-side view of Binary Tree is: [${rightSideView}]`);
 
 console.log(`.....Tree Before Invert.......`);
-tree.printInOrderTraversal(tree.root)
+tree.printInOrderTraversal(tree.root);
 tree.invertTree(tree.root);
 console.log(`.....Tree After Invert.......`);
-tree.printInOrderTraversal(tree.root)
+tree.printInOrderTraversal(tree.root);
+
+let lcaNode = tree.findLcaNode(tree.root, node1, node2);
+console.log(`LCA of node ${node1.data} & ${node2.data} is: ${lcaNode?.data}`);
+
+lcaNode = tree.findLcaNode(tree.root, node6, node7);
+console.log(`LCA of node ${node6.data} & ${node7.data} is: ${lcaNode?.data}`);
+
+lcaNode = tree.findLcaNode(tree.root, node5, node6);
+console.log(`LCA of node ${node5.data} & ${node6.data} is: ${lcaNode?.data}`);

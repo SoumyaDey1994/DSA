@@ -12,12 +12,18 @@ function myFunction() {
   console.log(`Hello World`);
 }
 
+function another() {
+  console.log(`Hello Soumya`);
+}
+
 Function.prototype.originalToString = Function.prototype.toString;
 
-Function.prototype.toString = (function (fn) {
+Function.prototype.toString = (function () {
   return function () {
-    return `@${fn.originalToString()}@`;
+    return `@${this.originalToString()}@`;
   };
-})(myFunction);
+})();
 
 console.log(1 + myFunction + 2);
+
+console.log(10 + another + 20);
