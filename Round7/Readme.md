@@ -162,6 +162,14 @@ b. Maximum Sum Subarray
 c. Peak Element
 d. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 
-e. Permutation in String
+## 🧩 Batch 21
+
+a. Implement a custom DS to support add, delete, random, contains operation with O(1) complexity
+b. Partition Equal Subset Sum
+c. Diameter of Binary Tree
+d. Daily Temperatures
 
 
+e. Subsets
+f. Redundant Connection
+g. Permutation in String

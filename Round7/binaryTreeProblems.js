@@ -176,6 +176,31 @@ class BinaryTree {
 
     return Math.max(leftDepth, rightDepth);
   }
+
+  /**
+   * Find diameter of Binary Tree
+   * The diameter is the length of the longest path between any two nodes in the tree.
+   * @param {*} root
+   * @returns
+   */
+  findDiameter(root) {
+    if (!root) return 0;
+
+    let diameter = 0;
+    function findHeight(node) {
+      if (!node) return 0;
+
+      const leftHeight = findHeight(node.left);
+      const rightHeight = findHeight(node.right);
+      // update diameter value
+      diameter = Math.max(diameter, leftHeight + rightHeight);
+
+      return 1 + Math.max(leftHeight, rightHeight);
+    }
+
+    findHeight(root);
+    return diameter;
+  }
 }
 
 const node10 = new Node(10);
@@ -268,3 +293,8 @@ console.log(`Is New Tree BST (post inserting 2 more nodes): ${isTreeBST}`);
 
 console.log(`Depth of Tree 1: ${binaryTree.findMaxDepth(binaryTree.root)}`);
 console.log(`Depth of Tree 2: ${binaryTree2.findMaxDepth(binaryTree2.root)}`);
+
+console.log(`Diameter of Tree 1: ${binaryTree.findDiameter(binaryTree.root)}`);
+console.log(
+  `Diameter of Tree 2: ${binaryTree2.findDiameter(binaryTree2.root)}`,
+);
