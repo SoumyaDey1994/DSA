@@ -146,10 +146,10 @@ class BinaryTree {
 
   /**
    * Find LCA of given 2 nodes
-   * @param {*} root 
-   * @param {*} firstNode 
-   * @param {*} secondNode 
-   * @returns 
+   * @param {*} root
+   * @param {*} firstNode
+   * @param {*} secondNode
+   * @returns
    */
   findLcaNode(root, firstNode, secondNode) {
     if (!root) return null;
@@ -164,6 +164,19 @@ class BinaryTree {
     if (leftLca && rightLca) return root;
 
     return leftLca ? leftLca : rightLca;
+  }
+
+  checkIsBst(root) {
+    if (!root) return false;
+
+    if (root.left === null && root.right === null) return true;
+    if (root.left !== null && root.data < root.left.data) return false;
+    if (root.right !== null && root.data > root.right.data) return false;
+
+    const isLeftSubtreeBst = this.checkIsBst(root.left);
+    const isRightSubtreeBst = this.checkIsBst(root.right);
+
+    return isLeftSubtreeBst && isRightSubtreeBst;
   }
 }
 
@@ -219,3 +232,10 @@ console.log(`LCA of node ${node6.data} & ${node7.data} is: ${lcaNode?.data}`);
 
 lcaNode = tree.findLcaNode(tree.root, node5, node6);
 console.log(`LCA of node ${node5.data} & ${node6.data} is: ${lcaNode?.data}`);
+
+tree.invertTree(tree.root);
+console.log(`Is Tree is a BST: ${tree.checkIsBst(tree.root)}`);
+tree.insert(new Node(12)).insert(new Node(6));
+console.log(`Tree post adding 2 new nodes:`);
+tree.printInOrderTraversal(tree.root);
+console.log(`Is Tree is a BST: ${tree.checkIsBst(tree.root)}`);

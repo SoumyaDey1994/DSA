@@ -106,4 +106,9 @@
 69. Find Element in Rotated Sorted Array
 70. Reverse Vowels of a String
 
-
+#### 19/02/2026
+71. Longest Palindromic Substring
+72. Swap Adjacent Nodes in Linked List
+73. Check Binary Tree is BST
+74. Max Consecutive Ones III
+75. Subsets or Combinations of given list items

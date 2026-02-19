@@ -1,6 +1,8 @@
 /**
  * Date: 22nd Jan, 2026
  * Problem Statement: Reverse a Singly Linked List
+ * Date: 19th Feb, 2026
+ * Problem Statement: Swap adjacent nodes of a Singly Linked List
  */
 
 class Node {
@@ -124,6 +126,29 @@ class SinglyLinkedList {
 
     return headStart.data;
   }
+  /**
+   * Swap adjacent nodes of a SLL
+   * @returns 
+   */
+  swapAdjacentNodes() {
+    if (!this.head) return;
+
+    let prev = null,
+      curr = this.head;
+    while (curr !== null && curr.next !== null) {
+      let adjacent = curr.next;
+      let nextCurr = adjacent.next;
+      if (prev === null) {
+        this.head = adjacent;
+      } else {
+        prev.next = adjacent;
+      }
+      adjacent.next = curr;
+      curr.next = nextCurr;
+      prev = curr;
+      curr = nextCurr;
+    }
+  }
 }
 
 const list = new SinglyLinkedList();
@@ -163,3 +188,7 @@ elementOfListFromEnd = list.findNthElementFromEnd(5);
 console.log(`Elements from End: List(-5):${elementOfListFromEnd}`);
 elementOfListFromEnd = list.findNthElementFromEnd(10);
 console.log(`Elements from End: List(-10):${elementOfListFromEnd}`);
+
+console.log(`List before swapping adjacents: ${list.getList()}`);
+list.swapAdjacentNodes();
+console.log(`List after swapping adjacents: ${list.getList()}`);
