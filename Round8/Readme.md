@@ -112,3 +112,12 @@
 73. Check Binary Tree is BST
 74. Max Consecutive Ones III
 75. Subsets or Combinations of given list items
+
+#### 20/02/2026
+76. Intersection of Two Arrays II
+77. Rotation Count of Sorted Array
+78. Get All Possible Permutations
+79. Find All Possible Combinations
+80. Palindrome Partitioning
+
+d. Minimum Window Substring
