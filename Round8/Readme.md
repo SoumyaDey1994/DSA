@@ -120,4 +120,26 @@
 79. Find All Possible Combinations
 80. Palindrome Partitioning
 
+#### 21/02/2026
+81. Daily Temperatures
+82. Diameter of Binary Tree
+83. Partition Equal Subset Sum
+84. Efficient Janitor Problem
+85. Find Leftmost Repeating Character
+
+
+a. Implement a custom DS to support add, delete, random, contains operation with O(1) complexity
 d. Minimum Window Substring
+a. Binary Tree Maximum Depth
+d. Zigzag Conversion
+e. Aggressive Cows / Allocate Minimum Pages
+a. Isomorphic Strings
+b. Merge Two Sorted Arrays (in-place)
+c. Pacific Atlantic Water Flow
+d. Capacity To Ship Packages Within D Days
+e. Find Smallest Divisor Given Threshold
+a. Function toString Formatter
+b. Find Kth Highest Element
+c. Proper Fraction
+d. Course Schedule – II
+e. Print 2D Array in Spiral Order

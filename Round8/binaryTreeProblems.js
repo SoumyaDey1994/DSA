@@ -5,6 +5,8 @@
  * Problem Statement: Invert Binary Tree
  * Date: 16th Feb, 2026
  * Problem Statement: Find LCA of 2 give nodes
+ * Date: 21st Feb, 2026
+ * Problem Statement: Find Diameter of the Binary Tree
  */
 class Node {
   constructor(data) {
@@ -178,6 +180,28 @@ class BinaryTree {
 
     return isLeftSubtreeBst && isRightSubtreeBst;
   }
+  /**
+   * Find diameter of a Binary Tree
+   * Diameter = longest distance b/w any 2 nodes of the binary tree
+   */
+  findDiameter(root) {
+    if(!root) return;
+
+    let diameter = 0;
+    function getHeight(node) {
+      if(!node) return 0;
+
+      const leftHeight = getHeight(node.left);
+      const rightHeight = getHeight(node.right);
+
+      diameter = Math.max(diameter, leftHeight + rightHeight);
+
+      return 1 + Math.max(leftHeight, rightHeight);
+    }
+
+    getHeight(root);
+    return diameter;
+  }
 }
 
 let tree = new BinaryTree();
@@ -239,3 +263,6 @@ tree.insert(new Node(12)).insert(new Node(6));
 console.log(`Tree post adding 2 new nodes:`);
 tree.printInOrderTraversal(tree.root);
 console.log(`Is Tree is a BST: ${tree.checkIsBst(tree.root)}`);
+
+const diameter = tree.findDiameter(tree.root);
+console.log(`Diameter of the binary tree is: ${diameter}`);
