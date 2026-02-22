@@ -7,6 +7,8 @@
  * Problem Statement: Find LCA of 2 give nodes
  * Date: 21st Feb, 2026
  * Problem Statement: Find Diameter of the Binary Tree
+ * Date: 22nd Feb, 2026
+ * Problem Statement: Find Max Depth of the Binary Tree
  */
 class Node {
   constructor(data) {
@@ -202,6 +204,19 @@ class BinaryTree {
     getHeight(root);
     return diameter;
   }
+  /**
+   * Find Max depth of binary Tree
+   * @param {*} root 
+   * @returns 
+   */
+  findMaxDepth(root) {
+    if(!root) return 0;
+
+    const leftDepth = this.findMaxDepth(root.left);
+    const rightDepth = this.findMaxDepth(root.right);
+
+    return 1 + Math.max(leftDepth, rightDepth);
+  }
 }
 
 let tree = new BinaryTree();
@@ -266,3 +281,6 @@ console.log(`Is Tree is a BST: ${tree.checkIsBst(tree.root)}`);
 
 const diameter = tree.findDiameter(tree.root);
 console.log(`Diameter of the binary tree is: ${diameter}`);
+
+const depth = tree.findMaxDepth(tree.root);
+console.log(`Depth of the binary tree is: ${depth}`);
