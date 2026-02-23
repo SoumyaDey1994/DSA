@@ -128,7 +128,6 @@
 85. Find Leftmost Repeating Character
 
 #### 22/02/2026
-
 86. Implement a custom DS to support add, delete, random, contains operation with O(1) complexity
 87. Binary Tree Maximum Depth
 88. Zigzag Conversion
@@ -137,11 +136,13 @@
 91. Function toString Formatter
 92. Aggressive Cows / Allocate Minimum Pages
 
+#### 23/02/2026
+93. Find Kth Highest Element
+94. Proper Fraction
+95. Print 2D Array in Spiral Order
+96. Pacific Atlantic Water Flow
+97. Capacity To Ship Packages Within D Days
+98. Find Smallest Divisor Given Threshold
+
 
 d. Minimum Window Substring
-c. Pacific Atlantic Water Flow
-d. Capacity To Ship Packages Within D Days
-e. Find Smallest Divisor Given Threshold
-b. Find Kth Highest Element
-c. Proper Fraction
-e. Print 2D Array in Spiral Order
