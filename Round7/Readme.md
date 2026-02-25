@@ -168,8 +168,7 @@ a. Implement a custom DS to support add, delete, random, contains operation with
 b. Partition Equal Subset Sum
 c. Diameter of Binary Tree
 d. Daily Temperatures
+e. Subsets/combinations
 
-
-e. Subsets
 f. Redundant Connection
 g. Permutation in String
