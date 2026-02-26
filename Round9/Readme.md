@@ -17,7 +17,9 @@
 ### 26/02/2026
 11. Two Sum
 12. Two Sum II – Input Array is Sorted: Given a sorted array, find two numbers such that they add up to a specific target. Return their indices
-12. Word Break
-13. Product of Array Except Self
-14. Happy Number
-15. Find square-root using Binary Search
+13. Word Break
+14. Product of Array Except Self
+15. Happy Number
+16. Find square-root using Binary Search
+17. Coin Change – Min Coins
+18. Next Permutation
