@@ -23,3 +23,12 @@
 16. Find square-root using Binary Search
 17. Coin Change – Min Coins
 18. Next Permutation
+
+### 27/02/2026
+19. Combination Sum - I
+20. Clone Graph
+21. Custom DS with O(1) complexity - No Duplicate Entries
+22. Capacity To Ship Packages Within D Days
+23. Find Smallest Divisor Given Threshold
+24. No of Islands
+25. Best Time to Buy and Sell Stock (I)
