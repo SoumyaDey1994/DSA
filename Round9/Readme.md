@@ -32,3 +32,17 @@
 23. Find Smallest Divisor Given Threshold
 24. No of Islands
 25. Best Time to Buy and Sell Stock (I)
+
+### 28/02/2026
+26. Group Anagrams
+27. Maximum Sum Subarray
+28. Move All Zeros to End
+29. Daily Temperatures
+30. Partition Equal Subset Sum
+31. Efficient Janitor Problem
+32. Find Leftmost Repeating Character
+
+34. Pacific-atlantic water flow
+101. Minimum Window Substring
+45. Check Balanced Parenthesis
+
