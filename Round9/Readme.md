@@ -41,8 +41,7 @@
 30. Partition Equal Subset Sum
 31. Efficient Janitor Problem
 32. Find Leftmost Repeating Character
-
-34. Pacific-atlantic water flow
-101. Minimum Window Substring
-45. Check Balanced Parenthesis
+33. Pacific-atlantic water flow
+34. Check Balanced Parenthesiss
+35. Minimum Window Substring
 
