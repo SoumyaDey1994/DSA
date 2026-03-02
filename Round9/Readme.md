@@ -48,3 +48,10 @@
 ### 01/03/2026
 36. Redundant Connection
 37. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
+
+### 02/03/2026
+38. Combination Sum - II
+39. Longest Substring with Unique Characters
+40. Contains Duplicate
+41. Subarray Sum Equals K
+42. Course Schedule – I
