@@ -45,3 +45,6 @@
 34. Check Balanced Parenthesiss
 35. Minimum Window Substring
 
+### 01/03/2026
+36. Redundant Connection
+37. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
