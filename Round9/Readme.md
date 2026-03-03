@@ -55,3 +55,15 @@
 40. Contains Duplicate
 41. Subarray Sum Equals K
 42. Course Schedule – I
+
+### 02/03/2026
+43. Top K Frequent Elements
+44. Find Trailing Zeros in Factorial
+45. Longest Palindromic Substring
+46. Majority Element (Boyer-Moore)
+47. Course Schedule – II
+48. 3 Sum
+49. Rotten Mangoes Problem
+50. Word Search Problem
+
+
