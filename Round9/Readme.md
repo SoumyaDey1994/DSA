@@ -56,7 +56,7 @@
 41. Subarray Sum Equals K
 42. Course Schedule – I
 
-### 02/03/2026
+### 03/03/2026
 43. Top K Frequent Elements
 44. Find Trailing Zeros in Factorial
 45. Longest Palindromic Substring
@@ -65,5 +65,15 @@
 48. 3 Sum
 49. Rotten Mangoes Problem
 50. Word Search Problem
+
+### 04/03/2026
+51. First Unique Character in a String
+52. Binary Search (Classic)
+53. Trapping Rain Water
+54. Word Ladder
+55. 3 Sum II - Use Binary Search to solve
+56. Surrounded Regions
+57. Number to Excel Column Title
+58. N-Queens Problem
 
 
