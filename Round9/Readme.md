@@ -94,17 +94,18 @@
 71. Find Element in Rotated Sorted Array
 72. Spiral Matrix II
 
+### 07/03/2026
+73. Rotation Count of Sorted Array
+74. Reverse Vowels of a String
+75. Longest Consecutive Sequence
+76. Print 2D Array in Spiral Order
+77. Sliding Window Maximum
+
 ### Remaining
-70. Rotation Count of Sorted Array
-36. Longest Consecutive Sequence
 38. Unique Paths (Robot Grid)
 39. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 52. Set Matrix Zeroes
-60. Sliding Window Maximum
 64. Find Longest Substring with At Most Two Distinct Characters
 68. Count Anagrams (Find All Anagrams in String)
-70. Reverse Vowels of a String
-77. Rotation Count of Sorted Array
-95. Print 2D Array in Spiral Order
 99. Missing Number
 94. Proper Fraction
