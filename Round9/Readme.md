@@ -105,6 +105,8 @@
 78. Unique Paths (Robot Grid)
 79. Find Longest Substring with At Most Two Distinct Characters
 80. Count Anagrams (Find All Anagrams in String)
+81. Reverse a Singly Linked List
+82. Swap adjacent nodes of a Singly Linked List
 
 ### Remaining
 
