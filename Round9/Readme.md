@@ -101,11 +101,14 @@
 76. Print 2D Array in Spiral Order
 77. Sliding Window Maximum
 
+### 08/03/2026
+78. Unique Paths (Robot Grid)
+79. Find Longest Substring with At Most Two Distinct Characters
+80. Count Anagrams (Find All Anagrams in String)
+
 ### Remaining
-38. Unique Paths (Robot Grid)
+
 39. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 52. Set Matrix Zeroes
-64. Find Longest Substring with At Most Two Distinct Characters
-68. Count Anagrams (Find All Anagrams in String)
 99. Missing Number
 94. Proper Fraction
