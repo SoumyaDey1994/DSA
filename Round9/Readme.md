@@ -108,9 +108,32 @@
 81. Reverse a Singly Linked List
 82. Swap adjacent nodes of a Singly Linked List
 
+### 09/03/2026
+
+83. Detect Cycle in a Singly Linked List
+84. Find Nth Node from End (SLL)
+85. Merge 2 Sorted SLL
+86. Find mid-point of a SLL
+87. Missing Number
+88. Find Merge-Point of Two Linked Lists
+89. Proper Fraction
+90. Max Consecutive Ones III
+
 ### Remaining
 
-39. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
-52. Set Matrix Zeroes
-99. Missing Number
-94. Proper Fraction
+Binary Tree - Level-order Traversal
+Invert Binary Tree
+Find LCA of 2 give nodes
+Find Diameter of the Binary Tree
+Find Max Depth of the Binary Tree
+Kth Smallest element in BST
+Get right-side element view of Binary Tree
+Check if a Binary Tree is BST or not
+
+Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
+Set Matrix Zeroes
+Rotate Image (Matrix Rotation)
+Min Stack
+Remove Duplicates from Sorted Array
+Merge Two Sorted Arrays
+Permutation in String
