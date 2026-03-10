@@ -109,7 +109,6 @@
 82. Swap adjacent nodes of a Singly Linked List
 
 ### 09/03/2026
-
 83. Detect Cycle in a Singly Linked List
 84. Find Nth Node from End (SLL)
 85. Merge 2 Sorted SLL
@@ -119,21 +118,23 @@
 89. Proper Fraction
 90. Max Consecutive Ones III
 
+### 10/03/2026
+91. Merge Two Sorted Arrays
+92. Rotate Image (Matrix Rotation)
+93. Binary Tree - Level-order Traversal
+94. Invert Binary Tree
+95. Find Max Depth of the Binary Tree
+96. Find Diameter of the Binary Tree
+97. Remove Duplicates from Sorted Array
+98. Find LCA of 2 give nodes
+99. Check if a Binary Tree is BST or not
+
 ### Remaining
 
-Binary Tree - Level-order Traversal
-Invert Binary Tree
-Find LCA of 2 give nodes
-Find Diameter of the Binary Tree
-Find Max Depth of the Binary Tree
 Kth Smallest element in BST
 Get right-side element view of Binary Tree
-Check if a Binary Tree is BST or not
 
 Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 Set Matrix Zeroes
-Rotate Image (Matrix Rotation)
 Min Stack
-Remove Duplicates from Sorted Array
-Merge Two Sorted Arrays
 Permutation in String
