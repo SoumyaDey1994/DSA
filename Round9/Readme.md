@@ -129,12 +129,15 @@
 98. Find LCA of 2 give nodes
 99. Check if a Binary Tree is BST or not
 
+### 11/03/2026
+
+100. Kth Smallest element in BST
+101. Get right-side element view of Binary Tree
+102. Min Stack
+103. Rotate Matrix k times
+
 ### Remaining
 
-Kth Smallest element in BST
-Get right-side element view of Binary Tree
-
-Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 Set Matrix Zeroes
-Min Stack
+Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 Permutation in String

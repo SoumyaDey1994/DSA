@@ -129,6 +129,52 @@ class BinaryTree {
 
     return this.checkIsBst(root.left) && this.checkIsBst(root.right);
   }
+
+  findKthSmallestElement(root, k) {
+    if (!root) return null;
+
+    const stack = [];
+    let curr = root;
+
+    while (curr !== null || stack.length > 0) {
+      while (curr !== null) {
+        stack.push(curr);
+        curr = curr.left;
+      }
+
+      curr = stack.pop();
+      k--;
+
+      if (k === 0) {
+        return curr.data;
+      }
+
+      curr = curr.right;
+    }
+  }
+
+  getRightSideView(root) {
+    if (!root) return null;
+
+    const queue = [root];
+    const result = [];
+
+    while (queue.length > 0) {
+      let rightMostVal = null;
+      let curr = null;
+
+      while (queue.length > 0) {
+        curr = queue.shift();
+        rightMostVal = curr.data;
+      }
+
+      result.push(rightMostVal);
+      if (curr.left !== null) queue.push(curr.left);
+      if (curr.right !== null) queue.push(curr.right);
+    }
+
+    return result;
+  }
 }
 
 const node10 = new Node(10);
@@ -193,4 +239,23 @@ console.log(`--- LCA of Node 3 & 7 is: ${lcaNode?.data}`);
 
 console.log(
   `--- Is Binary Tree a BST: ${binaryTree.checkIsBst(binaryTree.root)}`,
+);
+
+let k = 3;
+console.log(
+  `--- ${k}th smallest element in Binary Tree is: ${binaryTree.findKthSmallestElement(binaryTree.root, k)}`,
+);
+
+k = 2;
+console.log(
+  `--- ${k}th smallest element in Binary Tree is: ${binaryTree.findKthSmallestElement(binaryTree.root, k)}`,
+);
+
+k = 6;
+console.log(
+  `--- ${k}th smallest element in Binary Tree is: ${binaryTree.findKthSmallestElement(binaryTree.root, k)}`,
+);
+
+console.log(
+  `--- Right-side view of binary tree is: [${binaryTree.getRightSideView(binaryTree.root)}]`,
 );
