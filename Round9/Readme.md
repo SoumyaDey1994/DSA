@@ -138,6 +138,6 @@
 ### 12/03/2026
 
 104. Set Matrix Zeroes
+105. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 
-Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 Permutation in String
