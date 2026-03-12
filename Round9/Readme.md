@@ -130,14 +130,14 @@
 99. Check if a Binary Tree is BST or not
 
 ### 11/03/2026
-
 100. Kth Smallest element in BST
 101. Get right-side element view of Binary Tree
 102. Min Stack
 103. Rotate Matrix k times
 
-### Remaining
+### 12/03/2026
 
-Set Matrix Zeroes
+104. Set Matrix Zeroes
+
 Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 Permutation in String
