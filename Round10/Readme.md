@@ -29,6 +29,20 @@
 21. Happy Number
 22. Find square-root using Binary Search
 
-17. Coin Change – Min Coins
-18. Next Permutation
+#### 15/03/2026
+23. Coin Change – Min Coins
+24. Next Permutation
+25. Combination Sum - I
+26. No of Islands
+27. Best Time to Buy and Sell Stock (I)
+28. Capacity To Ship Packages Within D Days
+29. Group Anagrams
+30. Move All Zeros to End
+
+
+20. Clone Graph
 37. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
+23. Find Smallest Divisor Given Threshold
+30. Partition Equal Subset Sum
+31. Efficient Janitor Problem
+32. Find Leftmost Repeating Character
