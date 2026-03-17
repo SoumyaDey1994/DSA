@@ -19,7 +19,6 @@
 14. Find All Permuattions
 
 #### 15/03/2026
-
 15. Product of Array Except Self
 16. Maximum Sum Subarray
 17. Subsets or combinations
@@ -29,7 +28,7 @@
 21. Happy Number
 22. Find square-root using Binary Search
 
-#### 15/03/2026
+#### 16/03/2026
 23. Coin Change – Min Coins
 24. Next Permutation
 25. Combination Sum - I
@@ -39,10 +38,12 @@
 29. Group Anagrams
 30. Move All Zeros to End
 
+#### 17/03/2026
+31. Clone Graph
+32. Partition Equal Subset Sum
+33. Find Smallest Divisor Given Threshold
+34. Efficient Janitor Problem
+35. Find Leftmost Repeating Character
+36. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
+37. Check Balanced Parenthesiss
 
-20. Clone Graph
-37. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
-23. Find Smallest Divisor Given Threshold
-30. Partition Equal Subset Sum
-31. Efficient Janitor Problem
-32. Find Leftmost Repeating Character
