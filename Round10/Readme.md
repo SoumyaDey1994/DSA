@@ -47,3 +47,12 @@
 36. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
 37. Check Balanced Parenthesiss
 
+#### 18/03/2026
+38. Pacific-atlantic water flow
+39. Combination Sum - II
+40. Contains Duplicate
+41. Subarray Sum Equals K 
+
+35. Minimum Window Substring
+36. Redundant Connection
+42. Course Schedule – I
