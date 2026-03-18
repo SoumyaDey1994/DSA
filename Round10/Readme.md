@@ -52,7 +52,8 @@
 39. Combination Sum - II
 40. Contains Duplicate
 41. Subarray Sum Equals K 
+42. Redundant Connection
+43. Minimum Window Substring
+44. Course Schedule – I
+45. Find Trailing Zeros in Factorial
 
-35. Minimum Window Substring
-36. Redundant Connection
-42. Course Schedule – I
