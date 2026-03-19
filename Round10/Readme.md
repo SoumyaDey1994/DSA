@@ -57,3 +57,15 @@
 44. Course Schedule – I
 45. Find Trailing Zeros in Factorial
 
+#### 19/03/2026
+46. First Unique Character in a String
+47. Binary Search (Classic)
+48. Trapping Rain Water
+49. Majority Element (Boyer-Moore)
+50. Rotten Mangoes Problem
+
+
+
+47. Course Schedule – II
+48. 3 Sum
+50. Word Search Problem
