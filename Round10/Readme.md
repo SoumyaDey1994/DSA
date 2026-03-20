@@ -64,8 +64,15 @@
 49. Majority Element (Boyer-Moore)
 50. Rotten Mangoes Problem
 
+#### 20/03/2026
+51. Course Schedule – II
+52. Word Search Problem
+53. 3 Sum
+54. Jump Game I
+55. Jump Game II
+56. Gas Station
+57. Meeting Rooms I
+58. Meeting Rooms II
 
 
-47. Course Schedule – II
-48. 3 Sum
-50. Word Search Problem
+Task Scheduler
