@@ -98,3 +98,8 @@
 73. Palindrome Partitioning
 74. 3 Sum II - Use Binary Search to solve
 75. Spiral Matrix II
+76. Find Kth Highest Element
+77. Container With Most Water
+78. Array Chunking
+79. Reverse Vowels of a String
+80. Longest Consecutive Sequence
