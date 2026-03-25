@@ -103,3 +103,19 @@
 78. Array Chunking
 79. Reverse Vowels of a String
 80. Longest Consecutive Sequence
+
+#### 25/03/2026
+
+81. Print 2D Array in Spiral Order
+82. Unique Paths (Robot Grid)
+83. Proper Fraction
+84. Max Consecutive Ones III
+85. Find Longest Substring with At Most Two Distinct Characters 
+
+
+77. Sliding Window Maximum
+80. Count Anagrams (Find All Anagrams in String)
+87. Missing Number
+102. Min Stack
+104. Set Matrix Zeroes
+105. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
