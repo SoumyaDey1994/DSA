@@ -116,7 +116,7 @@
 87. Min Stack
 88. Sliding Window Maximum
 89. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
+90. Count Anagrams (Find All Anagrams in String)
 
 
-80. Count Anagrams (Find All Anagrams in String)
 104. Set Matrix Zeroes
