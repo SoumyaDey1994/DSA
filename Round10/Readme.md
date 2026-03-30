@@ -133,12 +133,15 @@
 100. Find Max Depth of the Binary Tree
 101. Find Diameter of the Binary Tree
 
+#### 30/03/2026
+102. Merge 2 Sorted SLL
+103. Find mid-point of a SLL
+104. Remove Duplicates from Sorted Array
+105. Find LCA of 2 give nodes
+106. Check if a Binary Tree is BST or not
+107. Find Merge-Point of Two Linked Lists
 
-85. Merge 2 Sorted SLL
-86. Find mid-point of a SLL
-88. Find Merge-Point of Two Linked Lists
-97. Remove Duplicates from Sorted Array
-98. Find LCA of 2 give nodes
-99. Check if a Binary Tree is BST or not
+
+
 100. Kth Smallest element in BST
 101. Get right-side element view of Binary Tree

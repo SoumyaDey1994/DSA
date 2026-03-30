@@ -4,8 +4,8 @@
  *    Invert Binary Tree (29th March, 2026)
  *    Find Max Depth of the Binary Tree (29th March, 2026)
  *    Find Diameter of the Binary Tree (29th March, 2026)
- *    Find LCA of 2 give nodes
- *    Check if a Binary Tree is BST or not
+ *    Find LCA of 2 give nodes (30th March, 2026)
+ *    Check if a Binary Tree is BST or not (30th March, 2026)
  */
 class Node {
   constructor(data) {
@@ -109,6 +109,34 @@ class BinaryTree {
     findHeight(root);
     return diameter;
   }
+
+  findLCA(root, node1, node2) {
+    if (!root) return null;
+
+    if (root.left === node1 || root.right === node2) return root;
+
+    const leftLCA = this.findLCA(root.left, node1, node2);
+    const rightLCA = this.findLCA(root.right, node1, node2);
+
+    if (leftLCA && rightLCA) return root;
+
+    if (!leftLCA && !rightLCA) return null;
+
+    return leftLCA ? leftLCA : rightLCA;
+  }
+
+  isBST(root) {
+    if (!root) return false;
+
+    if (root.left === null && root.right === null) return true;
+    if (root.left !== null && root.right === null) return false;
+    if (root.left === null && root.right !== null) return false;
+
+    const leftBST = this.isBST(root.left);
+    const rightBST = this.isBST(root.right);
+
+    return leftBST && rightBST;
+  }
 }
 
 const node10 = new Node(10);
@@ -145,3 +173,32 @@ console.log(
 console.log(
   `------Diameter of binary Tree:  ${binaryTree.findDiameter(binaryTree.root)}`,
 );
+
+console.log(
+  `--- Is Binary Tree a BST: ${binaryTree.isBST(binaryTree.root)}`,
+);
+
+const node1 = new Node(1);
+const node20 = new Node(20);
+const node4 = new Node(4);
+
+binaryTree.insert(node1).insert(node4).insert(node20);
+console.log(`....Tree In-order Traveral......`);
+binaryTree.printInOrder(binaryTree.root);
+
+let lcaNode = binaryTree.findLCA(binaryTree.root, node12, node20);
+console.log(`--- LCA of Node 12 & 20 is: ${lcaNode?.data}`);
+
+lcaNode = binaryTree.findLCA(binaryTree.root, node4, node7);
+console.log(`--- LCA of Node 4 & 7 is: ${lcaNode?.data}`);
+
+lcaNode = binaryTree.findLCA(binaryTree.root, node5, node12);
+console.log(`--- LCA of Node 5 & 12 is: ${lcaNode?.data}`);
+
+lcaNode = binaryTree.findLCA(binaryTree.root, node3, node7);
+console.log(`--- LCA of Node 3 & 7 is: ${lcaNode?.data}`);
+
+console.log(
+  `--- Is Binary Tree a BST now: ${binaryTree.isBST(binaryTree.root)}`,
+);
+
