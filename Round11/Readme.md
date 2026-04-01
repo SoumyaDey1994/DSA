@@ -8,3 +8,6 @@
 5. Longest Palindromic Substring
 6. Rotate Matrix k times
 7. Peak Element
+8. Word Break
+9. Coin Change – Number of Ways
+
