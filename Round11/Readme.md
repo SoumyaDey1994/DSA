@@ -22,3 +22,23 @@
 17. Happy Number
 18. Find square-root using Binary Search
 
+#### 03/04/2026
+19. Move All Zeros to End
+20. Group Anagrams
+21. Find All Permuattions
+22. Subsets or combinations
+23. Custom DS with O(1) complexity - No Duplicate Entries
+24. Coin Change – Min Coins
+25. Best Time to Buy and Sell Stock (I)
+
+
+7. House Painting Problem
+24. Next Permutation
+25. Combination Sum - I
+32. Partition Equal Subset Sum
+34. Efficient Janitor Problem
+35. Find Leftmost Repeating Character
+26. No of Islands
+28. Capacity To Ship Packages Within D Days
+
+
