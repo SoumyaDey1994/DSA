@@ -31,14 +31,14 @@
 24. Coin Change – Min Coins
 25. Best Time to Buy and Sell Stock (I)
 
-
-7. House Painting Problem
-24. Next Permutation
-25. Combination Sum - I
-32. Partition Equal Subset Sum
-34. Efficient Janitor Problem
-35. Find Leftmost Repeating Character
-26. No of Islands
-28. Capacity To Ship Packages Within D Days
+#### 03/04/2026
+26. House Painting Problem
+27. Next Permutation
+28. Combination Sum - I
+29. Partition Equal Subset Sum
+30. Efficient Janitor Problem
+31. Find Leftmost Repeating Character
+32. No of Islands
+33. Capacity To Ship Packages Within D Days
 
 
