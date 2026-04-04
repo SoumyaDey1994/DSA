@@ -40,5 +40,6 @@
 31. Find Leftmost Repeating Character
 32. No of Islands
 33. Capacity To Ship Packages Within D Days
-
-
+34. Find Trailing Zeros in Factorial
+35. Contains Duplicate
+36. Subarray Sum Equals K 
