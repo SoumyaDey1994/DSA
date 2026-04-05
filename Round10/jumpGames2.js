@@ -1,6 +1,6 @@
 /**
  * Date: 20th March, 2026
- * Problem Statement: Jump Games I
+ * Problem Statement: Jump Games II
  * You are given an array nums where:
  *      nums[i] = maximum jump length from index i
  *      Start at index 0

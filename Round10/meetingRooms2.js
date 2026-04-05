@@ -6,7 +6,7 @@
  * Each interval represents a meeting time.
  * Find out minimum rooms required to host all meetings
  * Example 1:
- *      intervals = [[0,30],[5,10],[15,20]]
+ *      intervals = [[0,30],[5,10],[15,20]] ==> [[0, 5, 15], [10, 20, 30]]
  *      output: 2
  *      explanation: interval [0, 30] overlap with other meetings, so we need atleast 2 rooms
  * Example 2:

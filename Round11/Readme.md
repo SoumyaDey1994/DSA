@@ -31,7 +31,7 @@
 24. Coin Change – Min Coins
 25. Best Time to Buy and Sell Stock (I)
 
-#### 03/04/2026
+#### 04/04/2026
 26. House Painting Problem
 27. Next Permutation
 28. Combination Sum - I
@@ -43,3 +43,15 @@
 34. Find Trailing Zeros in Factorial
 35. Contains Duplicate
 36. Subarray Sum Equals K 
+
+#### 05/04/2026
+37. First Unique Character in a String
+38. Trapping Rain Water
+39. Course Schedule – I
+40. Combination Sum - II
+41. Gas Station
+42. Majority Element (Boyer-Moore)
+43. Jump Game I
+44. Meeting Rooms I
+45. Binary Search (Classic)
+
