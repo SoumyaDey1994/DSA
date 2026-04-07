@@ -141,6 +141,6 @@
 106. Check if a Binary Tree is BST or not
 107. Find Merge-Point of Two Linked Lists
 
-# 02/04/2026
-100. Kth Smallest element in BST
-101. Get right-side element view of Binary Tree
+#### 02/04/2026
+108. Kth Smallest element in BST
+109. Get right-side element view of Binary Tree
