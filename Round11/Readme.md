@@ -62,14 +62,13 @@
 49. Surrounded Regions
 50. Zigzag Conversion
 
-#### 06/04/2026
-
+#### 07/04/2026
 51. Isomorphic Strings
 52. Course Schedule – II
 53. Word Search Problem
 54. Intersection of Two Arrays II
-
-50. Rotten Mangoes Problem
-38. Pacific-atlantic water flow
-59. Word Ladder
+55. Rotten Mangoes Problem
+56. Pacific-atlantic water flow
+57. Word Ladder
+58. 3 Sum
 
