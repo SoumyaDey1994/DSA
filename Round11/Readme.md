@@ -72,3 +72,15 @@
 57. Word Ladder
 58. 3 Sum
 
+#### 08/04/2026
+59. Prime Factors
+60. Find Frequency in Sorted Array
+61. Autoplayer Music Player
+62. Aggressive Cows / Allocate Minimum Pages
+63. Count and Say
+64. Rotation Count of Sorted Array
+
+67. Task Scheduler
+64. N-Queens Problem
+
+
