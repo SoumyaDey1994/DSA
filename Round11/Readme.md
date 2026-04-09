@@ -80,7 +80,13 @@
 63. Count and Say
 64. Rotation Count of Sorted Array
 
+#### 09/04/2026
+65. Climbing stairs - find no of ways to climb n stairs
+66. Container With Most Water
+67. N-Queens Problem
+
+
 67. Task Scheduler
-64. N-Queens Problem
+
 
 
