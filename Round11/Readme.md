@@ -84,9 +84,14 @@
 65. Climbing stairs - find no of ways to climb n stairs
 66. Container With Most Water
 67. N-Queens Problem
+68. Task Scheduler
+69. Spiral Matrix II
+70. Find Kth Highest Element
+71. Array Chunking
+72. Longest Consecutive Sequence
 
 
-67. Task Scheduler
+79. Reverse Vowels of a String
 
 
 
