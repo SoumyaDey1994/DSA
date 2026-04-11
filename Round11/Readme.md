@@ -93,14 +93,11 @@
 #### 10/04/2026
 73. Reverse Vowels of a String
 
-
-
-73. Palindrome Partitioning
-82. Unique Paths (Robot Grid)
-83. Proper Fraction
-84. Max Consecutive Ones III
-85. Find Longest Substring with At Most Two Distinct Characters 
-92. Rotate Image (Matrix Rotation)
-
-
-
+#### 11/04/2026
+74. Palindrome Partitioning
+75. Max Consecutive Ones III
+76. Find Longest Substring with At Most Two Distinct Characters 
+77. Rotate Image (Matrix Rotation)
+78. Unique Paths (Robot Grid)
+79. Proper Fraction
+80. Count Primes (Sieve)
