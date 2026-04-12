@@ -101,3 +101,17 @@
 78. Unique Paths (Robot Grid)
 79. Proper Fraction
 80. Count Primes (Sieve)
+
+#### 12/04/2026
+81. Function Curry
+82. Function toString Formatter
+83. Separate out Unique & Duplicate elements from a list of inegers
+84. Minimum Window Substring
+85. Clone Graph
+
+
+86. Missing Number
+87. Min Stack
+88. Sliding Window Maximum
+89. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
+90. Count Anagrams (Find All Anagrams in String)
