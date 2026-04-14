@@ -1,6 +1,7 @@
 ## DSA Practice
 
 #### 01/04/2026
+
 1. House Robber (House Thief)
 2. Merge Intervals
 3. Find smallest deviation in a list
@@ -12,6 +13,7 @@
 9. Coin Change – Number of Ways
 
 #### 02/04/2026
+
 10. Sorted Squared Array
 11. Tournament Winner
 12. Product of Array Except Self
@@ -23,6 +25,7 @@
 18. Find square-root using Binary Search
 
 #### 03/04/2026
+
 19. Move All Zeros to End
 20. Group Anagrams
 21. Find All Permuattions
@@ -32,6 +35,7 @@
 25. Best Time to Buy and Sell Stock (I)
 
 #### 04/04/2026
+
 26. House Painting Problem
 27. Next Permutation
 28. Combination Sum - I
@@ -42,9 +46,10 @@
 33. Capacity To Ship Packages Within D Days
 34. Find Trailing Zeros in Factorial
 35. Contains Duplicate
-36. Subarray Sum Equals K 
+36. Subarray Sum Equals K
 
 #### 05/04/2026
+
 37. First Unique Character in a String
 38. Trapping Rain Water
 39. Course Schedule – I
@@ -56,6 +61,7 @@
 45. Binary Search (Classic)
 
 #### 06/04/2026
+
 46. Number to Excel Column Title
 47. Jump Game II
 48. Meeting Rooms II
@@ -63,6 +69,7 @@
 50. Zigzag Conversion
 
 #### 07/04/2026
+
 51. Isomorphic Strings
 52. Course Schedule – II
 53. Word Search Problem
@@ -73,6 +80,7 @@
 58. 3 Sum
 
 #### 08/04/2026
+
 59. Prime Factors
 60. Find Frequency in Sorted Array
 61. Autoplayer Music Player
@@ -81,6 +89,7 @@
 64. Rotation Count of Sorted Array
 
 #### 09/04/2026
+
 65. Climbing stairs - find no of ways to climb n stairs
 66. Container With Most Water
 67. N-Queens Problem
@@ -91,18 +100,21 @@
 72. Longest Consecutive Sequence
 
 #### 10/04/2026
+
 73. Reverse Vowels of a String
 
 #### 11/04/2026
+
 74. Palindrome Partitioning
 75. Max Consecutive Ones III
-76. Find Longest Substring with At Most Two Distinct Characters 
+76. Find Longest Substring with At Most Two Distinct Characters
 77. Rotate Image (Matrix Rotation)
 78. Unique Paths (Robot Grid)
 79. Proper Fraction
 80. Count Primes (Sieve)
 
 #### 12/04/2026
+
 81. Function Curry
 82. Function toString Formatter
 83. Separate out Unique & Duplicate elements from a list of inegers
@@ -110,10 +122,15 @@
 85. Clone Graph
 
 #### 13/04/2026
+
 86. Missing Number
 87. Min Stack
 
-
+#### 14/04/2026
 88. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 89. Sliding Window Maximum
 90. Count Anagrams (Find All Anagrams in String)
+91. Check Balanced Parenthesiss
+92. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
+
+93. Set Matrix Zeroes
