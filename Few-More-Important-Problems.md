@@ -14,7 +14,7 @@ Accounts Merge ⭐⭐⭐
 Alien Dictionary ⭐⭐⭐
 Number of Connected Components ⭐⭐
 
-### Greedy (5)
+### Greedy (5) - Done
 
 Jump Game II ⭐⭐
 Gas Station ⭐⭐
@@ -39,5 +39,5 @@ Graph Valid Tree ⭐⭐
 
 Pow(x, n) ⭐⭐
 Sqrt(x) ⭐⭐
-Count Primes (Sieve) ⭐⭐
+Count Primes (Sieve) ⭐⭐ - Done
 

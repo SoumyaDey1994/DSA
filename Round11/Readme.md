@@ -122,7 +122,6 @@
 85. Clone Graph
 
 #### 13/04/2026
-
 86. Missing Number
 87. Min Stack
 
@@ -133,4 +132,15 @@
 91. Check Balanced Parenthesiss
 92. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
 
+#### 15/04/2026
+
 93. Set Matrix Zeroes
+94. Reverse a Singly Linked List
+95. Swap adjacent nodes of a Singly Linked List
+96. Print 2D Array in Spiral Order
+
+
+96. Detect Cycle in a Singly Linked List
+97. Find Nth Node from End (SLL)
+98. Binary Tree - Level-order Traversal
+99. Invert Binary Tree
