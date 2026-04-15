@@ -122,10 +122,12 @@
 85. Clone Graph
 
 #### 13/04/2026
+
 86. Missing Number
 87. Min Stack
 
 #### 14/04/2026
+
 88. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 89. Sliding Window Maximum
 90. Count Anagrams (Find All Anagrams in String)
@@ -138,9 +140,9 @@
 94. Reverse a Singly Linked List
 95. Swap adjacent nodes of a Singly Linked List
 96. Print 2D Array in Spiral Order
+97. Detect Cycle in a Singly Linked List
+98. Find Nth Node from End (SLL)
+99. Binary Tree - Level-order Traversal
+100. Invert Binary Tree
 
 
-96. Detect Cycle in a Singly Linked List
-97. Find Nth Node from End (SLL)
-98. Binary Tree - Level-order Traversal
-99. Invert Binary Tree
