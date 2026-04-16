@@ -145,4 +145,17 @@
 99. Binary Tree - Level-order Traversal
 100. Invert Binary Tree
 
+#### 16/04/2026
 
+101. Remove Duplicates from Sorted Array
+102. Find Max Depth of the Binary Tree
+103. Find Diameter of the Binary Tree
+104. Find LCA of 2 give nodes
+105. Check if a Binary Tree is BST or not
+106. Find mid-point of a SLL
+
+
+102. Merge 2 Sorted SLL
+108. Kth Smallest element in BST
+109. Get right-side element view of Binary Tree
+107. Find Merge-Point of Two Linked Lists

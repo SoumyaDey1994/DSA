@@ -5,7 +5,7 @@
  * Problem 3: Detect Cycle in a Singly Linked List (15th April, 2026)
  * Problem 4: Find Nth Node from End (SLL) (15th April, 2026)
  * Problem 5: Merge 2 Sorted SLL ()
- * Problem 6: Find mid-point of a SLL ()
+ * Problem 6: Find mid-point of a SLL (16th April, 2026)
  * Problem 7: Find intersection-point of a SLL ()
  */
 
@@ -143,6 +143,24 @@ class SinglyLinkedList {
 
     return temp2.data;
   }
+
+  /**
+   * Find midpoint of a Singly Linked List
+   * @returns
+   */
+  findMidPoint() {
+    if (this.head === null) return null;
+
+    let slow = this.head,
+      fast = this.head;
+
+    while (fast !== null && fast.next !== null) {
+      slow = slow.next;
+      fast = fast.next.next;
+    }
+
+    return slow.data;
+  }
 }
 
 const node1 = new Node(1);
@@ -187,3 +205,17 @@ console.log(`3rd node from end: ${sll.findNthNodeFromEnd(3)}`);
 console.log(`4th node from end: ${sll.findNthNodeFromEnd(4)}`);
 console.log(`7th node from end: ${sll.findNthNodeFromEnd(6)}`);
 console.log(`10th node from end: ${sll.findNthNodeFromEnd(10)}`);
+
+const sortedList1 = new SinglyLinkedList();
+sortedList1
+  .addNode(new Node(node1.data))
+  .addNode(new Node(node3.data))
+  .addNode(new Node(node5.data))
+  .addNode(new Node(node10.data))
+  .addNode(new Node(node100.data));
+
+console.log(`List 1: ${sll.getList()}`);
+console.log(`Sorted List 1: ${sortedList1.getList()}`);
+
+console.log(`Mid-point of List 1: ${sll.findMidPoint()}`);
+console.log(`Mid-point of Sorted List 1: ${sortedList1.findMidPoint()}`);

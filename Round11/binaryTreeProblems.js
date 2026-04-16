@@ -3,11 +3,11 @@
  * Problem Statement: Binary Tree - Level-order Traversal
  * Date: 15th April, 2026
  * Problem Statement: Invert Binary Tree
- * Date:
+ * Date: 16th April, 2026
  * Problem Statement: Find LCA of 2 give nodes
- * Date:
+ * Date: 16th April, 2026
  * Problem Statement: Find Diameter of the Binary Tree
- * Date:
+ * Date: 16th April, 2026
  * Problem Statement: Find Max Depth of the Binary Tree
  */
 
@@ -91,6 +91,62 @@ class BinaryTree {
     this.invertTree(root.left);
     this.invertTree(root.right);
   }
+
+  findMaxDepth(root) {
+    if (!root) return 0;
+
+    const leftDepth = this.findMaxDepth(root.left);
+    const rightDepth = this.findMaxDepth(root.right);
+
+    return 1 + Math.max(leftDepth, rightDepth);
+  }
+
+  findDiameter(root) {
+    if (!root) return 0;
+
+    let diameter = 0;
+    function getHeight(node) {
+      if (!node) return 0;
+
+      const leftHeight = getHeight(node.left);
+      const rightHeight = getHeight(node.right);
+
+      diameter = Math.max(diameter, leftHeight + rightHeight);
+
+      return 1 + Math.max(leftHeight, rightHeight);
+    }
+
+    getHeight(root);
+    return diameter;
+  }
+
+  findLcaNode(root, firstNode, secondNode) {
+    if (!root) return null;
+
+    if (root.left === firstNode || root.right === secondNode) return root;
+
+    const leftLca = this.findLcaNode(root.left, firstNode, secondNode);
+    const rightLca = this.findLcaNode(root.right, firstNode, secondNode);
+
+    if (!leftLca && !rightLca) return null;
+
+    if (leftLca && rightLca) return root;
+
+    return leftLca ? leftLca : rightLca;
+  }
+
+  checkIsBst(root) {
+    if (!root) return false;
+
+    if (root.left === null && root.right === null) return true;
+    if (root.left !== null && root.right === null) return false;
+    if (root.left === null && root.right !== null) return false;
+
+    const isLeftSubtreeBst = this.checkIsBst(root.left);
+    const isRightSubtreeBst = this.checkIsBst(root.right);
+
+    return isLeftSubtreeBst && isRightSubtreeBst;
+  }
 }
 
 let tree = new BinaryTree();
@@ -122,3 +178,21 @@ console.log("Post Invert: Inorder Travarsal: ");
 tree.printInOrder(tree.root);
 
 tree.invertTree(tree.root);
+
+console.log(`------Depth of binary Tree:  ${tree.findMaxDepth(tree.root)}`);
+console.log(`------Diameter of binary Tree:  ${tree.findDiameter(tree.root)}`);
+
+let lcaNode = tree.findLcaNode(tree.root, node1, node2);
+console.log(`LCA of node ${node1.data} & ${node2.data} is: ${lcaNode?.data}`);
+
+lcaNode = tree.findLcaNode(tree.root, node6, node7);
+console.log(`LCA of node ${node6.data} & ${node7.data} is: ${lcaNode?.data}`);
+
+lcaNode = tree.findLcaNode(tree.root, node5, node6);
+console.log(`LCA of node ${node5.data} & ${node6.data} is: ${lcaNode?.data}`);
+
+console.log(`Is Tree is a BST: ${tree.checkIsBst(tree.root)}`);
+tree.addNode(new Node(12)).addNode(new Node(6));
+console.log(`Tree post adding 2 new nodes:`);
+tree.printInOrder(tree.root);
+console.log(`Is Tree is a BST: ${tree.checkIsBst(tree.root)}`);
