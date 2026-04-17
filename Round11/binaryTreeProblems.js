@@ -91,7 +91,11 @@ class BinaryTree {
     this.invertTree(root.left);
     this.invertTree(root.right);
   }
-
+  /**
+   * Find Max depth of the binary tree
+   * @param {*} root
+   * @returns
+   */
   findMaxDepth(root) {
     if (!root) return 0;
 
@@ -101,6 +105,11 @@ class BinaryTree {
     return 1 + Math.max(leftDepth, rightDepth);
   }
 
+  /**
+   * Find diameter of binary tree
+   * @param {*} root
+   * @returns
+   */
   findDiameter(root) {
     if (!root) return 0;
 
@@ -120,6 +129,13 @@ class BinaryTree {
     return diameter;
   }
 
+  /**
+   * Find LCA of given 2 nodes of binary tree
+   * @param {*} root
+   * @param {*} firstNode
+   * @param {*} secondNode
+   * @returns
+   */
   findLcaNode(root, firstNode, secondNode) {
     if (!root) return null;
 
@@ -135,6 +151,11 @@ class BinaryTree {
     return leftLca ? leftLca : rightLca;
   }
 
+  /**
+   * Check if given binary tree is BST or not
+   * @param {*} root
+   * @returns
+   */
   checkIsBst(root) {
     if (!root) return false;
 
@@ -146,6 +167,57 @@ class BinaryTree {
     const isRightSubtreeBst = this.checkIsBst(root.right);
 
     return isLeftSubtreeBst && isRightSubtreeBst;
+  }
+
+  /**
+   * Find kth smallest element of a Binary Tree
+   * @param {*} root
+   * @param {*} k
+   * @returns
+   */
+  findKthSmallestElement(root, k) {
+    if (!root) return null;
+
+    const stack = [];
+    let curr = root;
+    while (curr !== null || stack.length > 0) {
+      while (curr !== null) {
+        stack.push(curr);
+        curr = curr.left;
+      }
+
+      curr = stack.pop();
+      k--;
+      if (k === 0) {
+        return curr.data;
+      }
+
+      curr = curr.right;
+    }
+
+    return null;
+  }
+
+  getRightSideView(root) {
+    if (!root) return null;
+
+    const executionQueue = [root];
+    const result = [];
+    while (executionQueue.length > 0) {
+      let curr = null;
+      let rightVal = null;
+
+      while (executionQueue.length > 0) {
+        curr = executionQueue.shift();
+        rightVal = curr.data;
+      }
+
+      result.push(rightVal);
+      if (curr.left !== null) executionQueue.push(curr.left);
+      if (curr.right !== null) executionQueue.push(curr.right);
+    }
+
+    return result.join("-->");
   }
 }
 
@@ -196,3 +268,22 @@ tree.addNode(new Node(12)).addNode(new Node(6));
 console.log(`Tree post adding 2 new nodes:`);
 tree.printInOrder(tree.root);
 console.log(`Is Tree is a BST: ${tree.checkIsBst(tree.root)}`);
+
+let k = 3;
+console.log(
+  `--- ${k}th smallest element in Binary Tree is: ${tree.findKthSmallestElement(tree.root, k)}`,
+);
+
+k = 2;
+console.log(
+  `--- ${k}th smallest element in Binary Tree is: ${tree.findKthSmallestElement(tree.root, k)}`,
+);
+
+k = 6;
+console.log(
+  `--- ${k}th smallest element in Binary Tree is: ${tree.findKthSmallestElement(tree.root, k)}`,
+);
+
+console.log(
+  `--- Right-side view of binary tree is: [${tree.getRightSideView(tree.root)}]`,
+);
