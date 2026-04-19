@@ -25,8 +25,8 @@
 18. Move All Zeros to End
 19. Coin Change – Min Coins
 20. Best Time to Buy and Sell Stock (I)
-
-23. Custom DS with O(1) complexity - No Duplicate Entries
-61. Autoplayer Music Player
-27. Next Permutation
-18. Find square-root using Binary Search
+21. Custom DS with O(1) complexity - No Duplicate Entries
+22. Autoplayer Music Player
+23. Next Permutation
+24. Find square-root using Binary Search
+25. Separate out Unique & Duplicate elements from a list of inegers
