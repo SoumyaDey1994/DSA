@@ -15,20 +15,18 @@
 11. Daily Temperatures
 12. Partition Equal Subset Sum
 
-
-
 #### 19/04/2026
 
+13. Peak Element
+14. Word Break
+15. Coin Change – Number of Ways
+16. Product of Array Except Self
+17. Maximum Sum Subarray
+18. Move All Zeros to End
+19. Coin Change – Min Coins
+20. Best Time to Buy and Sell Stock (I)
 
-7. Peak Element
-8. Word Break
-9. Coin Change – Number of Ways
-12. Product of Array Except Self
-13. Maximum Sum Subarray
-19. Move All Zeros to End
 23. Custom DS with O(1) complexity - No Duplicate Entries
-24. Coin Change – Min Coins
-25. Best Time to Buy and Sell Stock (I)
 61. Autoplayer Music Player
 27. Next Permutation
 18. Find square-root using Binary Search
