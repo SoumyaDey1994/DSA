@@ -40,10 +40,9 @@
 30. Find Leftmost Repeating Character
 31. Max Consecutive Ones III
 32. Count Primes (Sieve)
-
-
-20. Group Anagrams
-28. Combination Sum - I
-34. Find Trailing Zeros in Factorial
-35. Contains Duplicate
-36. Subarray Sum Equals K
+33. Group Anagrams
+34. Combination Sum - I
+35. Find Trailing Zeros in Factorial
+36. Contains Duplicate
+37. Subarray Sum Equals K
+38. Create a deep clone of object
