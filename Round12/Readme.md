@@ -30,3 +30,20 @@
 23. Next Permutation
 24. Find square-root using Binary Search
 25. Separate out Unique & Duplicate elements from a list of inegers
+
+#### 20/04/2026
+
+26. Happy Number
+27. Find All Permuattions
+28. Subsets or combinations
+29. Efficient Janitor Problem
+30. Find Leftmost Repeating Character
+31. Max Consecutive Ones III
+32. Count Primes (Sieve)
+
+
+20. Group Anagrams
+28. Combination Sum - I
+34. Find Trailing Zeros in Factorial
+35. Contains Duplicate
+36. Subarray Sum Equals K
