@@ -1,5 +1,5 @@
 /**
- * Date: 5th April, 2026
+ * Date: 21st April, 2026
  * 📌 Problem Statement — First Unique Character in a String
  * You are given a string s containing lowercase/uppercase letters (depending on the version of the problem).
  * You must find the index of the first non-repeating (unique) character in the string.
@@ -19,15 +19,15 @@
  *      Output: -1
  *      Explanation: All characters repeat → No unique character.
  */
-function findFirstUniqueChar(str) {
-  if (!str || str.length === 0) return;
+function findFirstUniqueChar(input) {
+  if (!input || input.length === 0) return -1;
 
   const freqMap = new Map();
-  for (let char of str) {
+  for (const char of input) {
     freqMap.set(char, (freqMap.get(char) || 0) + 1);
   }
 
-  for (let char of str) {
+  for (const char of input) {
     if (freqMap.get(char) === 1) return char;
   }
 

@@ -46,3 +46,8 @@
 36. Contains Duplicate
 37. Subarray Sum Equals K
 38. Create a deep clone of object
+
+#### 20/04/2026
+
+39. First Unique Character in a String
+40. Trapping Rain Water
