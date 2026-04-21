@@ -51,3 +51,15 @@
 
 39. First Unique Character in a String
 40. Trapping Rain Water
+41. House Painting Problem
+42. No of Islands
+43. Gas Station
+44. Number to Excel Column Title
+45. Majority Element (Boyer-Moore)
+46. Course Schedule – I
+
+
+33. Capacity To Ship Packages Within D Days
+40. Combination Sum - II
+51. Isomorphic Strings
+43. Jump Game I
