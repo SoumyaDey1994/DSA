@@ -47,7 +47,7 @@
 37. Subarray Sum Equals K
 38. Create a deep clone of object
 
-#### 20/04/2026
+#### 21/04/2026
 
 39. First Unique Character in a String
 40. Trapping Rain Water
@@ -58,8 +58,13 @@
 45. Majority Element (Boyer-Moore)
 46. Course Schedule – I
 
+#### 22/04/2026
 
-33. Capacity To Ship Packages Within D Days
-40. Combination Sum - II
-51. Isomorphic Strings
-43. Jump Game I
+47. Capacity To Ship Packages Within D Days
+48. Combination Sum - II
+49. Isomorphic Strings
+50. Jump Game I
+51. Zigzag Conversion
+52. Intersection of Two Arrays II
+53. Meeting Rooms I
+54. Surrounded Regions
