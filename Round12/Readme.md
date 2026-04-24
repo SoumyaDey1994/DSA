@@ -78,5 +78,13 @@
 59. Course Schedule – II
 60. Word Ladder
 
+#### 24/04/2026
+
+61. Climbing stairs - find no of ways to climb n stairs
+62. Container With Most Water
+63. Spiral Matrix II
+64. Find Frequency in Sorted Array
+65. Find Kth Highest Element
 
 
+62. Aggressive Cows / Allocate Minimum Pages
