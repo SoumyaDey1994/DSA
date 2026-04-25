@@ -86,5 +86,18 @@
 64. Find Frequency in Sorted Array
 65. Find Kth Highest Element
 
+#### 25/04/2026
 
-62. Aggressive Cows / Allocate Minimum Pages
+66. Aggressive Cows / Allocate Minimum Pages
+67. Array Chunking
+68. Longest Consecutive Sequence
+69. Binary Search (Classic)
+70. Rotate Image (Matrix Rotation)
+
+
+
+53. Word Search Problem
+55. Rotten Mangoes Problem
+56. Pacific-atlantic water flow
+73. Reverse Vowels of a String
+74. Find Longest Substring with At Most Two Distinct Characters
