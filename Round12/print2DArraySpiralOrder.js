@@ -1,0 +1,94 @@
+/**
+ * Date: 27th April, 2026
+ * Problem Statement: Print 2D array in Spiral order
+ * Example:
+ *      arr = [
+ *          1, 2, 3, 4
+ *          5, 6, 7, 8,
+ *          9, 10, 11, 12,
+ *          13, 14, 15, 16
+ *      ]
+ *     result = [1, 2, 3, 4, 8, 12, 16, 15, 14, 13, 9, 5, 6, 7, 11, 10]
+ */
+function printMatrixSpiralOrder(arr) {
+  if (!arr || arr.length === 0) return;
+
+  let left = 0,
+    right = arr[0].length - 1;
+  let top = 0,
+    bottom = arr.length - 1;
+  let direction = 0;
+
+  const output = [];
+
+  while (left <= right && top <= bottom) {
+    if (direction === 0) {
+      // keep top same, move left --> right, incr top
+      for (let i = left; i <= right; i++) {
+        output.push(arr[top][i]);
+      }
+      top++;
+    }
+
+    if (direction === 1) {
+      // keep right same, move from top --> bottom, decr right
+      for (let i = top; i <= bottom; i++) {
+        output.push(arr[i][right]);
+      }
+      right--;
+    }
+
+    if (direction === 2) {
+      // keep bottom same, move from right --> left, decr bottom
+      for (let i = right; i >= left; i--) {
+        output.push(arr[bottom][i]);
+      }
+      bottom--;
+    }
+
+    if (direction === 3) {
+      // keep left same, move from bottom to top, incr left
+      for (let i = bottom; i >= top; i--) {
+        output.push(arr[i][left]);
+      }
+      left++;
+    }
+
+    direction = (direction + 1) % 4;
+  }
+
+  return output.join("-->");
+}
+
+let arr = [
+  [1, 2, 3, 4],
+  [5, 6, 7, 8],
+  [9, 10, 11, 12],
+  [13, 14, 15, 16],
+];
+console.log(`Spiral Order Print: [${printMatrixSpiralOrder(arr)}]`);
+
+arr = [
+  [10, 20, 30],
+  [12, 22, 32],
+  [15, 25, 35],
+  [19, 29, 39],
+];
+console.log(`Spiral Order Print: [${printMatrixSpiralOrder(arr)}]`);
+
+arr = [
+  [1, 2, 3, 4, 5],
+  [6, 7, 8, 9, 10],
+  [11, 12, 13, 14, 15],
+  [16, 17, 18, 19, 20],
+  [21, 22, 23, 24, 25],
+];
+console.log(`Spiral Order Print: [${printMatrixSpiralOrder(arr)}]`);
+
+arr = [
+  [1, 2, 3, 4, 5, 6, 7],
+  [10, 20, 30, 40, 50, 60, 70],
+  [100, 200, 300, 400, 500, 600, 700],
+  [1000, 2000, 3000, 4000, 5000, 6000, 7000],
+];
+console.log(`Spiral Order Print: [${printMatrixSpiralOrder(arr)}]`);

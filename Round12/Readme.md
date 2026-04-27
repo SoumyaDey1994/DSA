@@ -103,16 +103,21 @@
 75. Pacific-atlantic water flow
 76. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 
+#### 27/04/2026
 
-101. Remove Duplicates from Sorted Array
+77. Remove Duplicates from Sorted Array
+78. Missing Number
+79. Sliding Window Maximum
+80. Print 2D Array in Spiral Order
+81. Count and Say
+82. Clone Graph
+
+
 93. Set Matrix Zeroes
 84. Minimum Window Substring
-85. Clone Graph
-86. Missing Number
-87. Min Stack
-89. Sliding Window Maximum
 90. Count Anagrams (Find All Anagrams in String)
 91. Check Balanced Parenthesiss
 92. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
-96. Print 2D Array in Spiral Order
+87. Min Stack
 74. 3 Sum II - Use Binary Search to solve
+75. Dual Palindrome
