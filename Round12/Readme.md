@@ -112,12 +112,18 @@
 81. Count and Say
 82. Clone Graph
 
+#### 28/04/2026
 
-93. Set Matrix Zeroes
+83. Check Balanced Parenthesiss
+84. Min Stack
+85. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
+86. Set Matrix Zeroes
+87. Count Anagrams (Find All Anagrams in String)
+
+
+
 84. Minimum Window Substring
-90. Count Anagrams (Find All Anagrams in String)
-91. Check Balanced Parenthesiss
-92. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
-87. Min Stack
 74. 3 Sum II - Use Binary Search to solve
 75. Dual Palindrome
+64. N-Queens Problem
+73. Palindrome Partitioning
