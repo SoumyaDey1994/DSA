@@ -120,10 +120,11 @@
 86. Set Matrix Zeroes
 87. Count Anagrams (Find All Anagrams in String)
 
+#### 29/04/2026
 
-
-84. Minimum Window Substring
-74. 3 Sum II - Use Binary Search to solve
-75. Dual Palindrome
-64. N-Queens Problem
-73. Palindrome Partitioning
+88. Find Pow(base, exp) using Binary Search
+89. Dual Palindrome
+90. Palindrome Partitioning
+91. N-Queens Problem
+92. 3 Sum II - Use Binary Search to solve
+93. Minimum Window Substring

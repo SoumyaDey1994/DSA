@@ -35,9 +35,8 @@ Accounts Merge ⭐⭐⭐
 Number of Connected Components ⭐⭐
 Graph Valid Tree ⭐⭐
 
-### Math (3)
+### Math (3) - Done
 
 Pow(x, n) ⭐⭐
 Sqrt(x) ⭐⭐
-Count Primes (Sieve) ⭐⭐ - Done
-
+Count Primes (Sieve) ⭐⭐
