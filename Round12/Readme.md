@@ -128,3 +128,27 @@
 91. N-Queens Problem
 92. 3 Sum II - Use Binary Search to solve
 93. Minimum Window Substring
+
+#### 01/05/2026
+
+94. Reverse a Singly Linked List
+95. Swap adjacent nodes of a Singly Linked List
+96. Detect Cycle in a Singly Linked List
+97. Remove Cycle from a Cyclic Linked List
+98. Binary Tree - Level-order Traversal
+99. Invert Binary Tree
+100. Find Max Depth of the Binary Tree
+101. Find Diameter of the Binary Tree
+
+
+98. Find Nth Node from End (SLL)
+104. Find LCA of 2 give nodes
+105. Check if a Binary Tree is BST or not
+106. Find mid-point of a SLL
+108. Merge 2 Sorted SLL
+109. Find Merge-Point of Two Linked Lists
+110. Kth Smallest element in BST
+111. Right-side element view of Binary Tree
+112. Merge K Sorted List
+113. Longest Increasing Subsequence
+114. Reverse Linked List II - Reverse within given pointers

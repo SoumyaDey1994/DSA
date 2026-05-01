@@ -1,6 +1,6 @@
 ## Hard Problems
 
-🧠 Dynamic Programming (10 Hard Problems)
+### 🧠 Dynamic Programming (10 Hard Problems)
 
 1. Edit Distance - Minimum operations to convert one string into another (DP).
 
@@ -22,7 +22,7 @@
 
 10. Distinct Subsequences - Count ways S can form T (classic DP table).
 
-🎯 Backtracking (6 Hard Problems)
+### 🎯 Backtracking (6 Hard Problems)
 
 11. N-Queens II - Count total ways to place queens.
 
@@ -37,7 +37,7 @@
 
 16. Restore IP Addresses - Backtracking with segmentation constraints.
 
-🌉 Graph / BFS / DFS Traversal (4 Hard Problems)
+### 🌉 Graph / BFS / DFS Traversal (4 Hard Problems)
 
 17. Word Ladder II - Find all shortest paths between words (BFS + DFS).
 

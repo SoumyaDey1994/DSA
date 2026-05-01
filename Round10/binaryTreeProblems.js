@@ -205,6 +205,7 @@ binaryTree.printInOrder(binaryTree.root);
 
 console.log(`....Tree Level-order Traveral......`);
 binaryTree.printLevelOrder(binaryTree.root);
+
 console.log(`....Inverted Binary Tree Pre-order......`);
 binaryTree.invertTree(binaryTree.root);
 binaryTree.printInOrder(binaryTree.root);
