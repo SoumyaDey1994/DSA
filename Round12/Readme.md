@@ -140,15 +140,18 @@
 100. Find Max Depth of the Binary Tree
 101. Find Diameter of the Binary Tree
 
+#### 02/05/2026
 
-98. Find Nth Node from End (SLL)
-104. Find LCA of 2 give nodes
-105. Check if a Binary Tree is BST or not
-106. Find mid-point of a SLL
-108. Merge 2 Sorted SLL
+102. Longest Increasing Subsequence
+103. Find Nth Node from End (SLL)
+104. Find mid-point of a SLL
+105. Find LCA of 2 give nodes
+106. Check if a Binary Tree is BST or not
+107. Merge 2 Sorted SLL
+108. Kth Smallest element in BST
+
+
 109. Find Merge-Point of Two Linked Lists
-110. Kth Smallest element in BST
 111. Right-side element view of Binary Tree
 112. Merge K Sorted List
-113. Longest Increasing Subsequence
 114. Reverse Linked List II - Reverse within given pointers
