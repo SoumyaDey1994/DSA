@@ -7,7 +7,9 @@
  * Problem 5: Find mid-point of a SLL (2nd May, 2026)
  * Problem 6: Find Nth Node from End (SLL) (2nd May, 2026)
  * Problem 7: Merge 2 Sorted SLL (2nd May, 2026)
- * Problem 8: Find intersection-point of a SLL ()
+ * Problem 8: Find intersection-point of a SLL (3rd May, 2026)
+ * Problem 9: Merged K Sorted Singly Linked List (3rd May, 2026)
+ * Problem 10: Reverse Linked List II - Reverse within given pointers ()
  */
 
 class Node {
@@ -221,6 +223,101 @@ class SinglyLinkedList {
 
     return mergedList;
   }
+  /**
+   * Find Intersection point of 2 SLL
+   * @param {*} list1Head
+   * @param {*} list2Head
+   * @returns
+   */
+  findIntersectionPoint(list1Head, list2Head) {
+    if (!list1Head || !list2Head) return null;
+
+    let temp1 = list1Head,
+      temp2 = list2Head;
+    let list1Length = 0,
+      list2Length = 0,
+      delta = 0;
+
+    while (temp1 !== null) {
+      list1Length++;
+      temp1 = temp1.next;
+    }
+
+    while (temp2 !== null) {
+      list2Length++;
+      temp2 = temp2.next;
+    }
+
+    ((temp1 = list1Head), (temp2 = list2Head));
+    if (list1Length > list2Length) {
+      delta = list1Length - list2Length;
+      while (delta > 0) {
+        temp1 = temp1.next;
+        delta--;
+      }
+    } else {
+      delta = list2Length - list1Length;
+      while (delta > 0) {
+        temp2 = temp2.next;
+        delta--;
+      }
+    }
+
+    while (temp1 !== null && temp2 !== null) {
+      if (temp1 === temp2) return temp1;
+
+      temp1 = temp1.next;
+      temp2 = temp2.next;
+    }
+
+    return null;
+  }
+  /**
+   * Merge K Sorted Singly Linked List
+   * TC: O(k^2 * n)
+   * @param {*} listHeads
+   * @returns
+   */
+  mergeKSortedLists(...listHeads) {
+    if (!listHeads || listHeads.length === 0) return;
+
+    const mergedList = new SinglyLinkedList();
+    const indexMap = new Map();
+    // setting index: node mapping
+    for (let i = 0; i < listHeads.length; i++) {
+      indexMap.set(i, listHeads[i]);
+    }
+
+    function merge(indexMap) {
+      if (indexMap.size === 0) return;
+
+      let minVal = Infinity,
+        minValNode = null,
+        minValNodeIndex = -1;
+      // find min value & its corresponding node index
+      for (let [index, node] of indexMap) {
+        // O(n)
+        if (node.data < minVal) {
+          minVal = node.data;
+          minValNode = node;
+          minValNodeIndex = index;
+        }
+      }
+
+      // console.log(`Min Node: ${minValNode}`)
+      mergedList.addNode(new Node(minVal));
+      if (minValNode.next === null) {
+        indexMap.delete(minValNodeIndex);
+      } else {
+        indexMap.set(minValNodeIndex, minValNode.next);
+      }
+
+      merge(indexMap); // Recursive call - O(K)
+    }
+
+    merge(indexMap); // O(k)
+    return mergedList;
+  }
 }
 
 const node1 = new Node(1);
@@ -301,3 +398,49 @@ console.log(`Mid-point of Sorted List 2: ${sortedList2.findMidPoint()}`);
 
 const mergedList = sll.merge2SortedList(sortedList1.head, sortedList2.head);
 console.log(`Merged List: ${mergedList.getList()}`);
+
+console.log(`-------Testing Merge K Sorted Linked List----------`);
+const sortedList3 = new SinglyLinkedList();
+sortedList3
+  .addNode(new Node(node1.data))
+  .addNode(new Node(node3.data))
+  .addNode(new Node(node10.data))
+  .addNode(new Node(node12.data))
+  .addNode(new Node(node100.data));
+
+const mergedKList = sll.mergeKSortedLists(
+  sortedList1.head,
+  sortedList2.head,
+  sortedList3.head,
+);
+console.log(`Sorted Merged K List: ${mergedKList.getList()}`);
+
+console.log(`-------Testing Merge-point of 2 SLL----------`);
+
+const list1 = new SinglyLinkedList();
+const list2 = new SinglyLinkedList();
+
+const nodeA = new Node(1);
+const nodeB = new Node(2);
+const nodeC = new Node(3);
+const nodeD = new Node(4);
+const nodeE = new Node(5);
+const nodeF = new Node(6);
+const nodeG = new Node(60);
+const commonNode = new Node(50);
+
+list1.addNode(nodeA).addNode(nodeB).addNode(commonNode);
+
+list2
+  .addNode(nodeC)
+  .addNode(nodeD)
+  .addNode(nodeE)
+  .addNode(nodeF)
+  .addNode(commonNode)
+  .addNode(nodeG);
+
+console.log(`List 1: ${list1.getList()}`);
+console.log(`List 2: ${list2.getList()}`);
+
+const mergePoint = list1.findIntersectionPoint(list1.head, list2.head);
+console.log(`Merge-point of 2 list is: ${mergePoint.data}`);
