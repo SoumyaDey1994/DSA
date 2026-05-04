@@ -318,6 +318,55 @@ class SinglyLinkedList {
     merge(indexMap); // O(k)
     return mergedList;
   }
+
+  /**
+   * Given a singly linked list and two integers 'left' and 'right',
+   * reverse the nodes of the list from position 'left' to position 'right' (1-indexed),
+   * and return the reversed list.
+   * @param {*} head
+   * @param {*} left
+   * @param {*} right
+   * @returns
+   */
+  reverseBetween(list, left, right) {
+    // Edge case: if left == right, no reversal needed
+    if (left === right) return list;
+
+    // Create a dummy node to handle cases where left = 1
+    const dummy = new Node(0);
+    dummy.next = list.head;
+
+    // Step 1: Find the node just before 'left' position
+    let beforeLeft = dummy;
+    for (let i = 0; i < left - 1; i++) {
+      beforeLeft = beforeLeft.next;
+    }
+
+    // Step 2: Start reversing - use "move node forward" approach
+    // prev stays at beforeLeft
+    // current is the first node in the reversal region
+    let prev = beforeLeft;
+    let current = beforeLeft.next;
+
+    // Reverse the sublist from left to right
+    // By moving nodes forward (right - left) times
+    for (let i = 0; i < right - left; i++) {
+      // 1. Save the next node to be moved
+      const nextTarget = current.next;
+
+      // 2. Remove next from current position: current.next = next.next
+      current.next = nextTarget.next;
+
+      // 3. Insert next between prev and prev.next
+      nextTarget.next = prev.next;
+      prev.next = nextTarget;
+
+      // Note: prev stays the same, current moves forward naturally
+    }
+
+    list.head = dummy.next;
+    return list;
+  }
 }
 
 const node1 = new Node(1);
@@ -415,8 +464,17 @@ const mergedKList = sll.mergeKSortedLists(
 );
 console.log(`Sorted Merged K List: ${mergedKList.getList()}`);
 
-console.log(`-------Testing Merge-point of 2 SLL----------`);
+console.log(`-------Testing Reverse Nodes b/w 2 Points ----------`);
+mergedKList.reverseBetween(mergedKList, 2, 5);
+console.log(`Merged K List post reverse b/w 2 & 5: ${mergedKList.getList()}`);
 
+sll.reverseBetween(sll, 1, 6);
+console.log(`SLL post reverse b/w 3 & 6: ${sll.getList()}`);
+
+cyclicList.reverseBetween(cyclicList, 1, 4);
+console.log(`Cyclic List post reverse b/w 1 & 4: ${cyclicList.getList()}`);
+
+console.log(`-------Testing Merge-point of 2 SLL----------`);
 const list1 = new SinglyLinkedList();
 const list2 = new SinglyLinkedList();
 
