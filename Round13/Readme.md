@@ -9,10 +9,13 @@
 5. House Robber (House Thief)
 6. Find smallest deviation in a list
 
+#### 08/05/2026
 
-4. Merge Intervals
-6. Longest Substring with Unique Characters
-8. Rotate Matrix k times
-34. Combination Sum - I
-40. Trapping Rain Water
-42. No of Islands
+7. Merge Intervals
+8. Longest Substring with Unique Characters
+9. Rotate Matrix k times
+10. Combination Sum - I
+11. Trapping Rain Water
+12. No of Islands
+13. Daily Temperatures
+
