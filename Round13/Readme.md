@@ -19,3 +19,17 @@
 12. No of Islands
 13. Daily Temperatures
 
+#### 09/05/2026
+
+14. Longest Palindromic Substring
+15. Sorted Squared Array
+16. Peak Element
+17. Word Break
+18. Separate out Unique & Duplicate elements from a list of inegers
+19. Coin Change – Number of Ways
+20. Product of Array Except Self
+21. Find square-root using Binary Search
+22. Partition Equal Subset Sum
+23. Best Time to Buy and Sell Stock (I)
+
+
