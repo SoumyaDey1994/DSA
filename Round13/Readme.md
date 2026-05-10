@@ -33,3 +33,12 @@
 23. Best Time to Buy and Sell Stock (I)
 
 
+#### 10/05/2026
+
+24. Tournament Winner
+25. Maximum Sum Subarray
+26. Move All Zeros to End
+27. Custom DS with O(1) complexity - No Duplicate Entries
+28. Palindrome Partitioning
+29. Automatic Music Player 
+30. Count Anagrams (Find All Anagrams in String)
