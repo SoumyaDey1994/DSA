@@ -32,7 +32,6 @@
 22. Partition Equal Subset Sum
 23. Best Time to Buy and Sell Stock (I)
 
-
 #### 10/05/2026
 
 24. Tournament Winner
@@ -42,3 +41,11 @@
 28. Palindrome Partitioning
 29. Automatic Music Player 
 30. Count Anagrams (Find All Anagrams in String)
+
+#### 11/05/2026
+
+31. Coin Change – Min Coins
+32. Next Permutation
+33. Find All Permuattions
+34. Efficient Janitor Problem
+35. Find Leftmost Repeating Character
