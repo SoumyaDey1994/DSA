@@ -49,3 +49,11 @@
 33. Find All Permuattions
 34. Efficient Janitor Problem
 35. Find Leftmost Repeating Character
+
+#### 12/05/2026
+
+32. Count Primes (Sieve)
+
+
+33. Group Anagrams
+44. Number to Excel Column Title
