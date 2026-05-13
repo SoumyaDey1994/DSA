@@ -54,6 +54,12 @@
 
 32. Count Primes (Sieve)
 
+#### 13/05/2026
 
 33. Group Anagrams
-44. Number to Excel Column Title
+34. Number to Excel Column Title
+35. Contains Duplicate
+36. Subarray Sum Equals K
+37. Max Consecutive Ones III
+38. Course Schedule - I
+
