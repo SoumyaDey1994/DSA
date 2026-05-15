@@ -63,3 +63,13 @@
 37. Max Consecutive Ones III
 38. Course Schedule - I
 
+#### 15/05/2026
+
+39. Find Trailing Zeros in Factorial
+40. Gas Station
+41. Capacity To Ship Packages Within D Days
+42. Combination Sum - II
+43. Isomorphic Strings
+44. Surrounded Regions
+45. Zigzag Conversion
+
