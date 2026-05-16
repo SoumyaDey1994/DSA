@@ -73,3 +73,12 @@
 44. Surrounded Regions
 45. Zigzag Conversion
 
+#### 16/05/2026
+
+46. Subsets or combinations
+47. Jump Game I
+48. Intersection of Two Arrays II
+49. Spiral Matrix II
+50. Word Search Problem
+51. Happy Number
+52. Majority Element (Boyer-Moore)
