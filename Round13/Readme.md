@@ -82,3 +82,15 @@
 50. Word Search Problem
 51. Happy Number
 52. Majority Element (Boyer-Moore)
+
+#### 16/05/2026H
+
+53. House Painting Problem
+54. Function Curry
+55. Word Ladder
+56. Pacific-atlantic water flow
+57. 3 Sum
+58. Meeting Rooms I
+59. Climbing stairs - find no of ways to climb n stairs
+60. Container With Most Water
+
