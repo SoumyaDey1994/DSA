@@ -83,7 +83,7 @@
 51. Happy Number
 52. Majority Element (Boyer-Moore)
 
-#### 16/05/2026H
+#### 17/05/2026
 
 53. House Painting Problem
 54. Function Curry
@@ -94,3 +94,10 @@
 59. Climbing stairs - find no of ways to climb n stairs
 60. Container With Most Water
 
+#### 18/05/2026
+
+61. Function toString Formatter
+62. Array Chunking
+63. Rotate Image (Matrix Rotation)
+64. Find Kth Highest Element
+65. Find Frequency in Sorted Array
