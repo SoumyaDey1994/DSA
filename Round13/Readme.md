@@ -109,6 +109,11 @@
 68. Find Longest Substring with At Most Two Distinct Characters
 69. Remove Duplicates from Sorted Array
 
+#### 20/05/2026
 
+70. Rotten Mangoes Problem
+71. Missing Number
+72. Sliding Window Maximum
+73. Count and Say
+74. Check Balanced Parenthesiss
 
-73. Rotten Mangoes Problem
