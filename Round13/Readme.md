@@ -117,3 +117,6 @@
 73. Count and Say
 74. Check Balanced Parenthesiss
 
+#### 21/05/2026
+
+75. Dual Palindrome
