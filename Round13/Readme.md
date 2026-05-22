@@ -120,3 +120,15 @@
 #### 21/05/2026
 
 75. Dual Palindrome
+
+#### 22/05/2026
+
+76. Print 2D Array in Spiral Order
+77. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
+78. Aggressive Cows / Allocate Minimum Pages
+
+
+
+82. Clone Graph
+85. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
+102. Longest Increasing Subsequence
