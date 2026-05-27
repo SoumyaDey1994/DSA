@@ -138,3 +138,17 @@
 82. Min Stack
 83. Prime Factors
 84. Course Schedule – II
+
+#### 27/05/2026
+
+85. Reverse a Singly Linked List
+86. Swap adjacent nodes of a Singly Linked List
+87. Find Nth Node from End (SLL)
+88. Find mid-point of a SLL
+
+
+96. Detect Cycle in a Singly Linked List
+88. Find Pow(base, exp) using Binary Search
+91. N-Queens Problem
+92. 3 Sum II - Use Binary Search to solve
+93. Minimum Window Substring
