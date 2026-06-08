@@ -1,14 +1,14 @@
 /**
  * Singly Linked List Problems
- * Problem 1: Reverse a Singly Linked List ()
- * Problem 2: Swap adjacent nodes of a Singly Linked List ()
- * Problem 3: Detect Cycle in a Singly Linked List ()
- * Problem 4: Remove Cycle from Cyclic Linked List ()
- * Problem 5: Find mid-point of a SLL (2nd May, 2026)
- * Problem 6: Find Nth Node from End (SLL) (2nd May, 2026)
- * Problem 7: Merge 2 Sorted SLL (2nd May, 2026)
- * Problem 8: Find intersection-point of a SLL (3rd May, 2026)
- * Problem 9: Merged K Sorted Singly Linked List (3rd May, 2026)
+ * Problem 1: Reverse a Singly Linked List (27th May, 2026)
+ * Problem 2: Swap adjacent nodes of a Singly Linked List (27th May, 2026)
+ * Problem 3: Detect Cycle in a Singly Linked List (8th June, 2026)
+ * Problem 4: Remove Cycle from Cyclic Linked List (27th May, 2026)
+ * Problem 5: Find mid-point of a SLL (27th May, 2026)
+ * Problem 6: Find Nth Node from End (SLL) (27th May, 2026)
+ * Problem 7: Merge 2 Sorted SLL (8th June, 2026)
+ * Problem 8: Find intersection-point of a SLL (8th June, 2026)
+ * Problem 9: Merged K Sorted Singly Linked List ()
  * Problem 10: Reverse Linked List II - Reverse within given pointers ()
  */
 class Node {
@@ -143,6 +143,107 @@ class SinglyLinkedList {
 
     return aux.data;
   }
+  /**
+   * Detect cycle in a Linked List
+   * @returns
+   */
+  detectCycle() {
+    if (!this.head) return;
+
+    let slow = this.head,
+      fast = this.head;
+    slow = slow.next;
+    fast = fast.next?.next;
+
+    while (slow !== null && fast !== null) {
+      if (slow === fast) return true;
+      slow = slow.next;
+      fast = fast?.next?.next;
+    }
+
+    return false;
+  }
+  /**
+   * Merge 2 Sorted Linked List into 1
+   * @param {*} head1
+   * @param {*} head2
+   * @returns
+   */
+  merge2SortedList(head1, head2) {
+    if (!head1) return head2;
+    if (!head2) return head1;
+
+    const mergedList = new SinglyLinkedList();
+    let temp1 = head1,
+      temp2 = head2;
+
+    let nextPoint = null;
+    while (temp1 !== null && temp2 !== null) {
+      if (temp1.data < temp2.data) {
+        nextPoint = temp1.next;
+        mergedList.addNode(temp1);
+        temp1.next = null;
+        temp1 = nextPoint;
+      } else {
+        nextPoint = temp2.next;
+        mergedList.addNode(temp2);
+        temp2.next = null;
+        temp2 = nextPoint;
+      }
+    }
+
+    return mergedList;
+  }
+  /**
+   * The point of intersection b/w 2 Linked List
+   * @param {*} head1
+   * @param {*} head2
+   * @returns
+   */
+  findIntersectionNode(head1, head2) {
+    if (!head1 || !head2) return null;
+
+    let temp1 = head1,
+      length1 = 0;
+    while (temp1 != null) {
+      length1++;
+      temp1 = temp1.next;
+    }
+
+    let temp2 = head2,
+      length2 = 0;
+    while (temp2 !== null) {
+      length2++;
+      temp2 = temp2.next;
+    }
+    // re-initialize
+    // temp1 = head of list1 &
+    // temp2 = head of list2
+    ((temp1 = head1), (temp2 = head2));
+    let delta = 0;
+    if (length1 > length2) {
+      delta = length1 - length2;
+      while (delta > 0 && temp1 !== null) {
+        temp1 = temp1.next;
+        delta--;
+      }
+    } else {
+      delta = length2 - length1;
+      while (delta > 0 && temp2 !== null) {
+        temp2 = temp2.next;
+        delta--;
+      }
+    }
+
+    while (temp1 !== null && temp2 !== null) {
+      if (temp1 === temp2) return temp1;
+
+      temp1 = temp1.next;
+      temp2 = temp2.next;
+    }
+
+    return null;
+  }
 }
 
 const node1 = new Node(1);
@@ -176,3 +277,76 @@ console.log(`3rd node from end: ${sll.findNthNodeFromEnd(3)}`);
 console.log(`4th node from end: ${sll.findNthNodeFromEnd(4)}`);
 console.log(`7th node from end: ${sll.findNthNodeFromEnd(6)}`);
 console.log(`10th node from end: ${sll.findNthNodeFromEnd(10)}`);
+
+const cyclicList = new SinglyLinkedList();
+const node100 = new Node(100);
+const node105 = new Node(105);
+const node110 = new Node(110);
+const node115 = new Node(115);
+const node120 = new Node(120);
+cyclicList
+  .addNode(node100)
+  .addNode(node105)
+  .addNode(node110)
+  .addNode(node115)
+  .addNode(node120)
+  .addNode(node105);
+
+console.log(`Is List 1 cyclic: ${sll.detectCycle() && true}`);
+console.log(`Is List 2 cyclic: ${cyclicList.detectCycle() && true}`);
+
+console.log(`.......Merge of 2 Sorted Singly Linked List.......`);
+const sortedList1 = new SinglyLinkedList();
+sortedList1
+  .addNode(new Node(node1.data))
+  .addNode(new Node(node3.data))
+  .addNode(new Node(node5.data))
+  .addNode(new Node(node10.data))
+  .addNode(new Node(node19.data))
+  .addNode(new Node(node100.data));
+
+console.log(`Sorted List 1: ${sortedList1.getList()}`);
+console.log(`Mid-point of Sorted List 1: ${sortedList1.findMidPoint()}`);
+
+const sortedList2 = new SinglyLinkedList();
+sortedList2
+  .addNode(new Node(node2.data))
+  .addNode(new Node(node4.data))
+  .addNode(new Node(node12.data))
+  .addNode(new Node(node15.data))
+  .addNode(new Node(node115.data));
+
+console.log(`Sorted List 2: ${sortedList2.getList()}`);
+console.log(`Mid-point of Sorted List 2: ${sortedList2.findMidPoint()}`);
+
+const mergedList = sll.merge2SortedList(sortedList1.head, sortedList2.head);
+console.log(`Merged List: ${mergedList.getList()}`);
+
+console.log(`-------Testing Intersection-point of 2 SLL----------`);
+const list1 = new SinglyLinkedList();
+const list2 = new SinglyLinkedList();
+
+const nodeA = new Node(1);
+const nodeB = new Node(2);
+const nodeC = new Node(3);
+const nodeD = new Node(4);
+const nodeE = new Node(5);
+const nodeF = new Node(6);
+const nodeG = new Node(60);
+const commonNode = new Node(50);
+
+list1.addNode(nodeA).addNode(nodeB).addNode(commonNode);
+
+list2
+  .addNode(nodeC)
+  .addNode(nodeD)
+  .addNode(nodeE)
+  .addNode(nodeF)
+  .addNode(commonNode)
+  .addNode(nodeG);
+
+console.log(`List 1: ${list1.getList()}`);
+console.log(`List 2: ${list2.getList()}`);
+
+const intersectionNode = list1.findIntersectionNode(list1.head, list2.head);
+console.log(`Intersection-point of 2 list is: ${intersectionNode.data}`);
