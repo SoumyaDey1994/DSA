@@ -154,5 +154,21 @@
 92. Merge 2 Sorted SLL
 93. The point of intersection b/w 2 Linked List
 
+#### 09/06/2026
+
+94. Binary Tree - Level-order Traversal
+95. Invert Binary Tree
+96. Find Max Depth of the Binary Tree
+97. Find Diameter of the Binary Tree
+98. Find LCA of 2 give nodes
+99. Check if Binary Tree is BST or not
+100. Minimum Window Substring
+
+
+
 92. 3 Sum II - Use Binary Search to solve
-93. Minimum Window Substring
+106. Check if a Binary Tree is BST or not
+108. Kth Smallest element in BST
+110. Right-side element view of Binary Tree
+86. Set Matrix Zeroes
+87. Redundant Connection
