@@ -6,8 +6,8 @@
  *    Find Diameter of the Binary Tree (9th June, 2026)
  *    Find LCA of 2 give nodes (9th June, 2026)
  *    Check if a Binary Tree is BST or not (9th June, 2026)
- *    Find kth smallest element in Binary Tree (2nd May, 2026)
- *    Right-side element view of Binary Tree (3rd May, 2026)
+ *    Find kth smallest element in Binary Tree (10th June, 2026)
+ *    Right-side element view of Binary Tree (10th June, 2026)
  */
 class Node {
   constructor(data) {
@@ -158,6 +158,62 @@ class BinaryTree {
 
     return leftLCA || rightLCA;
   }
+
+  /**
+   * Find Kth smallest element in Binary Tree
+   * @param {*} root
+   * @param {*} k
+   * @returns
+   */
+  findKthSmallestElement(root, k) {
+    if (!root) return null;
+
+    let currNode = root;
+    const executionStack = [];
+
+    while (executionStack.length > 0 || currNode !== null) {
+      while (currNode !== null) {
+        executionStack.push(currNode);
+        currNode = currNode.left;
+      }
+
+      currNode = executionStack.pop();
+      k = k - 1;
+      if (k === 0) {
+        return currNode.data;
+      }
+
+      currNode = currNode.right;
+    }
+  }
+
+  /**
+   * Get Right-side view of a binary tree
+   * @param {*} root 
+   * @returns 
+   */
+  getRightSideView(root) {
+    if (!root) return;
+
+    const executionQueue = [root];
+    const output = [];
+
+    while (executionQueue.length > 0) {
+      let currNode = null,
+        rightNodeVal = null;
+
+      while (executionQueue.length > 0) {
+        currNode = executionQueue.pop();
+        rightNodeVal = currNode.data;
+      }
+
+      output.push(rightNodeVal);
+      if (currNode.left !== null) executionQueue.push(currNode.left);
+      if (currNode.right !== null) executionQueue.push(currNode.right);
+    }
+
+    return output.join("-->");
+  }
 }
 
 const node10 = new Node(10);
@@ -220,4 +276,23 @@ console.log(`--- LCA of Node 3 & 7 is: ${lcaNode?.data}`);
 
 console.log(
   `--- Is Binary Tree a BST now: ${binaryTree.isBst(binaryTree.root)}`,
+);
+
+let k = 3;
+console.log(
+  `--- ${k}th smallest element in Binary Tree is: ${binaryTree.findKthSmallestElement(binaryTree.root, k)}`,
+);
+
+k = 2;
+console.log(
+  `--- ${k}th smallest element in Binary Tree is: ${binaryTree.findKthSmallestElement(binaryTree.root, k)}`,
+);
+
+k = 6;
+console.log(
+  `--- ${k}th smallest element in Binary Tree is: ${binaryTree.findKthSmallestElement(binaryTree.root, k)}`,
+);
+
+console.log(
+  `--- Right-side view of binary tree is: [${binaryTree.getRightSideView(binaryTree.root)}]`,
 );

@@ -164,11 +164,13 @@
 99. Check if Binary Tree is BST or not
 100. Minimum Window Substring
 
+#### 09/06/2026
+
+101. Kth Smallest element in BST
+102. Right-side element view of Binary Tree
+103. 3 Sum II - Use Binary Search to solve
 
 
-92. 3 Sum II - Use Binary Search to solve
-106. Check if a Binary Tree is BST or not
-108. Kth Smallest element in BST
-110. Right-side element view of Binary Tree
 86. Set Matrix Zeroes
 87. Redundant Connection
+88. Merge K Sorted Singly Linked Lists
