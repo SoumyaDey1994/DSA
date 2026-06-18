@@ -16,3 +16,10 @@
 9. Find smallest deviation in a list
 10. Daily Temperatures
 
+#### 17/06/2026
+
+11. Rotate Matrix k times
+12. Combination Sum - I
+13. Trapping Rain Water
+14. No of Islands
+
