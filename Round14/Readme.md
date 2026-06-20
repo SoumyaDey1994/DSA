@@ -16,10 +16,19 @@
 9. Find smallest deviation in a list
 10. Daily Temperatures
 
-#### 17/06/2026
+#### 18/06/2026
 
 11. Rotate Matrix k times
 12. Combination Sum - I
 13. Trapping Rain Water
 14. No of Islands
+
+#### 20/06/2026
+
+15. Sorted Squared Array
+16. Word Break
+17. Separate out Unique & Duplicate elements from a list of inegers
+18. Coin Change – Number of Ways
+19. Product of Array Except Self
+20. Surrounded Regions
 
