@@ -32,3 +32,11 @@
 19. Product of Array Except Self
 20. Surrounded Regions
 
+#### 21/06/2026
+
+21. Find square-root using Binary Search
+22. Partition Equal Subset Sum
+23. Best Time to Buy and Sell Stock (I)
+24. Maximum Sum Subarray
+25. Zigzag Conversion
+
