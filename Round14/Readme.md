@@ -40,3 +40,12 @@
 24. Maximum Sum Subarray
 25. Zigzag Conversion
 
+#### 23/06/2026
+
+26. Tournament Winner
+27. Move All Zeros to End
+28. Number to Excel Column Title
+29. Custom DS with O(1) complexity - No Duplicate Entries
+30. Coin Change – Min Coins
+31. Contains Duplicate
+
