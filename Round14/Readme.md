@@ -49,3 +49,15 @@
 30. Coin Change – Min Coins
 31. Contains Duplicate
 
+#### 26/06/2026
+
+32. Next Permutation
+33. Find All Permuattions
+34. Efficient Janitor Problem
+35. Find Leftmost Repeating Character
+36. Combination Sum - II 
+37. Subarray Sum Equals K
+38. Max Consecutive Ones III
+39. Group Anagrams
+40. Count Primes (Sieve)
+
