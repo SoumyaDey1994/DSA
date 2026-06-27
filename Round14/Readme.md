@@ -61,3 +61,13 @@
 39. Group Anagrams
 40. Count Primes (Sieve)
 
+#### 27/06/2026
+
+41. Find Trailing Zeros in Factorial
+42. Gas Station
+43. Capacity To Ship Packages Within D Days
+44. Course Schedule - I
+45. Palindrome Partitioning
+46. Automatic Music Player 
+47. Isomorphic Strings
+
