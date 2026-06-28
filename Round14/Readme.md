@@ -55,7 +55,7 @@
 33. Find All Permuattions
 34. Efficient Janitor Problem
 35. Find Leftmost Repeating Character
-36. Combination Sum - II 
+36. Combination Sum - II
 37. Subarray Sum Equals K
 38. Max Consecutive Ones III
 39. Group Anagrams
@@ -68,6 +68,14 @@
 43. Capacity To Ship Packages Within D Days
 44. Course Schedule - I
 45. Palindrome Partitioning
-46. Automatic Music Player 
+46. Automatic Music Player
 47. Isomorphic Strings
 
+#### 28/06/2026
+
+48. Subsets or combinations
+49. Intersection of Two Arrays II
+50. Spiral Matrix II
+51. Majority Element (Boyer-Moore)
+52. Happy Number
+53. Word Search Problem
