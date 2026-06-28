@@ -79,3 +79,7 @@
 51. Majority Element (Boyer-Moore)
 52. Happy Number
 53. Word Search Problem
+54. Jump Game I
+55. Function Curry
+56. House Painting Problem
+
