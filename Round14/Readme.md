@@ -83,3 +83,14 @@
 55. Function Curry
 56. House Painting Problem
 
+#### 30/06/2026
+
+57. Climbing stairs - find no of ways to climb n stairs
+58. Container With Most Water
+59. 3 Sum
+60. Word Ladder
+
+
+
+56. Pacific-atlantic water flow
+58. Meeting Rooms I
