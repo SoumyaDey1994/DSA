@@ -90,7 +90,10 @@
 59. 3 Sum
 60. Word Ladder
 
+#### 02/07/2026
 
-
-56. Pacific-atlantic water flow
-58. Meeting Rooms I
+61. Longest Consecutive Sequence
+62. Pacific-atlantic water flow
+63. Array Chunking
+64. Meeting Rooms I
+65. Binary Search (Classic)
