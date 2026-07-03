@@ -97,3 +97,10 @@
 63. Array Chunking
 64. Meeting Rooms I
 65. Binary Search (Classic)
+
+#### 03/07/2026
+
+66. Find Kth Highest Element
+67. Find Frequency in Sorted Array
+68. Rotate Image (Matrix Rotation)
+69. Remove Duplicates from Sorted Array
