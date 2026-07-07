@@ -104,3 +104,9 @@
 67. Find Frequency in Sorted Array
 68. Rotate Image (Matrix Rotation)
 69. Remove Duplicates from Sorted Array
+
+#### 07/07/2026
+
+70. Missing Number
+71. Find Longest Substring with At Most Two Distinct Characters
+72. Count and Say
