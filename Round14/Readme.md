@@ -110,3 +110,16 @@
 70. Missing Number
 71. Find Longest Substring with At Most Two Distinct Characters
 72. Count and Say
+
+#### 11/07/2026
+
+73. Rotten Mangoes Problem
+74. Dual Palindrome
+75. Print 2D Array in Spiral Order
+76. Check Balanced Parenthesiss
+77. Sliding Window Maximum
+78. Prime Factors
+79. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
+80. Aggressive Cows / Allocate Minimum Pages
+
+
