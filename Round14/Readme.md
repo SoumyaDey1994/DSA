@@ -122,4 +122,16 @@
 79. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 80. Aggressive Cows / Allocate Minimum Pages
 
+#### 14/07/2026
 
+81. Course Schedule – II
+82. Min Stack
+83. Find Pow(base, exp) using Binary Search
+
+
+79. Clone Graph
+80. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
+81. Longest Increasing Subsequence
+91. N-Queens Problem
+104. Set Matrix Zeroes
+87. Redundant Connection
