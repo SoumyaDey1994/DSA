@@ -143,21 +143,23 @@
 89. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
 90. 3 Sum II - Use Binary Search to solve
 
+#### 18/07/2026
+
+91. Reverse a Singly Linked List
+92. Swap adjacent nodes of a Singly Linked List
+93. Find Nth Node from End (SLL)
+94. Find mid-point of a SLL
+95. Detect Cycle in a Singly Linked List
+96. Merge 2 Sorted SLL
+97. Binary Tree - Level-order Traversal
+98. Invert Binary Tree
+99. Find Max Depth of the Binary Tree
+100. Find Diameter of the Binary Tree
+101. Check if Binary Tree is BST or not
 
 
-85. Reverse a Singly Linked List
-86. Swap adjacent nodes of a Singly Linked List
-87. Find Nth Node from End (SLL)
-88. Find mid-point of a SLL
-89. Detect Cycle in a Singly Linked List
-92. Merge 2 Sorted SLL
+
 93. The point of intersection b/w 2 Linked List
-94. Binary Tree - Level-order Traversal
-95. Invert Binary Tree
-96. Find Max Depth of the Binary Tree
-97. Find Diameter of the Binary Tree
 98. Find LCA of 2 give nodes
-99. Check if Binary Tree is BST or not
-
 104. Set Matrix Zeroes
 
