@@ -161,7 +161,8 @@
 
 102. The point of intersection b/w 2 Linked List
 103. Find LCA of 2 give nodes
+104. Find kth smallest element in Binary Tree
+105. Right-side element view of Binary Tree
+
 
 104. Set Matrix Zeroes
-90. Find kth smallest element in Binary Tree
-91. Right-side element view of Binary Tree

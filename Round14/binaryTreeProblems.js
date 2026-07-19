@@ -5,7 +5,7 @@
  *    Find Max Depth of the Binary Tree (18th July, 2026)
  *    Find Diameter of the Binary Tree (18th July, 2026)
  *    Check if a Binary Tree is BST or not (18th July, 2026)
- *    Find LCA of 2 give nodes ()
+ *    Find LCA of 2 give nodes (19th July, 2026)
  *    Find kth smallest element in Binary Tree ()
  *    Right-side element view of Binary Tree ()
  */
@@ -128,6 +128,49 @@ class BinaryTree {
 
     return leftLca ? leftLca : rightLca;
   }
+
+  findKthSmallestElement(root, k) {
+    if (!root) return;
+
+    const stack = [];
+    let curr = root;
+
+    while (stack.length > 0 || curr !== null) {
+      while (curr !== null) {
+        stack.push(curr);
+        curr = curr.left;
+      }
+
+      curr = stack.pop();
+      k = k - 1;
+      if (k === 0) return curr.data;
+
+      curr = curr?.right;
+    }
+  }
+
+  getRightSideView(root) {
+    if (!root) return;
+
+    const executionQueue = [root];
+    const result = [];
+
+    while (executionQueue.length > 0) {
+      let curr = null,
+        rightNodeVal = null;
+
+      while (executionQueue.length > 0) {
+        curr = executionQueue.shift();
+        rightNodeVal = curr.data;
+      }
+
+      result.push(rightNodeVal);
+      if (curr.left !== null) executionQueue.push(curr.left);
+      if (curr.right !== null) executionQueue.push(curr.right);
+    }
+
+    return result.join("-->");
+  }
 }
 
 const node10 = new Node(10);
@@ -191,3 +234,22 @@ console.log(`--- LCA of Node 5 & 12 is: ${lcaNode?.data}`);
 
 lcaNode = binaryTree.findLcaNode(binaryTree.root, node3, node7);
 console.log(`--- LCA of Node 3 & 7 is: ${lcaNode?.data}`);
+
+let k = 3;
+console.log(
+  `--- ${k}th smallest element in Binary Tree is: ${binaryTree.findKthSmallestElement(binaryTree.root, k)}`,
+);
+
+k = 2;
+console.log(
+  `--- ${k}th smallest element in Binary Tree is: ${binaryTree.findKthSmallestElement(binaryTree.root, k)}`,
+);
+
+k = 6;
+console.log(
+  `--- ${k}th smallest element in Binary Tree is: ${binaryTree.findKthSmallestElement(binaryTree.root, k)}`,
+);
+
+console.log(
+  `--- Right-side view of binary tree is: [${binaryTree.getRightSideView(binaryTree.root)}]`,
+);
