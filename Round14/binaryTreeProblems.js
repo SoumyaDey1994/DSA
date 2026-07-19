@@ -114,6 +114,20 @@ class BinaryTree {
 
     return this.isBST(root.left) && this.isBST(root.right);
   }
+
+  findLcaNode(root, fNode, sNode) {
+    if (!root) return null;
+
+    if (root.left === fNode || root.right === sNode) return root;
+
+    const leftLca = this.findLcaNode(root.left, fNode, sNode);
+    const rightLca = this.findLcaNode(root.right, fNode, sNode);
+
+    if (leftLca && rightLca) return root;
+    if (!leftLca && !rightLca) return null;
+
+    return leftLca ? leftLca : rightLca;
+  }
 }
 
 const node10 = new Node(10);
@@ -164,3 +178,16 @@ binaryTree.printInOrder(binaryTree.root);
 console.log(
   `--- Is Binary Tree a BST now: ${binaryTree.isBST(binaryTree.root)}`,
 );
+
+console.log(`.......LCA Node.........`);
+let lcaNode = binaryTree.findLcaNode(binaryTree.root, node12, node20);
+console.log(`--- LCA of Node 12 & 20 is: ${lcaNode?.data}`);
+
+lcaNode = binaryTree.findLcaNode(binaryTree.root, node4, node7);
+console.log(`--- LCA of Node 4 & 7 is: ${lcaNode?.data}`);
+
+lcaNode = binaryTree.findLcaNode(binaryTree.root, node5, node12);
+console.log(`--- LCA of Node 5 & 12 is: ${lcaNode?.data}`);
+
+lcaNode = binaryTree.findLcaNode(binaryTree.root, node3, node7);
+console.log(`--- LCA of Node 3 & 7 is: ${lcaNode?.data}`);
