@@ -14,3 +14,9 @@
 7. Longest Palindromic Substring
 8. Flattern a nested array
 
+#### 25/07/2026
+
+9. Merge Intervals
+10. Create a deep clone of object
+11. Find smallest deviation in a list
+12. Rotate Matrix k times
