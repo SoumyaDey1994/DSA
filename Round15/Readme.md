@@ -20,3 +20,10 @@
 10. Create a deep clone of object
 11. Find smallest deviation in a list
 12. Rotate Matrix k times
+
+#### 26/07/2026
+
+13. Sorted Squared Array
+14. Trapping Rain Water
+15. No of Islands
+16. Word Break
