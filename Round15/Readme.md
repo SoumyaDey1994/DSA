@@ -27,3 +27,29 @@
 14. Trapping Rain Water
 15. No of Islands
 16. Word Break
+
+#### 28/07/2026
+
+17. Separate out Unique & Duplicate elements from a list of inegers
+18. Coin Change – Number of Ways
+19. Product of Array Except Self
+20. Surrounded Regions
+21. Reverse a Singly Linked List
+22. Swap adjacent nodes of a Singly Linked List
+23. Detect Cycle in a Singly Linked List
+24. Find Nth Node from End (SLL)
+25. Find mid-point of a SLL
+26. Find square-root using Binary Search
+
+
+
+96. Merge 2 Sorted SLL
+97. Binary Tree - Level-order Traversal
+98. Invert Binary Tree
+99. Find Max Depth of the Binary Tree
+100. Find Diameter of the Binary Tree
+101. Check if Binary Tree is BST or not
+102. The point of intersection b/w 2 Linked List
+103. Find LCA of 2 give nodes
+104. Find kth smallest element in Binary Tree
+105. Right-side element view of Binary Tree
