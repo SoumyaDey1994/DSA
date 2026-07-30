@@ -41,6 +41,10 @@
 25. Find mid-point of a SLL
 26. Find square-root using Binary Search
 
+#### 30/07/2026
+
+27. Partition Equal Subset Sum
+28. Best Time to Buy and Sell Stock (I)
 
 
 96. Merge 2 Sorted SLL
