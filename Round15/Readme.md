@@ -46,6 +46,12 @@
 27. Partition Equal Subset Sum
 28. Best Time to Buy and Sell Stock (I)
 
+#### 01/08/2026
+
+29. Maximum Sum Subarray
+30. Zigzag Conversion
+
+
 
 96. Merge 2 Sorted SLL
 97. Binary Tree - Level-order Traversal
