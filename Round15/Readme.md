@@ -58,15 +58,16 @@
 33. Number to Excel Column Title
 34. Coin Change – Min Coins
 35. Contains Duplicate
+36. Binary Tree - Level-order Traversal
+37. Invert Binary Tree
+38. Find Max Depth of the Binary Tree
+39. Find Diameter of the Binary Tree
+40. Check if Binary Tree is BST or not
+41. Find LCA of 2 give nodes
+42. Subarray Sum Equals K
 
 
 96. Merge 2 Sorted SLL
-97. Binary Tree - Level-order Traversal
-98. Invert Binary Tree
-99. Find Max Depth of the Binary Tree
-100. Find Diameter of the Binary Tree
-101. Check if Binary Tree is BST or not
 102. The point of intersection b/w 2 Linked List
-103. Find LCA of 2 give nodes
 104. Find kth smallest element in Binary Tree
 105. Right-side element view of Binary Tree
