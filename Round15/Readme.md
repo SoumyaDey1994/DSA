@@ -51,6 +51,13 @@
 29. Maximum Sum Subarray
 30. Zigzag Conversion
 
+#### 02/08/2026
+
+31. Tournament Winner
+32. Move All Zeros to End
+33. Number to Excel Column Title
+34. Coin Change – Min Coins
+35. Contains Duplicate
 
 
 96. Merge 2 Sorted SLL
