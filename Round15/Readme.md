@@ -66,8 +66,15 @@
 41. Find LCA of 2 give nodes
 42. Subarray Sum Equals K
 
+#### 03/08/2026
 
+43. Find intersection point b/w 2 Linked List
+44. Find kth smallest element in Binary Tree
+45. Find All Permuattions
+46. Efficient Janitor Problem
+47. Find Leftmost Repeating Character
+
+
+45. Right-side element view of Binary Tree
 96. Merge 2 Sorted SLL
-102. The point of intersection b/w 2 Linked List
-104. Find kth smallest element in Binary Tree
-105. Right-side element view of Binary Tree
+

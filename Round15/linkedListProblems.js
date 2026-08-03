@@ -6,7 +6,7 @@
  * Problem 4: Find Nth Node from End (SLL) (28th July, 2026)
  * Problem 5: Find mid-point of a SLL (28th July, 2026)
  * Problem 6: Merge 2 Sorted SLL ()
- * Problem 7: Find intersection-point of a SLL ()
+ * Problem 7: Find intersection-point of a SLL (3rd Aug, 2026)
  */
 class Node {
   constructor(data) {
@@ -143,6 +143,49 @@ class SinglyLinkedList {
 
     return slow.data;
   }
+
+  findIntersectionPoint(head1, head2) {
+    if (!head1 || !head2) return;
+
+    let temp1 = head1,
+      temp2 = head2;
+    let lengthOfList1 = 0,
+      lengthOfList2 = 0;
+
+    while (temp1 !== null) {
+      lengthOfList1++;
+      temp1 = temp1.next;
+    }
+
+    while (temp2 !== null) {
+      lengthOfList2++;
+      temp2 = temp2.next;
+    }
+
+    let delta = Math.abs(lengthOfList1 - lengthOfList2);
+    temp1 = head1;
+    temp2 = head2;
+    if (lengthOfList1 > lengthOfList2) {
+      while (delta > 0) {
+        temp1 = temp1.next;
+        delta--;
+      }
+    } else {
+      while (delta > 0) {
+        temp2 = temp2.next;
+        delta--;
+      }
+    }
+
+    while (temp1 !== null && temp2 !== null) {
+      if (temp1 === temp2) return temp1;
+
+      temp1 = temp1.next;
+      temp2 = temp2.next;
+    }
+
+    return null;
+  }
 }
 
 const node1 = new Node(1);
@@ -192,3 +235,33 @@ console.log(`\n\nCurrent State of List 1: ${sll.getList()}`);
 
 console.log(`Mid-point of List 1: ${sll.findMidPoint()}`);
 console.log(`Mid-point of Cyclic List: ${cyclicList.findMidPoint()}`);
+
+console.log(`-------Testing Intersection-point of 2 SLL----------`);
+
+const list1 = new SinglyLinkedList();
+const list2 = new SinglyLinkedList();
+
+const nodeA = new Node(1);
+const nodeB = new Node(2);
+const nodeC = new Node(3);
+const nodeD = new Node(4);
+const nodeE = new Node(5);
+const nodeF = new Node(6);
+const nodeG = new Node(60);
+const commonNode = new Node(50);
+
+list1.addNode(nodeA).addNode(nodeB).addNode(commonNode);
+
+list2
+  .addNode(nodeC)
+  .addNode(nodeD)
+  .addNode(nodeE)
+  .addNode(nodeF)
+  .addNode(commonNode)
+  .addNode(nodeG);
+
+console.log(`List 1: ${list1.getList()}`);
+console.log(`List 2: ${list2.getList()}`);
+
+const mergePoint = list1.findIntersectionPoint(list1.head, list2.head);
+console.log(`Merge-point of 2 list is: ${mergePoint.data}`);
