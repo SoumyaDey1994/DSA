@@ -74,6 +74,13 @@
 46. Efficient Janitor Problem
 47. Find Leftmost Repeating Character
 
+#### 04/08/2026
+
+48. Next Permutation
+49. Combination Sum - II
+50. Count and Say
+51. Max Consecutive Ones III
+
 
 45. Right-side element view of Binary Tree
 96. Merge 2 Sorted SLL
