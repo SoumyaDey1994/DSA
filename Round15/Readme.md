@@ -81,6 +81,13 @@
 50. Count and Say
 51. Max Consecutive Ones III
 
+#### 05/08/2026
+
+52. Find Trailing Zeros in Factorial
+53. Group Anagrams
+54. Count Primes (Sieve)
+
+
 
 45. Right-side element view of Binary Tree
 96. Merge 2 Sorted SLL
