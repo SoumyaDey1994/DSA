@@ -93,8 +93,16 @@
 56. Capacity To Ship Packages Within D Days
 57. Course Schedule - I
 
+#### 16/08/2026
+
+58. Isomorphic Strings
+59. Subsets or combinations
+60. Intersection of Two Arrays II
+61. Spiral Matrix II
+62. Majority Element (Boyer-Moore)
 
 
+104. Set Matrix Zeroes
 45. Right-side element view of Binary Tree
 96. Merge 2 Sorted SLL
 
