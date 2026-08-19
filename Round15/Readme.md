@@ -101,6 +101,16 @@
 61. Spiral Matrix II
 62. Majority Element (Boyer-Moore)
 
+#### 19/08/2026
+
+63. Happy Number
+64. Jump Game I
+65. Function Curry
+66. Word Search Problem
+67. House Painting Problem
+68. Climbing stairs - find no of ways to climb n stairs
+
+
 
 104. Set Matrix Zeroes
 45. Right-side element view of Binary Tree
