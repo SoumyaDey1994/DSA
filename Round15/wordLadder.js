@@ -23,11 +23,56 @@
        Explanation: abc → axc → ayz → xyz (Length: 4)
  */
 function findLadderStepsCount(beginWord, endWord, wordList) {
-    if(!beginWord || beginWord.length === 0) return;
-    if(!endWord || endWord.length === 0) return;
-    if(wordList.length === 0) return;
-    if(beginWord.length !== endWord.length) return;
+  if (!beginWord || beginWord.length === 0) return;
+  if (!endWord || endWord.length === 0) return;
+  if (wordList.length === 0) return;
+  if (beginWord.length !== endWord.length) return;
 
-    
+  const wordSet = new Set(wordList);
+  const queue = [[beginWord, 1]]; // word, level
 
+  while (queue.length > 0) {
+    const [currWord, level] = queue.shift();
+
+    if (currWord === endWord) return level;
+
+    for (let i = 0; i < currWord.length; i++) {
+      for (let char = 0; char < 26; char++) {
+        const subStr =
+          currWord.slice(0, i) +
+          String.fromCharCode(char + 97) +
+          currWord.slice(i + 1);
+        if (wordSet.has(subStr)) {
+          queue.push([subStr, level + 1]);
+          wordSet.delete(subStr);
+        }
+      }
+    }
+  }
+
+  return 0;
 }
+
+let beginWord = "hit";
+let endWord = "cog";
+let wordList = ["hot", "dot", "dog", "lot", "log", "cog"];
+let output = findLadderStepsCount(beginWord, endWord, wordList);
+console.log(
+  `No of changes required to make ${beginWord} to ${endWord} is: ${output}`,
+);
+
+beginWord = "abc";
+endWord = "xyz";
+wordList = ["abd", "axc", "ayz", "xbz", "xyz", "xbc"];
+output = findLadderStepsCount(beginWord, endWord, wordList);
+console.log(
+  `No of changes required to make ${beginWord} to ${endWord} is: ${output}`,
+);
+
+beginWord = "hit";
+endWord = "cog";
+wordList = ["hot", "dot", "dog", "lot", "log"];
+output = findLadderStepsCount(beginWord, endWord, wordList);
+console.log(
+  `No of changes required to make ${beginWord} to ${endWord} is: ${output}`,
+);

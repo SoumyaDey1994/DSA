@@ -117,8 +117,14 @@
 71. Array Chunking
 72. Meeting Rooms I
 
+#### 23/08/2026
 
 73. Word Ladder
+74. Longest Consecutive Sequence
+75. Binary Search (Classic)
+
+
+62. Pacific-atlantic water flow
 104. Set Matrix Zeroes
 45. Right-side element view of Binary Tree
 96. Merge 2 Sorted SLL
