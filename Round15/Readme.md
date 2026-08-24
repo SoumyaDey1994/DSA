@@ -123,8 +123,15 @@
 74. Longest Consecutive Sequence
 75. Binary Search (Classic)
 
+#### 24/08/2026 
 
-62. Pacific-atlantic water flow
+76. Pacific-atlantic water flow
+77. Find Kth Highest Element
+78. Rotate Image (Matrix Rotation)
+79. Find Frequency in Sorted Array
+80. Remove Duplicates from Sorted Array
+
+
 104. Set Matrix Zeroes
 45. Right-side element view of Binary Tree
 96. Merge 2 Sorted SLL
