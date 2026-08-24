@@ -130,6 +130,8 @@
 78. Rotate Image (Matrix Rotation)
 79. Find Frequency in Sorted Array
 80. Remove Duplicates from Sorted Array
+81. Missing Number
+82. Find Longest Substring with At Most Two Distinct Characters
 
 
 104. Set Matrix Zeroes
