@@ -133,6 +133,11 @@
 81. Missing Number
 82. Find Longest Substring with At Most Two Distinct Characters
 
+#### 25/08/2026 
+
+83. Prime Factors
+84. Dual Palindrome
+
 
 104. Set Matrix Zeroes
 45. Right-side element view of Binary Tree
