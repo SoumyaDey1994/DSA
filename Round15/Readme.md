@@ -138,7 +138,15 @@
 83. Prime Factors
 84. Dual Palindrome
 
+#### 26/08/2026 
 
+85. Print 2D Array in Spiral Order
+86. Check Balanced Parenthesiss
+87. Aggressive Cows / Allocate Minimum Pages
+
+
+
+77. Sliding Window Maximum
 104. Set Matrix Zeroes
 45. Right-side element view of Binary Tree
 96. Merge 2 Sorted SLL
