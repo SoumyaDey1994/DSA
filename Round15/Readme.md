@@ -144,10 +144,26 @@
 86. Check Balanced Parenthesiss
 87. Aggressive Cows / Allocate Minimum Pages
 
+#### 28/08/2026
+
+88. Function toString Formatter
+89. Min Stack
+90. Find Pow(base, exp) using Binary Search
+91. Longest Increasing Subsequence
+92. Course Schedule – II
+93. Redundant Connection
 
 
+
+73. Rotten Mangoes Problem
+84. Clone Graph
+85. N-Queens Problem
+89. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
+90. 3 Sum II - Use Binary Search to solve
 77. Sliding Window Maximum
 104. Set Matrix Zeroes
 45. Right-side element view of Binary Tree
 96. Merge 2 Sorted SLL
+29. Automatic Music Player
+79. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 
