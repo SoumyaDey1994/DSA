@@ -7,7 +7,7 @@
  *    Check if a Binary Tree is BST or not (2nd Aug, 2026)
  *    Find LCA of 2 give nodes (2nd Aug, 2026)
  *    Find kth smallest element in Binary Tree (3rd Aug, 2026)
- *    Right-side element view of Binary Tree ()
+ *    Right-side element view of Binary Tree (29th Aug, 2026)
  */
 
 class Node {
@@ -149,6 +149,28 @@ class BinaryTree {
       currNode = currNode.right;
     }
   }
+
+  getRightSideView(root) {
+    if (!root) return;
+
+    const executionQueue = [root];
+    const result = [];
+    while (executionQueue.length > 0) {
+      let currNode = null,
+        value = null;
+
+      while (executionQueue.length > 0) {
+        currNode = executionQueue.shift();
+        value = currNode.data;
+      }
+
+      result.push(value);
+      if (currNode.left !== null) executionQueue.push(currNode.left);
+      if (currNode.right !== null) executionQueue.push(currNode.right);
+    }
+
+    return result;
+  }
 }
 
 const node10 = new Node(10);
@@ -224,4 +246,8 @@ console.log(
 k = 6;
 console.log(
   `--- ${k}th smallest element in Binary Tree is: ${binaryTree.findKthSmallestElement(binaryTree.root, k)}`,
+);
+
+console.log(
+  `--- Right-side view of binary tree is: [${binaryTree.getRightSideView(binaryTree.root)}]`,
 );
