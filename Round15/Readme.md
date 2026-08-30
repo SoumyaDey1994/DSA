@@ -163,9 +163,13 @@
 99. Right-side element view of Binary Tree
 100. 3 Sum II - Use Binary Search to solve
 
+#### 30/08/2026
+
+101. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
+102. Automatic Music Player
+103. Jump Game II
+
 
 89. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
 96. Merge 2 Sorted SLL
-29. Automatic Music Player
-79. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
-
+48. Meeting Rooms II
