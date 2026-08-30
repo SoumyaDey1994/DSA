@@ -168,8 +168,9 @@
 101. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
 102. Automatic Music Player
 103. Jump Game II
+104. Meeting Rooms II
+105. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
 
+## Not Practiced
+Merge 2 Sorted SLL
 
-89. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
-96. Merge 2 Sorted SLL
-48. Meeting Rooms II
