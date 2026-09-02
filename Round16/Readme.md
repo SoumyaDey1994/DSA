@@ -10,9 +10,11 @@
 6. Longest Substring with Unique Characters
 7. Longest Palindromic Substring
 
+#### 02/09/2026
 
-1. Two Sum
-49. Combination Sum - II
-9. Merge Intervals
-11. Find smallest deviation in a list
-16. Word Break
+8. Two Sum
+9. Combination Sum - II
+10. Merge Intervals
+11. Word Break
+12. Find smallest deviation in a list
+
