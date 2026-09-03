@@ -18,3 +18,14 @@
 11. Word Break
 12. Find smallest deviation in a list
 
+#### 03/09/2026
+
+13. Two Sum II – Input Array is Sorted: Given a sorted array, find two numbers such that they add up to a specific target. Return their indices
+14. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
+15. No of Islands
+16. Coin Change – Number of Ways
+17. Jump Game I
+18. Meeting Rooms I
+
+
+
