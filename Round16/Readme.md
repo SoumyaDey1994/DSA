@@ -26,6 +26,8 @@
 16. Coin Change – Number of Ways
 17. Jump Game I
 18. Meeting Rooms I
-
+19. Set Matrix Zeroes
+20. N-Queens Problem
+21. Find Pow(base, exp) using Binary Search
 
 
