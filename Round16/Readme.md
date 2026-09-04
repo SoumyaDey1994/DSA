@@ -30,4 +30,10 @@
 20. N-Queens Problem
 21. Find Pow(base, exp) using Binary Search
 
+#### 04/09/2026
+
+22. Trapping Rain Water
+23. Product of Array Except Self
+24. Partition Equal Subset Sum
+25. Move All Zeros to End
 
