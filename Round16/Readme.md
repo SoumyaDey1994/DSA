@@ -37,3 +37,16 @@
 24. Partition Equal Subset Sum
 25. Move All Zeros to End
 
+#### 05/09/2026
+
+26. Best Time to Buy and Sell Stock (I)
+27. Maximum Sum Subarray
+28. Zigzag Conversion
+29. Surrounded Regions
+30. Find square-root using Binary Search
+31. Number to Excel Column Title
+32. Count and Say
+
+
+51. Max Consecutive Ones III
+
