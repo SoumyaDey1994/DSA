@@ -47,6 +47,9 @@
 31. Number to Excel Column Title
 32. Count and Say
 
+#### 06/09/2026
 
-51. Max Consecutive Ones III
-
+33. Max Consecutive Ones III
+34. Coin Change – Min Coins
+35. Subarray Sum Equals K
+36. Contains Duplicate
