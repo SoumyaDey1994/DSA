@@ -1,5 +1,5 @@
 /**
- * Date: 11th May, 2026
+ * Date: 7th September, 2026
  * Efficient Janitor Problem - DSA Explanation
  * Problem Statement:
  * A janitor has to carry garbage bags, and each bag has a weight between 1.01 and 3.00 kilograms.
@@ -26,26 +26,26 @@
  *      Output: 4 trips
  *      Explanation: Each heavy bag has to be taken alone.
  */
-function findNoOfTrips(weights, maxWeight) {
-  if (!weights || weights.length === 0) return 0;
-  if (maxWeight === 0) return 0;
+function findNoOfTrips(weights, maxCapacity) {
+  if (!weights || weights.length === 0) return;
 
   weights.sort((w1, w2) => w1 - w2); // sort weights in ASC order
-  let tripCount = 0;
   let left = 0,
-    right = weights.length - 1;
+    right = weights.length - 1,
+    tripCount = 0;
+
   while (left <= right) {
     const sum = weights[left] + weights[right];
-    if (sum <= maxWeight) {
+    if (sum <= maxCapacity) {
       left++;
     }
+
     right--;
     tripCount++;
   }
 
   return tripCount;
 }
-
 
 let maxWeight = 3.0;
 let bags = [1.5, 1.99, 2.5, 1.01, 2.3];

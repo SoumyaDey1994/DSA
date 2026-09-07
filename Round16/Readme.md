@@ -53,3 +53,12 @@
 34. Coin Change – Min Coins
 35. Subarray Sum Equals K
 36. Contains Duplicate
+
+#### 07/09/2026
+
+37. Tournament Winner
+38. Pacific-atlantic water flow
+39. Find All Permuattions
+40. Efficient Janitor Problem
+41. Next Permutation
+42. Find Leftmost Repeating Character
