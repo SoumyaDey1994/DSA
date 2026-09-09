@@ -62,3 +62,11 @@
 40. Efficient Janitor Problem
 41. Next Permutation
 42. Find Leftmost Repeating Character
+
+#### 09/09/2026
+
+43. Find Trailing Zeros in Factorial
+44. Gas Station
+45. Capacity To Ship Packages Within D Days
+46. Isomorphic Strings
+
