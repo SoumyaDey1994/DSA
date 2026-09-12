@@ -70,3 +70,15 @@
 45. Capacity To Ship Packages Within D Days
 46. Isomorphic Strings
 
+#### 12/09/2026
+
+47. Course Schedule - I
+48. Count Primes (Sieve)
+49. Group Anagrams
+50. Subsets or combinations
+51. Intersection of Two Arrays II
+52. Spiral Matrix II
+53. Word Search Problem
+54. House Painting Problem
+55. Climbing stairs - find no of ways to climb n stairs
+
