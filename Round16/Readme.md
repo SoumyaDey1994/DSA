@@ -82,3 +82,12 @@
 54. House Painting Problem
 55. Climbing stairs - find no of ways to climb n stairs
 
+#### 12/09/2026
+
+56. Container With Most Water
+57. 3 Sum
+58. Array Chunking
+59. Rotate Image (Matrix Rotation)
+60. Word Ladder
+61. Longest Consecutive Sequence
+
