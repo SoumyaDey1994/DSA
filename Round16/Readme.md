@@ -97,14 +97,14 @@
 63. Remove Duplicates from Sorted Array
 64. Find Longest Substring with At Most Two Distinct Characters
 65. Find Kth Highest Element (Heap)
+66. Find Frequency in Sorted Array
+67. Print 2D Array in Spiral Order
+68. Aggressive Cows / Allocate Minimum Pages
+69. Jump Game II
+70. Course Schedule – II
 
 
 
-76. Pacific-atlantic water flow
-77. Find Kth Highest Element (Heap)
-79. Find Frequency in Sorted Array
-85. Print 2D Array in Spiral Order
-87. Aggressive Cows / Allocate Minimum Pages
 83. Prime Factors
 84. Dual Palindrome
 86. Check Balanced Parenthesiss
