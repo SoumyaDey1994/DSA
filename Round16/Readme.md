@@ -82,7 +82,7 @@
 54. House Painting Problem
 55. Climbing stairs - find no of ways to climb n stairs
 
-#### 12/09/2026
+#### 13/09/2026
 
 56. Container With Most Water
 57. 3 Sum
@@ -91,3 +91,20 @@
 60. Word Ladder
 61. Longest Consecutive Sequence
 
+#### 14/09/2026
+
+62. Binary Search (Classic)
+63. Remove Duplicates from Sorted Array
+64. Find Longest Substring with At Most Two Distinct Characters
+65. Find Kth Highest Element (Heap)
+
+
+
+76. Pacific-atlantic water flow
+77. Find Kth Highest Element (Heap)
+79. Find Frequency in Sorted Array
+85. Print 2D Array in Spiral Order
+87. Aggressive Cows / Allocate Minimum Pages
+83. Prime Factors
+84. Dual Palindrome
+86. Check Balanced Parenthesiss

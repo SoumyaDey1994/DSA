@@ -1,0 +1,63 @@
+/**
+ * Date: 14th September, 2026
+ * Problem Statement: Kth Highest Element in a List
+ * Given an array nums of N integers and an integer K,
+ * find the Kth highest (largest) element in the array.
+ * The array may contain duplicate values,
+ * but the Kth highest element is determined by its position in the sorted order.
+ * Example 1:
+ *      Input: nums = [3, 1, 5, 12, 2, 8], K = 2
+ *      Output: 8
+ *      Explanation: The sorted array is [12, 8, 5, 3, 2, 1], and the 2nd highest element is 8.
+ * Example 2:
+ *      Input: nums = [7, 10, 4, 3, 20, 15], K = 3
+ *      Output: 10
+ *      Explanation: The sorted array is [20, 15, 10, 7, 4, 3], and the 3rd highest element is 10.
+ * Example 3:
+ *      Input: nums = [4, 2, 2, 8, 6, 4, 7], K = 4
+ *      Output: 4
+ *      Explanation: The sorted array is [8, 7, 6, 4, 4, 2, 2], and the 4th highest element is 4.
+ */
+function findKthHeighestElement(numbers, k) {
+  if (!numbers || numbers.length === 0 || k > numbers.length) return;
+
+  const maxHeap = [];
+
+  function heapify(arr) {
+    arr.sort((num1, num2) => num1 - num2); // Sort in ASC order
+  }
+
+  for (let i = 0; i < numbers.length; i++) {
+    const curr = numbers[i];
+    maxHeap.push(curr);
+    heapify(maxHeap);
+
+    if (maxHeap.length > k) {
+      maxHeap.shift();
+    }
+  }
+
+  return maxHeap[0];
+}
+
+
+let nums = [3, 1, 5, 12, 2, 8],
+  k = 2;
+let output = findKthHeighestElement(nums, k);
+console.log(`${k}th heighest element of [${nums}] is: ${output}`);
+
+((nums = [7, 10, 4, 3, 20, 15]), (k = 3));
+output = findKthHeighestElement(nums, k);
+console.log(`${k}th heighest element of [${nums}] is: ${output}`);
+
+((nums = [4, 2, 2, 8, 6, 4, 7]), (k = 4));
+output = findKthHeighestElement(nums, k);
+console.log(`${k}th heighest element of [${nums}] is: ${output}`);
+
+((nums = [9, 7]), (k = 1));
+output = findKthHeighestElement(nums, k);
+console.log(`${k}th heighest element of [${nums}] is: ${output}`);
+
+((nums = [5, 3, 8, 2]), (k = 4));
+output = findKthHeighestElement(nums, k);
+console.log(`${k}th heighest element of [${nums}] is: ${output}`);
