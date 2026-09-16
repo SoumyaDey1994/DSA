@@ -103,8 +103,13 @@
 69. Jump Game II
 70. Course Schedule – II
 
+#### 16/09/2026
+
+71. Prime Factors
+72. Check Balanced Parenthesiss
 
 
-83. Prime Factors
 84. Dual Palindrome
-86. Check Balanced Parenthesiss
+97. Sliding Window Maximum
+101. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
+104. Meeting Rooms II
