@@ -108,8 +108,17 @@
 71. Prime Factors
 72. Check Balanced Parenthesiss
 
+#### 17/09/2026
 
-84. Dual Palindrome
-97. Sliding Window Maximum
-101. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
+73. Dual Palindrome
+74. Sliding Window Maximum
+75. Clone Graph
+
+
 104. Meeting Rooms II
+45. Palindrome Partitioning
+46. Automatic Music Player
+30. Count Anagrams (Find All Anagrams in String)
+100. 3 Sum II - Use Binary Search to solve
+95. Rotten Mangoes Problem
+105. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
