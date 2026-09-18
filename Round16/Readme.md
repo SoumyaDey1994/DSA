@@ -114,11 +114,34 @@
 74. Sliding Window Maximum
 75. Clone Graph
 
+#### 18/09/2026
 
-104. Meeting Rooms II
+76. Missing Number
+77. Longest Increasing Subsequence
+78. Rotten Mangoes Problem
+79. Automatic Music Player
+80. 3 Sum II - Use Binary Search to solve
+81. Meeting Rooms II
+
+
+
+93. Redundant Connection
 45. Palindrome Partitioning
-46. Automatic Music Player
 30. Count Anagrams (Find All Anagrams in String)
-100. 3 Sum II - Use Binary Search to solve
-95. Rotten Mangoes Problem
 105. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
+
+36. Binary Tree - Level-order Traversal
+37. Invert Binary Tree
+38. Find Max Depth of the Binary Tree
+39. Find Diameter of the Binary Tree
+40. Check if Binary Tree is BST or not
+41. Find LCA of 2 give nodes
+99. Right-side element view of Binary Tree
+100. Kth Smallest Element in Binary Tree
+
+21. Reverse a Singly Linked List
+22. Swap adjacent nodes of a Singly Linked List
+23. Detect Cycle in a Singly Linked List
+24. Find Nth Node from End (SLL)
+25. Find mid-point of a SLL
+43. Find intersection point b/w 2 Linked List
