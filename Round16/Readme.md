@@ -123,19 +123,23 @@
 80. 3 Sum II - Use Binary Search to solve
 81. Meeting Rooms II
 
+#### 19/09/2026
+
+82. Binary Tree - Level-order Traversal
+83. Invert Binary Tree
+84. Find Max Depth of the Binary Tree
+85. Find Diameter of the Binary Tree
+86. Check if Binary Tree is BST or not
+87. Find LCA of 2 give nodes
+
+
+88. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
 
 
 93. Redundant Connection
 45. Palindrome Partitioning
 30. Count Anagrams (Find All Anagrams in String)
-105. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
 
-36. Binary Tree - Level-order Traversal
-37. Invert Binary Tree
-38. Find Max Depth of the Binary Tree
-39. Find Diameter of the Binary Tree
-40. Check if Binary Tree is BST or not
-41. Find LCA of 2 give nodes
 99. Right-side element view of Binary Tree
 100. Kth Smallest Element in Binary Tree
 

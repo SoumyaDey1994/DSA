@@ -118,7 +118,7 @@ class BinaryTree {
   findLcaNode(root, fNode, sNode) {
     if (!root) return null;
 
-    if (root.left === fNode || root.right === sNode) return root;
+    if (root === fNode || root === sNode) return root;
 
     const leftLca = this.findLcaNode(root.left, fNode, sNode);
     const rightLca = this.findLcaNode(root.right, fNode, sNode);
