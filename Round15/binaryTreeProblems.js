@@ -156,17 +156,18 @@ class BinaryTree {
     const executionQueue = [root];
     const result = [];
     while (executionQueue.length > 0) {
-      let currNode = null,
-        value = null;
+      const levelSize = executionQueue.length;
+      let rightSideValue = null;
 
-      while (executionQueue.length > 0) {
-        currNode = executionQueue.shift();
-        value = currNode.data;
+      for (let i = 0; i < levelSize; i++) {
+        const currNode = executionQueue.shift();
+        rightSideValue = currNode.data;
+
+        if (currNode.left !== null) executionQueue.push(currNode.left);
+        if (currNode.right !== null) executionQueue.push(currNode.right);
       }
 
-      result.push(value);
-      if (currNode.left !== null) executionQueue.push(currNode.left);
-      if (currNode.right !== null) executionQueue.push(currNode.right);
+      result.push(rightSideValue);
     }
 
     return result;

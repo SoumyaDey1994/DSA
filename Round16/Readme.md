@@ -131,17 +131,15 @@
 85. Find Diameter of the Binary Tree
 86. Check if Binary Tree is BST or not
 87. Find LCA of 2 give nodes
+88. Right-side element view of Binary Tree
+89. Kth Smallest Element in Binary Tree
+90. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
 
-
-88. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
 
 
 93. Redundant Connection
 45. Palindrome Partitioning
 30. Count Anagrams (Find All Anagrams in String)
-
-99. Right-side element view of Binary Tree
-100. Kth Smallest Element in Binary Tree
 
 21. Reverse a Singly Linked List
 22. Swap adjacent nodes of a Singly Linked List
