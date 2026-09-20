@@ -135,14 +135,17 @@
 89. Kth Smallest Element in Binary Tree
 90. Custom DS with O(1) complexity II - With Duplicate Entries Allowed
 
+#### 20/09/2026
+
+91. Reverse a Singly Linked List
+92. Swap adjacent nodes of a Singly Linked List
+
 
 
 93. Redundant Connection
 45. Palindrome Partitioning
 30. Count Anagrams (Find All Anagrams in String)
 
-21. Reverse a Singly Linked List
-22. Swap adjacent nodes of a Singly Linked List
 23. Detect Cycle in a Singly Linked List
 24. Find Nth Node from End (SLL)
 25. Find mid-point of a SLL
