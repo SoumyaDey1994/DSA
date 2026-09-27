@@ -145,9 +145,13 @@
 93. Palindrome Partitioning
 94. Count Anagrams (Find All Anagrams in String)
 
+#### 27/09/2026
 
-93. Redundant Connection
-23. Detect Cycle in a Singly Linked List
-24. Find Nth Node from End (SLL)
-25. Find mid-point of a SLL
-43. Find intersection point b/w 2 Linked List
+95. Redundant Connection
+96. Detect Cycle in a Singly Linked List
+97. Find Nth Node from End in a SLL
+98. Find mid-point of a SLL
+99. Find intersection point b/w 2 Linked List
+
+
+100. Merge 2 Sorted SLL
