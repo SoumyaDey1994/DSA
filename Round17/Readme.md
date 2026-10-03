@@ -13,4 +13,18 @@
 9. Isomorphic Strings
 10. Valid Anagram
 
+#### 03/10/2026
+
+11. Product of Array Except Self
+12. Search in Rotated Sorted Array
+13. Trapping Rain Water
+14. Longest Consecutive Sequence
+15. Array Chunking
+16. Word Break
+17. Zigzag Conversion
+18. Max Consecutive Ones III
+19. Print 2D array in spiral order
+20. Count and Say
+
+
 
