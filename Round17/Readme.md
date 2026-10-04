@@ -26,5 +26,10 @@
 19. Print 2D array in spiral order
 20. Count and Say
 
+#### 04/10/2026
 
-
+21. Find an element x such that: i=0∑n−1∣arr[i]−x∣ is minimum.
+22. No of Islands
+23. Daily Temperatures
+24. Move All Zeros to End
+25. Find smallest deviation in a list
