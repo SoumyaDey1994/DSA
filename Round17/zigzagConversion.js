@@ -6,6 +6,9 @@
  * Example:
  *  Input: str = "PAYPALISHIRING", noRows = 3
  *  Output: "PAHNAPLSIIGYIR"
+ * 
+ *  Input: str = "HELLOZIGZAG", noRows = 2
+ *  Output: "HLOIZGELZGA"
  */
 function convertToZigzagFormat(inputStr, noRows) {
   if (noRows <= 0) return;
@@ -36,7 +39,7 @@ let str = "PAYPALISHIRING";
 let output = convertToZigzagFormat(str, rows);
 console.log(`Zigzag formatting of ${str} is: ${output}`);
 
-rows = 4;
+rows = 2;
 str = "HELLOZIGZAG";
 output = convertToZigzagFormat(str, rows);
 console.log(`Zigzag formatting of ${str} is: ${output}`);

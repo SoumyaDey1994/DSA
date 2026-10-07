@@ -33,3 +33,12 @@
 23. Daily Temperatures
 24. Move All Zeros to End
 25. Find smallest deviation in a list
+
+#### 07/10/2026
+
+26. Combination Sum - I
+27. House Robber (House Thief)
+28. Partition Equal Subset Sum
+
+
+17. Jump Game I
