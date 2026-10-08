@@ -40,5 +40,10 @@
 27. House Robber (House Thief)
 28. Partition Equal Subset Sum
 
+#### 08/10/2026
 
-17. Jump Game I
+29. Jump Game I
+30. Combination Sum - II
+31. Coin Change – Number of Ways
+32. Best Time to Buy and Sell Stock (I)
+33. Number to Excel Column Title
