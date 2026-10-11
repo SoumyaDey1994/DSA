@@ -47,3 +47,13 @@
 31. Coin Change – Number of Ways
 32. Best Time to Buy and Sell Stock (I)
 33. Number to Excel Column Title
+ 
+#### 11/10/2026
+
+34. Meeting Rooms I
+35. Find Pow(base, exp) using Binary Search
+36. Contains Duplicate
+37. Surrounded Regions
+38. Find square-root using Binary Search
+39. Coin Change – Min Coins
+40. Find All Permuattions
