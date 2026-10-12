@@ -57,3 +57,17 @@
 38. Find square-root using Binary Search
 39. Coin Change – Min Coins
 40. Find All Permuattions
+
+#### 12/10/2026
+
+41. N-Queens Problem
+42. Tournament Winner
+43. Efficient Janitor Problem
+44. Find Leftmost Repeating Character
+45. Find Trailing Zeros in Factorial
+46. Gas Station
+47. Capacity To Ship Packages Within D Days
+48. Isomorphic Strings
+
+
+38. Pacific-atlantic water flow
