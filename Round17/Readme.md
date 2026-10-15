@@ -69,5 +69,15 @@
 47. Capacity To Ship Packages Within D Days
 48. Isomorphic Strings
 
+#### 15/10/2026
 
-38. Pacific-atlantic water flow
+49. Subsets or combinations
+50. Intersection of Two Arrays II
+51. Pacific-atlantic water flow
+52. Count Primes (Sieve)
+53. Course Schedule - I
+54. Climbing stairs - find no of ways to climb n stairs
+
+
+49. Group Anagrams
+62. Binary Search (Classic)
