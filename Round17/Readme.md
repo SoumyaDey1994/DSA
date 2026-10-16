@@ -78,6 +78,13 @@
 53. Course Schedule - I
 54. Climbing stairs - find no of ways to climb n stairs
 
+#### 16/10/2026
 
-49. Group Anagrams
-62. Binary Search (Classic)
+55. Group Anagrams
+56. Binary Search (Classic)
+57. Container With Most Water
+
+
+52. Spiral Matrix II
+53. Word Search Problem
+54. House Painting Problem
