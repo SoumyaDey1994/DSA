@@ -83,8 +83,7 @@
 55. Group Anagrams
 56. Binary Search (Classic)
 57. Container With Most Water
-
-
-52. Spiral Matrix II
-53. Word Search Problem
-54. House Painting Problem
+58. Spiral Matrix II
+59. Word Search Problem
+60. House Painting Problem
+61. 3 Sum
