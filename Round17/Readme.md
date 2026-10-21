@@ -87,3 +87,10 @@
 59. Word Search Problem
 60. House Painting Problem
 61. 3 Sum
+
+#### 21/10/2026
+
+62. Rotate Image (Matrix Rotation)
+63. Remove Duplicates from Sorted Array
+64. Find Kth Highest Element (Quick-Select)
+65. Word Ladder
