@@ -94,3 +94,13 @@
 63. Remove Duplicates from Sorted Array
 64. Find Kth Highest Element (Quick-Select)
 65. Word Ladder
+
+#### 23/10/2026
+
+66. Prime Factors
+67. Check Balanced Parenthesiss
+68. Jump Game II
+69. Find Frequency in Sorted Array
+
+
+70. Course Schedule – II
