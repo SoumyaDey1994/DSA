@@ -110,8 +110,11 @@
 73. Longest Increasing Subsequence
 74. Meeting Rooms II
 
+#### 25/10/2026
 
-95. Redundant Connection
-78. Rotten Mangoes Problem
-79. Automatic Music Player
+75. Redundant Connection
+76. Rotten Mangoes Problem
+77. Automatic Music Player
+
+
 80. 3 Sum II - Use Binary Search to solve
