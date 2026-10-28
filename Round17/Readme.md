@@ -116,5 +116,13 @@
 76. Rotten Mangoes Problem
 77. Automatic Music Player
 
+#### 28/10/2026
+
+78. Print 2D Array in Spiral Order
+79. Aggressive Cows / Allocate Minimum Pages
+
 
 80. 3 Sum II - Use Binary Search to solve
+
+
+
