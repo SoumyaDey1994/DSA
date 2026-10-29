@@ -121,6 +121,14 @@
 78. Print 2D Array in Spiral Order
 79. Aggressive Cows / Allocate Minimum Pages
 
+#### 29/10/2026
+
+80. Reverse a Singly Linked List
+81. Swap adjacent nodes of a Singly Linked List
+82. Detect Cycle in a Singly Linked List
+83. Find Nth Node from End in a SLL
+84. Find mid-point of a SLL
+
 
 80. 3 Sum II - Use Binary Search to solve
 
