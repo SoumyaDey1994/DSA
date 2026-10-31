@@ -1,12 +1,12 @@
 /**
  * Singly Linked List Problems
- * Problem 1: Reverse a Singly Linked List ()
- * Problem 2: Swap adjacent nodes of a Singly Linked List ()
- * Problem 3: Detect Cycle in a Singly Linked List ()
- * Problem 4: Find Nth Node from End (SLL) ()
- * Problem 5: Find mid-point of a SLL (30th March, 2026)
- * Problem 6: Merge 2 Sorted SLL (30th March, 2026)
- * Problem 7: Find intersection-point of a SLL ()
+ * Problem 1: Reverse a Singly Linked List (29th October, 2026)
+ * Problem 2: Swap adjacent nodes of a Singly Linked List (29th October, 2026)
+ * Problem 3: Detect Cycle in a Singly Linked List (29th October, 2026)
+ * Problem 4: Find Nth Node from End (SLL) (29th October, 2026)
+ * Problem 5: Find mid-point of a SLL (29th October, 2026)
+ * Problem 6: Merge 2 Sorted SLL ()
+ * Problem 7: Find intersection-point of a SLL (31st October, 2026)
  */
 class Node {
   constructor(data) {
@@ -140,6 +140,49 @@ class SinglyLinkedList {
 
     return slow.data;
   }
+
+  findIntersectionNode(list1Head, list2Head) {
+    if (!list1Head || !list2Head) return null;
+
+    let lengthOfList1 = 0,
+      lengthOfList2 = 0;
+    let temp1 = list1Head,
+      temp2 = list2Head;
+
+    while (temp1 !== null) {
+      lengthOfList1++;
+      temp1 = temp1.next;
+    }
+
+    while (temp2 !== null) {
+      lengthOfList2++;
+      temp2 = temp2.next;
+    }
+
+    let delta = Math.abs(lengthOfList1 - lengthOfList2);
+    ((temp1 = list1Head), (temp2 = list2Head)); // re-assign to head of both list
+
+    if (lengthOfList1 > lengthOfList2) {
+      while (delta > 0) {
+        temp1 = temp1.next;
+        delta--;
+      }
+    } else {
+      while (delta > 0) {
+        temp2 = temp2.next;
+        delta--;
+      }
+    }
+
+    while (temp1 !== null && temp2 !== null) {
+      if (temp1 === temp2) return temp1;
+
+      temp1 = temp1.next;
+      temp2 = temp2.next;
+    }
+
+    return null;
+  }
 }
 
 const node1 = new Node(1);
@@ -187,3 +230,33 @@ console.log(`10th node from end: ${sll.findNthNodeFromEnd(10)}`);
 
 console.log(`\nCurrent State of List 1: ${sll.getList()}`);
 console.log(`Mid-point of List 1: ${sll.findMidPoint()}`);
+
+console.log(`-------Testing Intersection-point of 2 SLL----------`);
+
+const list1 = new SinglyLinkedList();
+const list2 = new SinglyLinkedList();
+
+const nodeA = new Node(1);
+const nodeB = new Node(2);
+const nodeC = new Node(3);
+const nodeD = new Node(4);
+const nodeE = new Node(5);
+const nodeF = new Node(6);
+const nodeG = new Node(60);
+const commonNode = new Node(50);
+
+list1.addNode(nodeA).addNode(nodeB).addNode(commonNode);
+
+list2
+  .addNode(nodeC)
+  .addNode(nodeD)
+  .addNode(nodeE)
+  .addNode(nodeF)
+  .addNode(commonNode)
+  .addNode(nodeG);
+
+console.log(`List 1: ${list1.getList()}`);
+console.log(`List 2: ${list2.getList()}`);
+
+const intersectionPoint = list1.findIntersectionNode(list1.head, list2.head);
+console.log(`Intersection-point of 2 list is: ${intersectionPoint.data}`);

@@ -129,8 +129,16 @@
 83. Find Nth Node from End in a SLL
 84. Find mid-point of a SLL
 
+#### 31/10/2026
 
-80. 3 Sum II - Use Binary Search to solve
-
-
-
+85. 3 Sum II - Use Binary Search to solve
+86. Custom DS with O(1) complexity I - Without Duplicate Entries
+87. Binary Tree - Level-order Traversal
+88. Invert Binary Tree
+89. Find Max Depth of the Binary Tree
+90. Find Diameter of the Binary Tree
+91. Check if Binary Tree is BST or not
+92. Find LCA of 2 give nodes
+93. Right-side element view of Binary Tree
+94. Kth Smallest Element in Binary Tree
+95. Find intersection point b/w 2 Linked List
