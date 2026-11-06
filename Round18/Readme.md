@@ -15,3 +15,11 @@
 8. Sorted Squared Array
 9. Longest Palindromic Substring
 10. Combination Sum - II
+
+### 06/11/2026
+
+11. Merge Intervals
+12. Word Break
+13. Find smallest deviation in a list
+14. No of Islands
+15. Coin Change – Number of Ways
