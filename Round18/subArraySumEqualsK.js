@@ -1,0 +1,52 @@
+/**
+ * Date: 12th November, 2026
+ * Problem Statement: Subarray Sum Equals K
+ * Given an array of integers nums and an integer k,
+ * your task is to find the total number of contiguous subarrays whose sum equals k.
+ * Example 1:
+ *      nums = [1, 1, 1], k = 2
+ *      output = 2
+ *      Explanation:
+ *          There are two subarrays that sum to k = 2:
+ *          [1,1] (starting at index 0)
+ *          [1,1] (starting at index 1)
+ * Example 2:
+ *      nums = [3, 4, 7, 2, -3, 1, 4, 2], k = 7
+ *      output = 4
+ *      Explanation:
+ *          There are 4 subarrays that sum to k = 4:
+ *          [7] (index 2)
+ *          [3,4] (index 0 to 1)
+ *          [4,7,-3,-1] (index 1 to 4)
+ *          [1,4,2] (index 5 to 7)
+ */
+function findNoOfSubArrays(numbers, k) {
+  if (!numbers || numbers.length === 0) return;
+
+  const prefixSum = new Map();
+  prefixSum.set(0, 1);
+
+  let currSum = 0,
+    subArrayCount = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    currSum = currSum + numbers[i];
+    const complement = currSum - k;
+
+    if (prefixSum.has(complement)) {
+      subArrayCount = subArrayCount + prefixSum.get(complement);
+    }
+
+    prefixSum.set(currSum, (prefixSum.get(currSum) || 0) + 1);
+  }
+
+  return subArrayCount;
+}
+
+let nums = [1, 1, 1],
+  k = 2;
+let output = findNoOfSubArrays(nums, k);
+console.log(`No of subarrays with sum ${k} is: ${output}`);
+
+((nums = [3, 4, 7, 2, -3, 1, 4, 2]), (k = 7));
+output = findNoOfSubArrays(nums, k);
+console.log(`No of subarrays with sum ${k} is: ${output}`);

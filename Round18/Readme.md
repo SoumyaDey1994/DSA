@@ -36,3 +36,11 @@
 23. Surrounded Regions
 24. Number to Excel Column Title
 25. Find All Permuattions
+
+### 12/11/2026
+
+26. Contains Duplicate
+27. Subarray Sum Equals K
+28. Find Leftmost Repeating Character
+29. Find square-root using Binary Search
+30. Jump Game I
