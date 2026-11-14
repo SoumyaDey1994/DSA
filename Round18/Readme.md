@@ -44,3 +44,19 @@
 28. Find Leftmost Repeating Character
 29. Find square-root using Binary Search
 30. Jump Game I
+
+### 14/11/2026
+
+31. Meeting Rooms I
+32. Find Pow(base, exp) using Binary Search
+33. Max Consecutive Ones III
+34. Coin Change – Min Coins
+35. Tournament Winner
+36. Efficient Janitor Problem
+
+
+41. Next Permutation
+43. Find Trailing Zeros in Factorial
+44. Gas Station
+45. Capacity To Ship Packages Within D Days
+46. Isomorphic Strings
