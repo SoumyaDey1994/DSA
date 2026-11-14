@@ -53,10 +53,10 @@
 34. Coin Change – Min Coins
 35. Tournament Winner
 36. Efficient Janitor Problem
+37. Find Trailing Zeros in Factorial
+38. Gas Station
 
 
 41. Next Permutation
-43. Find Trailing Zeros in Factorial
-44. Gas Station
 45. Capacity To Ship Packages Within D Days
 46. Isomorphic Strings
