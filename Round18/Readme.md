@@ -56,7 +56,15 @@
 37. Find Trailing Zeros in Factorial
 38. Gas Station
 
+### 15/11/2026
 
-41. Next Permutation
-45. Capacity To Ship Packages Within D Days
-46. Isomorphic Strings
+39. Next Permutation
+40. Capacity To Ship Packages Within D Days
+41. Isomorphic Strings
+42. Intersection of Two Arrays II
+43. Subsets or combinations
+44. Pacific-atlantic water flow
+
+
+55. Climbing stairs - find no of ways to climb n stairs
+
