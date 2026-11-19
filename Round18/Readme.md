@@ -73,3 +73,15 @@
 48. Word Ladder
 49. Rotate Image (Matrix Rotation)
 50. Array Chunking
+
+### 19/11/2026
+
+51. Longest Consecutive Sequence
+52. Binary Search (Classic)
+53. Remove Duplicates from Sorted Array
+54. Count Primes (Sieve)
+55. Find Kth Highest Element (QuickSelect)
+
+
+64. Find Longest Substring with At Most Two Distinct Characters
+47. Course Schedule - I
