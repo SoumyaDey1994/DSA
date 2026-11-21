@@ -95,7 +95,8 @@
 61. Check Balanced Parenthesiss
 62. Dual Palindrome
 63. Jump Game II
+64. Aggressive Cows / Allocate Minimum Pages
+65. Course Schedule – II
 
 
-68. Aggressive Cows / Allocate Minimum Pages
 32. Count and Say
