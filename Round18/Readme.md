@@ -89,5 +89,13 @@
 58. Prime Factors
 59. Find Frequency in Sorted Array
 
+### 21/11/2026
 
-67. Print 2D Array in Spiral Order
+60. Print 2D Array in Spiral Order
+61. Check Balanced Parenthesiss
+62. Dual Palindrome
+63. Jump Game II
+
+
+68. Aggressive Cows / Allocate Minimum Pages
+32. Count and Say
