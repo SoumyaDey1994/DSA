@@ -98,5 +98,15 @@
 64. Aggressive Cows / Allocate Minimum Pages
 65. Course Schedule – II
 
+### 22/11/2026
 
-32. Count and Say
+66. Count and Say
+67. Missing Number
+68. Rotation Count in Sorted List
+69. Longest Increasing Subsequence
+70. Rotten Mangoes Problem
+71. House Painting Problem
+72. Group Anagrams
+
+
+73. Search Element in Rotated Sorted Array
