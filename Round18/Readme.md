@@ -108,5 +108,16 @@
 71. House Painting Problem
 72. Group Anagrams
 
+### 26/11/2026
 
 73. Search Element in Rotated Sorted Array
+74. Sliding Window Maximum
+75. Clone Graph
+76. N-Queens Problem
+77. 3 Sum
+
+
+79. Automatic Music Player
+90. Custom DS with O(1) complexity I - Without Duplicate Entries
+19. Set Matrix Zeroes
+
