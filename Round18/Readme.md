@@ -116,8 +116,14 @@
 76. N-Queens Problem
 77. 3 Sum
 
+### 26/11/2026
 
-79. Automatic Music Player
-90. Custom DS with O(1) complexity I - Without Duplicate Entries
-19. Set Matrix Zeroes
+78. Automatic Music Player
+79. Custom DS with O(1) complexity I - Without Duplicate Entries
+80. Set Matrix Zeroes
+81. Meeting Rooms II
+
+
+93. Palindrome Partitioning
+94. Count Anagrams (Find All Anagrams in String)
 
