@@ -127,3 +127,12 @@
 93. Palindrome Partitioning
 94. Count Anagrams (Find All Anagrams in String)
 
+Longest Common Prefix
+LRU Cache
+Design Hit Counter
+Top K Frequent Elements
+Time Based Key-Value Store
+Merge K Sorted Lists
+Median of Two Sorted Arrays
+Reverse Singly Linked List
+Swap Adjacent Elements of a Singly Linked List
